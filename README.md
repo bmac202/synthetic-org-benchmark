@@ -74,7 +74,7 @@ Stored runs, by folder:
 | `diffenv_results/alias_rerun/` | C1 and C1+exit on gpt-4.1-mini with randomized names; `STATUS.md` compares them with fixed names |
 | `diffenv_results/gaps_2026-10-16/` | C1 on Haiku 4.5 with randomized names; a second C2 run on each model |
 | `diffenv_results/substrates_*` | Real-group scores (ants, offices, first looks at queen colonies and bees) |
-| `diffenv_results/external_2026-10-06/` | Online game players, lab economies, and a published LLM-agent study |
+| `diffenv_results/external_2026-10-06/` | Online game players, lab economies, and a published LLM-agent study (to be added; see "Data not included") |
 
 Read communication measures from fixed-name runs with care: on gpt-4.1-mini the model's
 preference for the label "A1" produces a hub that disappears once names are randomized.
@@ -111,9 +111,11 @@ explains how.
 ## Data not included
 
 The logs of Takata et al. (2024) were shared with us by the authors for this analysis only
-and are not redistributed. The scoring code (`external.takata_tables`) and our scores
-(`diffenv_results/external_2026-10-06/`) are included. The logs are available from the
-original authors on request.
+and are not redistributed; they are available from the original authors on request. The
+scoring code (`external.takata_tables`) is included. The score file for the outside datasets
+(`diffenv_results/external_2026-10-06/`) will be added once the original authors have seen
+our results, as agreed when they shared the logs. Until then, rerun `run_external` to
+reproduce the game-player and lab-economy scores.
 
 ## Limitations, stated up front
 
