@@ -1,0 +1,128 @@
+hero_id,name,roles,carry,support,role_class
+1,Anti-Mage,Carry|Escape|Nuker,1,0,carry
+2,Axe,Initiator|Durable|Disabler|Carry,1,0,carry
+3,Bane,Support|Disabler|Nuker|Durable,0,1,support
+4,Bloodseeker,Carry|Disabler|Nuker|Initiator,1,0,carry
+5,Crystal Maiden,Support|Disabler|Nuker,0,1,support
+6,Drow Ranger,Carry|Disabler|Pusher,1,0,carry
+7,Earthshaker,Support|Initiator|Disabler|Nuker,0,1,support
+8,Juggernaut,Carry|Pusher|Escape,1,0,carry
+9,Mirana,Carry|Support|Escape|Nuker|Disabler,1,1,both
+10,Morphling,Carry|Escape|Durable|Nuker|Disabler,1,0,carry
+11,Shadow Fiend,Carry|Nuker,1,0,carry
+12,Phantom Lancer,Carry|Escape|Pusher|Nuker,1,0,carry
+13,Puck,Initiator|Disabler|Escape|Nuker,0,0,neither
+14,Pudge,Disabler|Initiator|Durable|Nuker,0,0,neither
+15,Razor,Carry|Durable|Nuker|Pusher,1,0,carry
+16,Sand King,Initiator|Disabler|Support|Nuker|Escape,0,1,support
+17,Storm Spirit,Carry|Escape|Nuker|Initiator|Disabler,1,0,carry
+18,Sven,Carry|Disabler|Initiator|Durable|Nuker,1,0,carry
+19,Tiny,Carry|Nuker|Pusher|Initiator|Durable|Disabler,1,0,carry
+20,Vengeful Spirit,Support|Initiator|Disabler|Nuker|Escape,0,1,support
+21,Windranger,Carry|Support|Disabler|Escape|Nuker,1,1,both
+22,Zeus,Nuker|Carry,1,0,carry
+23,Kunkka,Carry|Support|Disabler|Initiator|Durable|Nuker,1,1,both
+25,Lina,Support|Carry|Nuker|Disabler,1,1,both
+26,Lion,Support|Disabler|Nuker|Initiator,0,1,support
+27,Shadow Shaman,Support|Pusher|Disabler|Nuker|Initiator,0,1,support
+28,Slardar,Carry|Durable|Initiator|Disabler|Escape,1,0,carry
+29,Tidehunter,Initiator|Durable|Disabler|Nuker|Carry,1,0,carry
+30,Witch Doctor,Support|Nuker|Disabler,0,1,support
+31,Lich,Support|Nuker,0,1,support
+32,Riki,Carry|Escape|Disabler,1,0,carry
+33,Enigma,Disabler|Initiator|Pusher,0,0,neither
+34,Tinker,Carry|Nuker|Pusher,1,0,carry
+35,Sniper,Carry|Nuker,1,0,carry
+36,Necrophos,Carry|Nuker|Durable|Disabler,1,0,carry
+37,Warlock,Support|Initiator|Disabler,0,1,support
+38,Beastmaster,Initiator|Disabler|Durable|Nuker,0,0,neither
+39,Queen of Pain,Carry|Nuker|Escape,1,0,carry
+40,Venomancer,Support|Nuker|Initiator|Pusher|Disabler,0,1,support
+41,Faceless Void,Carry|Initiator|Disabler|Escape|Durable,1,0,carry
+42,Wraith King,Carry|Support|Durable|Disabler|Initiator,1,1,both
+43,Death Prophet,Carry|Pusher|Nuker|Disabler,1,0,carry
+44,Phantom Assassin,Carry|Escape,1,0,carry
+45,Pugna,Nuker|Pusher,0,0,neither
+46,Templar Assassin,Carry|Escape,1,0,carry
+47,Viper,Carry|Durable|Initiator|Disabler,1,0,carry
+48,Luna,Carry|Nuker|Pusher,1,0,carry
+49,Dragon Knight,Carry|Pusher|Durable|Disabler|Initiator|Nuker,1,0,carry
+50,Dazzle,Support|Nuker|Disabler,0,1,support
+51,Clockwerk,Initiator|Disabler|Durable|Nuker,0,0,neither
+52,Leshrac,Carry|Support|Nuker|Pusher|Disabler,1,1,both
+53,Nature's Prophet,Carry|Pusher|Escape|Nuker,1,0,carry
+54,Lifestealer,Carry|Durable|Escape|Disabler,1,0,carry
+55,Dark Seer,Initiator|Escape|Disabler,0,0,neither
+56,Clinkz,Carry|Escape|Pusher,1,0,carry
+57,Omniknight,Support|Durable|Nuker,0,1,support
+58,Enchantress,Support|Pusher|Durable|Disabler,0,1,support
+59,Huskar,Carry|Durable|Initiator,1,0,carry
+60,Night Stalker,Carry|Initiator|Durable|Disabler|Nuker,1,0,carry
+61,Broodmother,Carry|Pusher|Escape|Nuker,1,0,carry
+62,Bounty Hunter,Escape|Nuker,0,0,neither
+63,Weaver,Carry|Escape,1,0,carry
+64,Jakiro,Support|Nuker|Pusher|Disabler,0,1,support
+65,Batrider,Initiator|Disabler|Escape,0,0,neither
+66,Chen,Support|Pusher,0,1,support
+67,Spectre,Carry|Durable|Escape,1,0,carry
+68,Ancient Apparition,Support|Disabler|Nuker,0,1,support
+69,Doom,Carry|Disabler|Initiator|Durable|Nuker,1,0,carry
+70,Ursa,Carry|Durable|Disabler,1,0,carry
+71,Spirit Breaker,Carry|Initiator|Disabler|Durable|Escape,1,0,carry
+72,Gyrocopter,Carry|Nuker|Disabler,1,0,carry
+73,Alchemist,Carry|Support|Durable|Disabler|Initiator|Nuker,1,1,both
+74,Invoker,Carry|Nuker|Disabler|Escape|Pusher,1,0,carry
+75,Silencer,Carry|Support|Disabler|Initiator|Nuker,1,1,both
+76,Outworld Devourer,Carry|Nuker|Disabler,1,0,carry
+77,Lycan,Carry|Pusher|Durable|Escape,1,0,carry
+78,Brewmaster,Carry|Initiator|Durable|Disabler|Nuker,1,0,carry
+79,Shadow Demon,Support|Disabler|Initiator|Nuker,0,1,support
+80,Lone Druid,Carry|Pusher|Durable,1,0,carry
+81,Chaos Knight,Carry|Disabler|Durable|Pusher|Initiator,1,0,carry
+82,Meepo,Carry|Escape|Nuker|Disabler|Initiator|Pusher,1,0,carry
+83,Treant Protector,Support|Initiator|Durable|Disabler|Escape,0,1,support
+84,Ogre Magi,Support|Nuker|Disabler|Durable|Initiator,0,1,support
+85,Undying,Support|Durable|Disabler|Nuker,0,1,support
+86,Rubick,Support|Disabler|Nuker,0,1,support
+87,Disruptor,Support|Disabler|Nuker|Initiator,0,1,support
+88,Nyx Assassin,Disabler|Nuker|Initiator|Escape,0,0,neither
+89,Naga Siren,Carry|Support|Pusher|Disabler|Initiator|Escape,1,1,both
+90,Keeper of the Light,Support|Nuker|Disabler,0,1,support
+91,Io,Support|Escape|Nuker,0,1,support
+92,Visage,Support|Nuker|Durable|Disabler|Pusher,0,1,support
+93,Slark,Carry|Escape|Disabler|Nuker,1,0,carry
+94,Medusa,Carry|Disabler|Durable,1,0,carry
+95,Troll Warlord,Carry|Pusher|Disabler|Durable,1,0,carry
+96,Centaur Warrunner,Durable|Initiator|Disabler|Nuker|Escape,0,0,neither
+97,Magnus,Initiator|Disabler|Nuker|Escape,0,0,neither
+98,Timbersaw,Nuker|Durable|Escape,0,0,neither
+99,Bristleback,Carry|Durable|Initiator|Nuker,1,0,carry
+100,Tusk,Initiator|Disabler|Nuker,0,0,neither
+101,Skywrath Mage,Support|Nuker|Disabler,0,1,support
+102,Abaddon,Support|Carry|Durable,1,1,both
+103,Elder Titan,Initiator|Disabler|Nuker|Durable,0,0,neither
+104,Legion Commander,Carry|Disabler|Initiator|Durable|Nuker,1,0,carry
+105,Techies,Nuker|Disabler,0,0,neither
+106,Ember Spirit,Carry|Escape|Nuker|Disabler|Initiator,1,0,carry
+107,Earth Spirit,Nuker|Escape|Disabler|Initiator|Durable,0,0,neither
+108,Underlord,Support|Nuker|Disabler|Durable|Escape,0,1,support
+109,Terrorblade,Carry|Pusher|Nuker,1,0,carry
+110,Phoenix,Support|Nuker|Initiator|Escape|Disabler,0,1,support
+111,Oracle,Support|Nuker|Disabler|Escape,0,1,support
+112,Winter Wyvern,Support|Disabler|Nuker,0,1,support
+113,Arc Warden,Carry|Escape|Nuker,1,0,carry
+114,Monkey King,Carry|Escape|Disabler|Initiator,1,0,carry
+119,Dark Willow,Support|Nuker|Disabler|Escape,0,1,support
+120,Pangolier,Carry|Nuker|Disabler|Durable|Escape|Initiator,1,0,carry
+121,Grimstroke,Support|Nuker|Disabler|Escape,0,1,support
+123,Hoodwink,Support|Nuker|Escape|Disabler,0,1,support
+126,Void Spirit,Carry|Escape|Nuker|Disabler,1,0,carry
+128,Snapfire,Support|Nuker|Disabler|Escape,0,1,support
+129,Mars,Carry|Initiator|Disabler|Durable,1,0,carry
+131,Ring Master,Support|Nuker|Escape|Disabler,0,1,support
+135,Dawnbreaker,Carry|Durable,1,0,carry
+136,Marci,Support|Carry|Initiator|Disabler|Escape,1,1,both
+137,Primal Beast,Initiator|Durable|Disabler,0,0,neither
+138,Muerta,Carry|Nuker|Disabler,1,0,carry
+145,Kez,Carry|Escape|Disabler,1,0,carry
+155,Largo,Durable|Disabler|Support,0,1,support

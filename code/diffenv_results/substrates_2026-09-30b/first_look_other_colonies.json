@@ -1,0 +1,111 @@
+{
+ "Mersch ants, interactions/day": {
+  "R": {
+   "observed": 0.5603240392121394,
+   "null_median": 0.03841113825638854,
+   "null_p95": 0.041542414551225496,
+   "p_value": 0.0,
+   "n_null": 200
+  },
+  "split_half": {
+   "observed": 0.6005318752801023,
+   "null_median": -0.0047841004267814985,
+   "null_p95": 0.07133103563786326,
+   "p_value": 0.0,
+   "n_null": 200
+  },
+  "n_agents": 822,
+  "n_org_windows": 246,
+  "median_pool": 102.0
+ },
+ "Mersch ants, days 1-11 only": {
+  "R": {
+   "observed": 0.7064862054234011,
+   "null_median": 0.08311324059548633,
+   "null_p95": 0.09027208175388594,
+   "p_value": 0.0,
+   "n_null": 200
+  },
+  "split_half": {
+   "observed": 0.8056289320918651,
+   "null_median": 0.0009162072945902988,
+   "null_p95": 0.06307018285936379,
+   "p_value": 0.0,
+   "n_null": 200
+  },
+  "n_agents": 822,
+  "n_org_windows": 66,
+  "median_pool": 141.5
+ },
+ "Gernat bees, trophallaxis/day": {
+  "R": {
+   "observed": 0.4344616922584357,
+   "null_median": 0.16783679661030274,
+   "null_p95": 0.17584000669460753,
+   "p_value": 0.0,
+   "n_null": 200
+  },
+  "split_half": {
+   "observed": 0.3988075210479331,
+   "null_median": -0.003756137998942763,
+   "null_p95": 0.027857467210864694,
+   "p_value": 0.0,
+   "n_null": 200
+  },
+  "n_agents": 2382,
+  "n_org_windows": 15,
+  "median_pool": 821.0
+ },
+ "InVS2013_pools_of_7": {
+  "R_mean": 0.3248339257229121,
+  "R_min": 0.28685409138680423,
+  "R_max": 0.371082359518795,
+  "null_p95_mean": 0.1596075752463172,
+  "partitions": 20
+ },
+ "InVS2013 within department": {
+  "R": {
+   "observed": 0.29152858379439583,
+   "null_median": 0.1258095238677148,
+   "null_p95": 0.1557762756056032,
+   "p_value": 0.0,
+   "n_null": 100
+  },
+  "split_half": {
+   "observed": 0.3300515705578997,
+   "null_median": 0.01019690576652602,
+   "null_p95": 0.15990740740740733,
+   "p_value": 0.0,
+   "n_null": 100
+  },
+  "n_agents": 87,
+  "n_org_windows": 49,
+  "median_pool": 11.0
+ },
+ "InVS2015_pools_of_7": {
+  "R_mean": 0.30576364325448546,
+  "R_min": 0.27571856566944214,
+  "R_max": 0.3371218976173054,
+  "null_p95_mean": 0.13784350323362354,
+  "partitions": 20
+ },
+ "InVS2015 within department": {
+  "R": {
+   "observed": 0.2732893298345631,
+   "null_median": 0.11893672081669748,
+   "null_p95": 0.1405398883983977,
+   "p_value": 0.0,
+   "n_null": 100
+  },
+  "split_half": {
+   "observed": 0.4451704930312617,
+   "null_median": 0.006781470885894382,
+   "null_p95": 0.11806564718819977,
+   "p_value": 0.0,
+   "n_null": 100
+  },
+  "n_agents": 204,
+  "n_org_windows": 120,
+  "median_pool": 11.0
+ }
+}

@@ -1,0 +1,34 @@
+F1 exchangeable noise
+  [ok] share above null p95 near 5% (3/40)
+F2 known ICC
+  [ok] R tracks ICC at sd_between=1.0 (R=0.467, expect 0.500, null p95 0.122)
+  [ok] R above null at sd_between=1.0 
+  [ok] R tracks ICC at sd_between=2.0 (R=0.768, expect 0.800, null p95 0.126)
+  [ok] R above null at sd_between=2.0 
+F3 relabel
+  [ok] structured table is above null (R=0.905)
+  [ok] relabelled table collapses into null (R=0.097, null p95 0.168)
+F4 degenerate
+  [ok] all windows reported degenerate (10)
+  [ok] R is nan, not a number 
+  [ok] deterministic rule: activity degenerate in the env (5/5)
+F5 rule-based specialists (C0+)
+  [ok] activity R above null (R=0.703, p95 0.179)
+  [ok] entropy below null (narrower than chance) (H=0.484, null 0.716, p=0.000)
+  [ok] favoured-type R above null (R=0.730, p95 0.202)
+F6 exchangeable rule (C0) over 40 seeds
+  [ok] activity: share above p95 ≈ 5% (1/40; mean obs 0.093 vs mean null median 0.095)
+  [ok] interaction: share above p95 ≈ 5% (3/40; mean obs 0.097 vs mean null median 0.095)
+  [ok] isolation: share above p95 ≈ 5% (1/40; mean obs 0.093 vs mean null median 0.094)
+  [ok] entropy: share below null ≈ 5% (0/40)
+F7 action parser
+  [ok] work 
+  [ok] Work item 12. 
+  [ok] tell A1 12 
+  [ok] tell A1 about item 12 
+  [ok] pass 
+  [ok] leave 
+  [ok] garbage → pass 
+  [ok] tell without item → pass 
+
+ALL FIXTURES PASS 
