@@ -20,7 +20,7 @@ LOG FORMAT (CSV, one row per action; header required)
 WHAT THE REPORT COMPUTES, per run, each against its own label-permutation baseline
 (95th percentile of 200 draws that shuffle member labels within each window):
     individual  work per window (or per opportunity, if supplied)
-    functional  favoured-type repeatability: is the type a member favours stable over windows?
+    functional  favored-type repeatability: is the type a member favors stable over windows?
     relational  partner consistency: overlap of a member's partners in consecutive windows
     structural  hub persistence: repeatability of interactions received per window
 and, across runs: the count of runs above baseline (about 5% expected by chance), the median

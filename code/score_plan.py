@@ -43,7 +43,7 @@ def run_scores(p):
          "top_receiver": top, "top_share": max(rec) / max(1, sum(rec)),
          "completed": d["outcome"]["completed"], "cost": h["cost"],
          "other": {k: h[k] for k in ("work|opp", "interaction", "sent|opp")}}
-    # favoured label: for each sender, the label (as that sender sees it) of the agent it told most
+    # favored label: for each sender, the label (as that sender sees it) of the agent it told most
     al = (d.get("llm") or {}).get("alias")
     if al:
         al = ast.literal_eval(al) if isinstance(al, str) else al

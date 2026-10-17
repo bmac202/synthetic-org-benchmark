@@ -1,9 +1,9 @@
-# Data sources and licences
+# Data sources and licenses
 
 None of the raw data below is stored in this repository. Scripts fetch each source from its
 original deposit; `code/sources.py` records the exact files, sizes and DOIs.
 
-| Group in Figure 1 | Source | Licence | How to get it |
+| Group in Figure 1 | Source | License | How to get it |
 |---|---|---|---|
 | Clonal ants, no queen | Alciatore et al. (2021), *Proceedings of the Royal Society B*; Dryad doi:10.5061/dryad.wwpzgmshb | CC0 | `fetch_data.py --only alciatore_2021` (about 4.9 GB) |
 | Ants with a queen | Mersch, Crespi & Keller (2013), *Science* | CC0 | `fetch_data.py --tier core` |
