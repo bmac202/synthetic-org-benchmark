@@ -12,7 +12,7 @@ from collections import Counter
 
 from .budget import Budget
 from .env import OpenQueueEnv, default_config
-from .policies import Backend, LLMPolicy, alias_square
+from .policies import alias_balanced, Backend, LLMPolicy, alias_square
 
 
 class NamePreferenceBackend(Backend):
@@ -66,6 +66,24 @@ def main():
         label = re.search(r"\bA\d+\b", raw[(m["round"], m["sender"])]).group(0)
         assert pol.unalias[m["sender"]][label] == m["recipient"] != m["sender"]
     print(f"3. {len(tells)} logged tells all match the translated reply")
+
+    # 4. balanced labels (16 Oct 2026): own name A0 for every viewer, every agent carries each
+    #    colleague label once, so a pure "A1" preference spreads over all nine agents.
+    for seed in range(20):
+        sq = alias_balanced(agents, seed)
+        assert all(sq[v][v] == "A0" for v in agents)
+        for x in agents:
+            assert sorted(sq[v][x] for v in agents if v != x) == [f"A{k}" for k in range(1, 9)]
+    env, pol = run(alias="balanced")
+    rec = Counter(m["recipient"] for m in env.log if m["mtype"] == "tell")
+    top_bal = max(rec.values()) / sum(rec.values())
+    print(f"4. balanced labels: all {len(rec)} agents receive tells; the most-told receives {top_bal:.0%}")
+    assert len(rec) == 9 and top_bal <= 0.2
+    tells = [m for m in env.log if m["mtype"] == "tell"]
+    raw = {(r["round"], r["agent"]): r["reply"] for r in pol.raw}
+    for m in tells:
+        label = re.search(r"\bA\d+\b", raw[(m["round"], m["sender"])]).group(0)
+        assert pol.unalias[m["sender"]][label] == m["recipient"] != m["sender"]
     print("ALIAS FIXTURES PASS")
 
 

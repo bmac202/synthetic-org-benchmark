@@ -1,0 +1,8609 @@
+{
+ "summary": {
+  "none": {
+   "task_type": {
+    "median": 0.09320680329458977,
+    "min": 0.06221836744087584,
+    "max": 0.1691019779759645,
+    "baseline_median": 0.19152676773897198,
+    "above": 0,
+    "n": 20
+   },
+   "hub": {
+    "median": 0.08423097162042338,
+    "min": 0.036308352398985486,
+    "max": 0.3180774109013297,
+    "baseline_median": 0.18958370581063283,
+    "above": 2,
+    "n": 20
+   },
+   "work_given_opportunity": {
+    "median": 0.09518787672343551,
+    "min": 0.061384216950738625,
+    "max": 0.1889515987233017,
+    "baseline_median": 0.184455600741875,
+    "above": 1,
+    "n": 20
+   },
+   "task_type_first_half": {
+    "median": 0.17901739677172976,
+    "min": 0.12628802640316744,
+    "max": 0.2988404081123458,
+    "baseline_median": 0.333621508246438,
+    "above": 0,
+    "n": 20
+   },
+   "task_type_second_half": {
+    "median": 0.1713440754475264,
+    "min": 0.11047358960265663,
+    "max": 0.3031652194338488,
+    "baseline_median": 0.33721334705312167,
+    "above": 0,
+    "n": 20
+   },
+   "same_favourite_both_halves": 0.2222222222222222,
+   "same_favourite_type_across_runs": 0.260233918128655,
+   "hub_rank_correlation_across_runs": -0.011666666666666662,
+   "same_top_receiver_share": 0.2,
+   "completed_median": 82.5
+  },
+  "prescribed": {
+   "task_type": {
+    "median": 0.49353517130774144,
+    "min": 0.3871758633740458,
+    "max": 0.6380969018972852,
+    "baseline_median": 0.19550784397959856,
+    "above": 20,
+    "n": 20
+   },
+   "hub": {
+    "median": 0.08678795109875614,
+    "min": 0.026705486008907025,
+    "max": 0.16862240701875533,
+    "baseline_median": 0.19185221251622478,
+    "above": 0,
+    "n": 20
+   },
+   "work_given_opportunity": {
+    "median": 0.10014780071394003,
+    "min": 0.023523092521263174,
+    "max": 0.2512448803252008,
+    "baseline_median": 0.1844391215920939,
+    "above": 2,
+    "n": 20
+   },
+   "task_type_first_half": {
+    "median": 0.5655036687127164,
+    "min": 0.4224465155984809,
+    "max": 0.7621376792478902,
+    "baseline_median": 0.34820203809264083,
+    "above": 20,
+    "n": 20
+   },
+   "task_type_second_half": {
+    "median": 0.49902049095819956,
+    "min": 0.4099623503279638,
+    "max": 0.6045321209290297,
+    "baseline_median": 0.34704234770962206,
+    "above": 20,
+    "n": 20
+   },
+   "same_favourite_both_halves": 1.0,
+   "same_favourite_type_across_runs": 1.0,
+   "hub_rank_correlation_across_runs": -0.003684210526315793,
+   "same_top_receiver_share": 0.2,
+   "completed_median": 50.0
+  },
+  "generated": {
+   "task_type": {
+    "median": 0.35219482361966037,
+    "min": 0.23297882520876786,
+    "max": 0.5238156855332686,
+    "baseline_median": 0.19138604442131874,
+    "above": 20,
+    "n": 20
+   },
+   "hub": {
+    "median": 0.09679036816237739,
+    "min": 0.030898721017367473,
+    "max": 0.1634407772518775,
+    "baseline_median": 0.18571104153480872,
+    "above": 0,
+    "n": 20
+   },
+   "work_given_opportunity": {
+    "median": 0.09708897825137569,
+    "min": 0.03162073612645659,
+    "max": 0.15974867318961805,
+    "baseline_median": 0.18686425584595429,
+    "above": 0,
+    "n": 20
+   },
+   "task_type_first_half": {
+    "median": 0.35776445313798005,
+    "min": 0.2721736659157052,
+    "max": 0.5229038888276447,
+    "baseline_median": 0.3416964587997334,
+    "above": 12,
+    "n": 20
+   },
+   "task_type_second_half": {
+    "median": 0.4488754817350378,
+    "min": 0.2817890106446679,
+    "max": 0.5929168474733055,
+    "baseline_median": 0.3426968521514898,
+    "above": 19,
+    "n": 20
+   },
+   "same_favourite_both_halves": 0.4444444444444444,
+   "same_favourite_type_across_runs": 0.23391812865497075,
+   "hub_rank_correlation_across_runs": -0.014035087719298251,
+   "same_top_receiver_share": 0.2,
+   "completed_median": 77.5
+  },
+  "generated_wiped": {
+   "task_type": {
+    "median": 0.18700353133531827,
+    "min": 0.12649301467108326,
+    "max": 0.2925083829951543,
+    "baseline_median": 0.18958973058885026,
+    "above": 8,
+    "n": 20
+   },
+   "hub": {
+    "median": 0.09045274266540579,
+    "min": 0.025804428058109997,
+    "max": 0.1933269234082598,
+    "baseline_median": 0.18876044637593797,
+    "above": 0,
+    "n": 20
+   },
+   "work_given_opportunity": {
+    "median": 0.07442633367268275,
+    "min": 0.0213888038389529,
+    "max": 0.2622708602132059,
+    "baseline_median": 0.18911847544903287,
+    "above": 1,
+    "n": 20
+   },
+   "task_type_first_half": {
+    "median": 0.35776445313798005,
+    "min": 0.2721736659157052,
+    "max": 0.5229038888276447,
+    "baseline_median": 0.3416964587997334,
+    "above": 12,
+    "n": 20
+   },
+   "task_type_second_half": {
+    "median": 0.3852409968235512,
+    "min": 0.2601106340484823,
+    "max": 0.5199017065651226,
+    "baseline_median": 0.3374784172866939,
+    "above": 15,
+    "n": 20
+   },
+   "same_favourite_both_halves": 0.2222222222222222,
+   "same_favourite_type_across_runs": 0.24678362573099416,
+   "hub_rank_correlation_across_runs": -0.01903508771929825,
+   "same_top_receiver_share": 0.25,
+   "completed_median": 81.5
+  },
+  "label": {
+   "task_type": {
+    "median": 0.09407535665270195,
+    "min": 0.0440987296791622,
+    "max": 0.1298054846417557,
+    "baseline_median": 0.19149509015975813,
+    "above": 0,
+    "n": 20
+   },
+   "hub": {
+    "median": 0.9701162204125529,
+    "min": 0.9509826285545676,
+    "max": 0.9773095613138761,
+    "baseline_median": 0.19108856186353956,
+    "above": 20,
+    "n": 20
+   },
+   "work_given_opportunity": {
+    "median": 0.09192409696474169,
+    "min": 0.035786556499860726,
+    "max": 0.20461690951729122,
+    "baseline_median": 0.18411536136064327,
+    "above": 1,
+    "n": 20
+   },
+   "task_type_first_half": {
+    "median": 0.17616492153133986,
+    "min": 0.10383238481125007,
+    "max": 0.2517756590973216,
+    "baseline_median": 0.34033469103073277,
+    "above": 0,
+    "n": 20
+   },
+   "task_type_second_half": {
+    "median": 0.17593958014508504,
+    "min": 0.10915445953198334,
+    "max": 0.28013046351954995,
+    "baseline_median": 0.34393804236325554,
+    "above": 0,
+    "n": 20
+   },
+   "same_favourite_both_halves": 0.2222222222222222,
+   "same_favourite_type_across_runs": 0.2608187134502924,
+   "hub_rank_correlation_across_runs": 0.32280701754385965,
+   "same_top_receiver_share": 1.0,
+   "completed_median": 40.5
+  },
+  "label_shuffled": {
+   "task_type": {
+    "median": 0.0911058912860649,
+    "min": 0.060216784348387384,
+    "max": 0.14453731792044086,
+    "baseline_median": 0.18919594915402935,
+    "above": 0,
+    "n": 20
+   },
+   "hub": {
+    "median": 0.3172429349795911,
+    "min": 0.2176526245802447,
+    "max": 0.46347257268059383,
+    "baseline_median": 0.18983739521925697,
+    "above": 20,
+    "n": 20
+   },
+   "work_given_opportunity": {
+    "median": 0.06431234022388377,
+    "min": 0.021522081293506565,
+    "max": 0.18743558962036777,
+    "baseline_median": 0.1866920959991616,
+    "above": 0,
+    "n": 20
+   },
+   "task_type_first_half": {
+    "median": 0.18295051841248738,
+    "min": 0.11882008413427549,
+    "max": 0.2189117550607136,
+    "baseline_median": 0.34064840826319326,
+    "above": 0,
+    "n": 20
+   },
+   "task_type_second_half": {
+    "median": 0.16245984868406904,
+    "min": 0.11148087477353455,
+    "max": 0.28015701374099883,
+    "baseline_median": 0.33861180020339154,
+    "above": 0,
+    "n": 20
+   },
+   "same_favourite_both_halves": 0.2222222222222222,
+   "same_favourite_type_across_runs": 0.24502923976608187,
+   "hub_rank_correlation_across_runs": -0.0074561403508771945,
+   "same_top_receiver_share": 0.2,
+   "completed_median": 55.0
+  },
+  "label_balanced": {
+   "task_type": {
+    "median": 0.10463646855565173,
+    "min": 0.06587904085513112,
+    "max": 0.1547844082045743,
+    "baseline_median": 0.19081986171893744,
+    "above": 0,
+    "n": 20
+   },
+   "hub": {
+    "median": 0.09382971811835028,
+    "min": 0.021689345955751105,
+    "max": 0.2026145601938724,
+    "baseline_median": 0.18849758159521324,
+    "above": 1,
+    "n": 20
+   },
+   "work_given_opportunity": {
+    "median": 0.07199738469630645,
+    "min": 0.02910817665423108,
+    "max": 0.20241012310661388,
+    "baseline_median": 0.18299883039316167,
+    "above": 1,
+    "n": 20
+   },
+   "task_type_first_half": {
+    "median": 0.20014968845514913,
+    "min": 0.11163624283491239,
+    "max": 0.24678308559163936,
+    "baseline_median": 0.34605373472069034,
+    "above": 0,
+    "n": 20
+   },
+   "task_type_second_half": {
+    "median": 0.1830430985847532,
+    "min": 0.12182056539144825,
+    "max": 0.2924340794701313,
+    "baseline_median": 0.34100674318797786,
+    "above": 0,
+    "n": 20
+   },
+   "same_favourite_both_halves": 0.2777777777777778,
+   "same_favourite_type_across_runs": 0.2415204678362573,
+   "hub_rank_correlation_across_runs": 0.012807017543859645,
+   "same_top_receiver_share": 0.2,
+   "completed_median": 54.0
+  }
+ },
+ "runs": {
+  "none": [
+   {
+    "condition": "none",
+    "seed": 0,
+    "completed": 85,
+    "task_type": {
+     "observed": 0.06221836744087584,
+     "null_p95": 0.1881267021754376
+    },
+    "hub": {
+     "observed": 0.036308352398985486,
+     "null_p95": 0.19972037771582626
+    },
+    "work_given_opportunity": {
+     "observed": 0.1350335407422492,
+     "null_p95": 0.18643067429723612
+    },
+    "task_type_first_half": {
+     "observed": 0.15903073278157953,
+     "null_p95": 0.355874424569533
+    },
+    "task_type_second_half": {
+     "observed": 0.11047358960265663,
+     "null_p95": 0.3349552547465388
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "delta",
+     "A2": "gamma",
+     "A3": "gamma",
+     "A4": "alpha",
+     "A5": "gamma",
+     "A6": "alpha",
+     "A7": "beta",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     34,
+     27,
+     29,
+     36,
+     27,
+     34,
+     30,
+     34,
+     29
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 1,
+    "completed": 84,
+    "task_type": {
+     "observed": 0.0987627549231589,
+     "null_p95": 0.1899682766756533
+    },
+    "hub": {
+     "observed": 0.0428548570260371,
+     "null_p95": 0.172160025890281
+    },
+    "work_given_opportunity": {
+     "observed": 0.07459340380297332,
+     "null_p95": 0.19701712214218428
+    },
+    "task_type_first_half": {
+     "observed": 0.18097764184524312,
+     "null_p95": 0.3300763210892097
+    },
+    "task_type_second_half": {
+     "observed": 0.14795569587493113,
+     "null_p95": 0.35085787193455653
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "gamma",
+     "A2": "gamma",
+     "A3": "beta",
+     "A4": "alpha",
+     "A5": "delta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     36,
+     38,
+     34,
+     30,
+     30,
+     27,
+     30,
+     27,
+     31
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 2,
+    "completed": 81,
+    "task_type": {
+     "observed": 0.08765085166602063,
+     "null_p95": 0.18079422326710315
+    },
+    "hub": {
+     "observed": 0.08382645150102325,
+     "null_p95": 0.1867723185865994
+    },
+    "work_given_opportunity": {
+     "observed": 0.06539164972298031,
+     "null_p95": 0.1808835875427333
+    },
+    "task_type_first_half": {
+     "observed": 0.19871672733668583,
+     "null_p95": 0.33923904682397193
+    },
+    "task_type_second_half": {
+     "observed": 0.12331953376810001,
+     "null_p95": 0.338493197233138
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "beta",
+     "A2": "beta",
+     "A3": "gamma",
+     "A4": "gamma",
+     "A5": "gamma",
+     "A6": "gamma",
+     "A7": "gamma",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     23,
+     31,
+     28,
+     34,
+     37,
+     31,
+     27,
+     27,
+     24
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 3,
+    "completed": 90,
+    "task_type": {
+     "observed": 0.10316543505050954,
+     "null_p95": 0.2013237038716115
+    },
+    "hub": {
+     "observed": 0.08463549173982352,
+     "null_p95": 0.18488774168126626
+    },
+    "work_given_opportunity": {
+     "observed": 0.14817377705952314,
+     "null_p95": 0.1914330823539495
+    },
+    "task_type_first_half": {
+     "observed": 0.14284414855583807,
+     "null_p95": 0.34632122902486806
+    },
+    "task_type_second_half": {
+     "observed": 0.1692910920030291,
+     "null_p95": 0.32697581824373895
+    },
+    "same_favourite_both_halves": 0.5555555555555556,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "beta",
+     "A3": "gamma",
+     "A4": "beta",
+     "A5": "beta",
+     "A6": "alpha",
+     "A7": "beta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     30,
+     25,
+     40,
+     27,
+     30,
+     30,
+     35,
+     23,
+     30
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 4,
+    "completed": 86,
+    "task_type": {
+     "observed": 0.08067472006040032,
+     "null_p95": 0.1996235990395621
+    },
+    "hub": {
+     "observed": 0.07911291028435752,
+     "null_p95": 0.16821661172364258
+    },
+    "work_given_opportunity": {
+     "observed": 0.08951673658671709,
+     "null_p95": 0.16910105121453214
+    },
+    "task_type_first_half": {
+     "observed": 0.14958760222548528,
+     "null_p95": 0.347958704363191
+    },
+    "task_type_second_half": {
+     "observed": 0.22421707688925951,
+     "null_p95": 0.3396193090989782
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "beta",
+     "A3": "alpha",
+     "A4": "beta",
+     "A5": "beta",
+     "A6": "alpha",
+     "A7": "alpha",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     26,
+     27,
+     31,
+     35,
+     31,
+     33,
+     34,
+     35,
+     20
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 5,
+    "completed": 79,
+    "task_type": {
+     "observed": 0.14161826248311474,
+     "null_p95": 0.18865932350775144
+    },
+    "hub": {
+     "observed": 0.13634961551813027,
+     "null_p95": 0.19174337754282716
+    },
+    "work_given_opportunity": {
+     "observed": 0.09861415423466974,
+     "null_p95": 0.18248052718651392
+    },
+    "task_type_first_half": {
+     "observed": 0.2988404081123458,
+     "null_p95": 0.33245465354900544
+    },
+    "task_type_second_half": {
+     "observed": 0.16910722450595295,
+     "null_p95": 0.34243841017980714
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "beta",
+     "A2": "delta",
+     "A3": "delta",
+     "A4": "delta",
+     "A5": "beta",
+     "A6": "delta",
+     "A7": "gamma",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     38,
+     45,
+     24,
+     30,
+     31,
+     28,
+     29,
+     29,
+     24
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 6,
+    "completed": 84,
+    "task_type": {
+     "observed": 0.1691019779759645,
+     "null_p95": 0.1958685558511462
+    },
+    "hub": {
+     "observed": 0.12128787893916239,
+     "null_p95": 0.2030921797403599
+    },
+    "work_given_opportunity": {
+     "observed": 0.07113836839966273,
+     "null_p95": 0.19364056763121595
+    },
+    "task_type_first_half": {
+     "observed": 0.22902020002022347,
+     "null_p95": 0.3441086822639029
+    },
+    "task_type_second_half": {
+     "observed": 0.3031652194338488,
+     "null_p95": 0.33329613277728043
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "delta",
+     "A2": "beta",
+     "A3": "gamma",
+     "A4": "alpha",
+     "A5": "gamma",
+     "A6": "delta",
+     "A7": "beta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     36,
+     22,
+     32,
+     23,
+     24,
+     30,
+     41,
+     27,
+     38
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 7,
+    "completed": 83,
+    "task_type": {
+     "observed": 0.07860455825118669,
+     "null_p95": 0.19943651692168618
+    },
+    "hub": {
+     "observed": 0.08288624814718466,
+     "null_p95": 0.19884830382649232
+    },
+    "work_given_opportunity": {
+     "observed": 0.11362535590747345,
+     "null_p95": 0.16926933124646862
+    },
+    "task_type_first_half": {
+     "observed": 0.16656227738565346,
+     "null_p95": 0.3332240206400951
+    },
+    "task_type_second_half": {
+     "observed": 0.17819324218389102,
+     "null_p95": 0.33896896841052837
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "alpha",
+     "A2": "beta",
+     "A3": "alpha",
+     "A4": "beta",
+     "A5": "gamma",
+     "A6": "beta",
+     "A7": "alpha",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     25,
+     31,
+     22,
+     41,
+     35,
+     32,
+     27,
+     27,
+     30
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 8,
+    "completed": 84,
+    "task_type": {
+     "observed": 0.10646590341962206,
+     "null_p95": 0.19108416953221402
+    },
+    "hub": {
+     "observed": 0.06873114660063524,
+     "null_p95": 0.19658842815318203
+    },
+    "work_given_opportunity": {
+     "observed": 0.1628928533397518,
+     "null_p95": 0.18100016540335645
+    },
+    "task_type_first_half": {
+     "observed": 0.13555812968426978,
+     "null_p95": 0.330109502406208
+    },
+    "task_type_second_half": {
+     "observed": 0.1614128344358823,
+     "null_p95": 0.3348570070756324
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "alpha",
+     "A2": "gamma",
+     "A3": "gamma",
+     "A4": "beta",
+     "A5": "alpha",
+     "A6": "beta",
+     "A7": "gamma",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     23,
+     34,
+     36,
+     35,
+     31,
+     24,
+     38,
+     30,
+     26
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 9,
+    "completed": 92,
+    "task_type": {
+     "observed": 0.07318174419971384,
+     "null_p95": 0.19117895536977988
+    },
+    "hub": {
+     "observed": 0.11765690456308797,
+     "null_p95": 0.18850822259764385
+    },
+    "work_given_opportunity": {
+     "observed": 0.1889515987233017,
+     "null_p95": 0.1815074456131164
+    },
+    "task_type_first_half": {
+     "observed": 0.16828658850104825,
+     "null_p95": 0.3423046794662288
+    },
+    "task_type_second_half": {
+     "observed": 0.1583604777083537,
+     "null_p95": 0.32978278631584607
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "alpha",
+     "A2": "beta",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "delta",
+     "A6": "delta",
+     "A7": "gamma",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     35,
+     34,
+     30,
+     29,
+     40,
+     26,
+     31,
+     24,
+     21
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 10,
+    "completed": 74,
+    "task_type": {
+     "observed": 0.1309160354646223,
+     "null_p95": 0.18779194341794322
+    },
+    "hub": {
+     "observed": 0.18113749998623613,
+     "null_p95": 0.17777443086542913
+    },
+    "work_given_opportunity": {
+     "observed": 0.06181141041903099,
+     "null_p95": 0.20045945122573203
+    },
+    "task_type_first_half": {
+     "observed": 0.19101827685611134,
+     "null_p95": 0.3388367512686844
+    },
+    "task_type_second_half": {
+     "observed": 0.23606560934306373,
+     "null_p95": 0.33615790509176513
+    },
+    "same_favourite_both_halves": 0.4444444444444444,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "alpha",
+     "A2": "beta",
+     "A3": "gamma",
+     "A4": "alpha",
+     "A5": "alpha",
+     "A6": "alpha",
+     "A7": "gamma",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     42,
+     37,
+     22,
+     16,
+     35,
+     35,
+     26,
+     29,
+     38
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 11,
+    "completed": 74,
+    "task_type": {
+     "observed": 0.07048915532280188,
+     "null_p95": 0.1976285793577724
+    },
+    "hub": {
+     "observed": 0.17494109209669584,
+     "null_p95": 0.18916654528360982
+    },
+    "work_given_opportunity": {
+     "observed": 0.09072072550271856,
+     "null_p95": 0.18201615697378362
+    },
+    "task_type_first_half": {
+     "observed": 0.12628802640316744,
+     "null_p95": 0.3205652763692189
+    },
+    "task_type_second_half": {
+     "observed": 0.111605355547309,
+     "null_p95": 0.3263928085398002
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "alpha",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "gamma",
+     "A6": "beta",
+     "A7": "beta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     20,
+     30,
+     30,
+     30,
+     33,
+     47,
+     28,
+     35,
+     31
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 12,
+    "completed": 82,
+    "task_type": {
+     "observed": 0.10128029791467888,
+     "null_p95": 0.1918745801081641
+    },
+    "hub": {
+     "observed": 0.07538537453152667,
+     "null_p95": 0.19313595649195883
+    },
+    "work_given_opportunity": {
+     "observed": 0.06533481757450643,
+     "null_p95": 0.1821078566267528
+    },
+    "task_type_first_half": {
+     "observed": 0.1789647853445704,
+     "null_p95": 0.33191217353077646
+    },
+    "task_type_second_half": {
+     "observed": 0.2437522584258991,
+     "null_p95": 0.3391072980285909
+    },
+    "same_favourite_both_halves": 0.0,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "delta",
+     "A2": "alpha",
+     "A3": "gamma",
+     "A4": "alpha",
+     "A5": "delta",
+     "A6": "delta",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     23,
+     30,
+     31,
+     35,
+     28,
+     41,
+     24,
+     37,
+     29
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 13,
+    "completed": 82,
+    "task_type": {
+     "observed": 0.10449313715609171,
+     "null_p95": 0.19377249852384035
+    },
+    "hub": {
+     "observed": 0.09360265784429539,
+     "null_p95": 0.1900008663376558
+    },
+    "work_given_opportunity": {
+     "observed": 0.061384216950738625,
+     "null_p95": 0.17426073923214108
+    },
+    "task_type_first_half": {
+     "observed": 0.20255264936896594,
+     "null_p95": 0.34919672743975366
+    },
+    "task_type_second_half": {
+     "observed": 0.17339705889202364,
+     "null_p95": 0.34189920611407554
+    },
+    "same_favourite_both_halves": 0.5555555555555556,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "alpha",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "beta",
+     "A5": "alpha",
+     "A6": "alpha",
+     "A7": "delta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     28,
+     32,
+     35,
+     22,
+     19,
+     31,
+     27,
+     34,
+     32
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 14,
+    "completed": 79,
+    "task_type": {
+     "observed": 0.1316189310592682,
+     "null_p95": 0.19206308289388507
+    },
+    "hub": {
+     "observed": 0.06009772280841539,
+     "null_p95": 0.21050681401608412
+    },
+    "work_given_opportunity": {
+     "observed": 0.11116160619034364,
+     "null_p95": 0.193914042565628
+    },
+    "task_type_first_half": {
+     "observed": 0.28056104079031136,
+     "null_p95": 0.33426418862382906
+    },
+    "task_type_second_half": {
+     "observed": 0.22300838009824153,
+     "null_p95": 0.33420195355065474
+    },
+    "same_favourite_both_halves": 0.0,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "beta",
+     "A5": "gamma",
+     "A6": "alpha",
+     "A7": "gamma",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     30,
+     29,
+     22,
+     35,
+     36,
+     34,
+     28,
+     35,
+     27
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 15,
+    "completed": 81,
+    "task_type": {
+     "observed": 0.07348908651161586,
+     "null_p95": 0.18739940160746502
+    },
+    "hub": {
+     "observed": 0.07369672850587193,
+     "null_p95": 0.19484243478895857
+    },
+    "work_given_opportunity": {
+     "observed": 0.09920196938355312,
+     "null_p95": 0.1945617532405749
+    },
+    "task_type_first_half": {
+     "observed": 0.2612172218277583,
+     "null_p95": 0.3284450199447058
+    },
+    "task_type_second_half": {
+     "observed": 0.13969973290220195,
+     "null_p95": 0.33318255279180825
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "gamma",
+     "A2": "gamma",
+     "A3": "gamma",
+     "A4": "beta",
+     "A5": "gamma",
+     "A6": "delta",
+     "A7": "gamma",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     30,
+     28,
+     28,
+     31,
+     37,
+     30,
+     26,
+     36,
+     22
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 16,
+    "completed": 80,
+    "task_type": {
+     "observed": 0.08539547026651044,
+     "null_p95": 0.18915840270873427
+    },
+    "hub": {
+     "observed": 0.3180774109013297,
+     "null_p95": 0.1754513912334216
+    },
+    "work_given_opportunity": {
+     "observed": 0.07862498192373403,
+     "null_p95": 0.16767819589743954
+    },
+    "task_type_first_half": {
+     "observed": 0.15394605671211864,
+     "null_p95": 0.3327273181040593
+    },
+    "task_type_second_half": {
+     "observed": 0.17806231629581434,
+     "null_p95": 0.34356934477348716
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "gamma",
+     "A2": "delta",
+     "A3": "gamma",
+     "A4": "delta",
+     "A5": "beta",
+     "A6": "alpha",
+     "A7": "alpha",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     25,
+     19,
+     32,
+     34,
+     38,
+     36,
+     15,
+     49,
+     33
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 17,
+    "completed": 82,
+    "task_type": {
+     "observed": 0.1409638865229627,
+     "null_p95": 0.17987433939597866
+    },
+    "hub": {
+     "observed": 0.06338423204615816,
+     "null_p95": 0.18334466745857114
+    },
+    "work_given_opportunity": {
+     "observed": 0.0917615992122013,
+     "null_p95": 0.18817503005658942
+    },
+    "task_type_first_half": {
+     "observed": 0.22810860889439738,
+     "null_p95": 0.3320984527426341
+    },
+    "task_type_second_half": {
+     "observed": 0.25949138862430615,
+     "null_p95": 0.33486760645765207
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "delta",
+     "A2": "delta",
+     "A3": "alpha",
+     "A4": "beta",
+     "A5": "gamma",
+     "A6": "delta",
+     "A7": "beta",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     27,
+     31,
+     30,
+     31,
+     32,
+     36,
+     36,
+     31,
+     26
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 18,
+    "completed": 85,
+    "task_type": {
+     "observed": 0.0840067845962714,
+     "null_p95": 0.1954178397822412
+    },
+    "hub": {
+     "observed": 0.11416742688848144,
+     "null_p95": 0.19348636937026098
+    },
+    "work_given_opportunity": {
+     "observed": 0.14566926505824515,
+     "null_p95": 0.18897607470591013
+    },
+    "task_type_first_half": {
+     "observed": 0.17907000819888913,
+     "null_p95": 0.33401899585278083
+    },
+    "task_type_second_half": {
+     "observed": 0.22249043433981086,
+     "null_p95": 0.3382687890144782
+    },
+    "same_favourite_both_halves": 0.0,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "beta",
+     "A3": "beta",
+     "A4": "gamma",
+     "A5": "alpha",
+     "A6": "beta",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     37,
+     37,
+     30,
+     37,
+     23,
+     29,
+     30,
+     31,
+     21
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "none",
+    "seed": 19,
+    "completed": 87,
+    "task_type": {
+     "observed": 0.06304711480105205,
+     "null_p95": 0.19813401604748856
+    },
+    "hub": {
+     "observed": 0.1151600162481553,
+     "null_p95": 0.1742343819548324
+    },
+    "work_given_opportunity": {
+     "observed": 0.12215301268111113,
+     "null_p95": 0.1896614063128063
+    },
+    "task_type_first_half": {
+     "observed": 0.16716657546357933,
+     "null_p95": 0.3296066292162204
+    },
+    "task_type_second_half": {
+     "observed": 0.1633361311106186,
+     "null_p95": 0.34050334235706226
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "gamma",
+     "A2": "beta",
+     "A3": "alpha",
+     "A4": "alpha",
+     "A5": "gamma",
+     "A6": "delta",
+     "A7": "alpha",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     41,
+     36,
+     29,
+     24,
+     27,
+     31,
+     33,
+     27,
+     32
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   }
+  ],
+  "prescribed": [
+   {
+    "condition": "prescribed",
+    "seed": 0,
+    "completed": 45,
+    "task_type": {
+     "observed": 0.6213772729813587,
+     "null_p95": 0.20955973383520232
+    },
+    "hub": {
+     "observed": 0.09879586190817162,
+     "null_p95": 0.19267128993423582
+    },
+    "work_given_opportunity": {
+     "observed": 0.14273981751462472,
+     "null_p95": 0.16708856311546777
+    },
+    "task_type_first_half": {
+     "observed": 0.6720237760328689,
+     "null_p95": 0.3673919431416756
+    },
+    "task_type_second_half": {
+     "observed": 0.6030705244382872,
+     "null_p95": 0.3464452604492985
+    },
+    "same_favourite_both_halves": 1.0,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     44,
+     56,
+     47,
+     50,
+     63,
+     57,
+     51,
+     51,
+     49
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 1,
+    "completed": 51,
+    "task_type": {
+     "observed": 0.49763115284145604,
+     "null_p95": 0.18575958412914145
+    },
+    "hub": {
+     "observed": 0.06910724770816049,
+     "null_p95": 0.17994446192133803
+    },
+    "work_given_opportunity": {
+     "observed": 0.1277353509632644,
+     "null_p95": 0.19122647370228224
+    },
+    "task_type_first_half": {
+     "observed": 0.5625530579213619,
+     "null_p95": 0.33655125008231884
+    },
+    "task_type_second_half": {
+     "observed": 0.4923690502953645,
+     "null_p95": 0.3402102904241745
+    },
+    "same_favourite_both_halves": 1.0,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     47,
+     51,
+     58,
+     44,
+     55,
+     55,
+     63,
+     54,
+     40
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 2,
+    "completed": 56,
+    "task_type": {
+     "observed": 0.5712287084733444,
+     "null_p95": 0.20121256891943134
+    },
+    "hub": {
+     "observed": 0.13890045911004695,
+     "null_p95": 0.178512977653295
+    },
+    "work_given_opportunity": {
+     "observed": 0.10128255256119513,
+     "null_p95": 0.18189429828035497
+    },
+    "task_type_first_half": {
+     "observed": 0.684604807067237,
+     "null_p95": 0.33501710252657413
+    },
+    "task_type_second_half": {
+     "observed": 0.5364191793290833,
+     "null_p95": 0.34493720013958623
+    },
+    "same_favourite_both_halves": 0.8888888888888888,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     64,
+     47,
+     41,
+     55,
+     53,
+     59,
+     46,
+     54,
+     43
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 3,
+    "completed": 56,
+    "task_type": {
+     "observed": 0.5867326782755874,
+     "null_p95": 0.19625788569224212
+    },
+    "hub": {
+     "observed": 0.0813611597851394,
+     "null_p95": 0.19840694614093535
+    },
+    "work_given_opportunity": {
+     "observed": 0.10672700204869362,
+     "null_p95": 0.20048092955688154
+    },
+    "task_type_first_half": {
+     "observed": 0.619585892261179,
+     "null_p95": 0.39346848374870236
+    },
+    "task_type_second_half": {
+     "observed": 0.5713553002698577,
+     "null_p95": 0.32650459944954485
+    },
+    "same_favourite_both_halves": 1.0,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     58,
+     60,
+     50,
+     50,
+     55,
+     60,
+     45,
+     46,
+     57
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 4,
+    "completed": 46,
+    "task_type": {
+     "observed": 0.5085470912168084,
+     "null_p95": 0.20231477075908005
+    },
+    "hub": {
+     "observed": 0.0747838545520519,
+     "null_p95": 0.1988984313886405
+    },
+    "work_given_opportunity": {
+     "observed": 0.11188929249879456,
+     "null_p95": 0.18104033769273445
+    },
+    "task_type_first_half": {
+     "observed": 0.6150224001026069,
+     "null_p95": 0.3737017810568997
+    },
+    "task_type_second_half": {
+     "observed": 0.47548152525587484,
+     "null_p95": 0.34801565895817227
+    },
+    "same_favourite_both_halves": 1.0,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     62,
+     47,
+     54,
+     67,
+     52,
+     47,
+     47,
+     51,
+     45
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 5,
+    "completed": 55,
+    "task_type": {
+     "observed": 0.5077845862305904,
+     "null_p95": 0.20501636103003631
+    },
+    "hub": {
+     "observed": 0.0874993515155686,
+     "null_p95": 0.19113993632977624
+    },
+    "work_given_opportunity": {
+     "observed": 0.12487392970818093,
+     "null_p95": 0.1926449879008698
+    },
+    "task_type_first_half": {
+     "observed": 0.6358832887028244,
+     "null_p95": 0.3397696080955288
+    },
+    "task_type_second_half": {
+     "observed": 0.4214756781408233,
+     "null_p95": 0.3304352762549846
+    },
+    "same_favourite_both_halves": 1.0,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     52,
+     45,
+     46,
+     50,
+     51,
+     49,
+     54,
+     69,
+     53
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 6,
+    "completed": 49,
+    "task_type": {
+     "observed": 0.4893893823597051,
+     "null_p95": 0.18779358261730647
+    },
+    "hub": {
+     "observed": 0.14875780139862121,
+     "null_p95": 0.19397466265131372
+    },
+    "work_given_opportunity": {
+     "observed": 0.06398098972165349,
+     "null_p95": 0.1662459313727538
+    },
+    "task_type_first_half": {
+     "observed": 0.5780092184670997,
+     "null_p95": 0.34031334372527
+    },
+    "task_type_second_half": {
+     "observed": 0.46030627449627226,
+     "null_p95": 0.3378531292671292
+    },
+    "same_favourite_both_halves": 0.8888888888888888,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     46,
+     46,
+     63,
+     55,
+     66,
+     49,
+     47,
+     64,
+     45
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 7,
+    "completed": 61,
+    "task_type": {
+     "observed": 0.44228118576510184,
+     "null_p95": 0.1870925464398624
+    },
+    "hub": {
+     "observed": 0.048315889815198805,
+     "null_p95": 0.19256448870267331
+    },
+    "work_given_opportunity": {
+     "observed": 0.2512448803252008,
+     "null_p95": 0.1839817164604971
+    },
+    "task_type_first_half": {
+     "observed": 0.4759392682482212,
+     "null_p95": 0.3555228407182441
+    },
+    "task_type_second_half": {
+     "observed": 0.5181509186206517,
+     "null_p95": 0.3449167087584709
+    },
+    "same_favourite_both_halves": 1.0,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     46,
+     51,
+     50,
+     55,
+     53,
+     47,
+     52,
+     53,
+     63
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 8,
+    "completed": 49,
+    "task_type": {
+     "observed": 0.4862165062658611,
+     "null_p95": 0.19050384744163024
+    },
+    "hub": {
+     "observed": 0.026705486008907025,
+     "null_p95": 0.18304660154269678
+    },
+    "work_given_opportunity": {
+     "observed": 0.03271527023480546,
+     "null_p95": 0.1808499174617029
+    },
+    "task_type_first_half": {
+     "observed": 0.6194954976197317,
+     "null_p95": 0.33633408613919735
+    },
+    "task_type_second_half": {
+     "observed": 0.4099623503279638,
+     "null_p95": 0.34763943496994554
+    },
+    "same_favourite_both_halves": 1.0,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     45,
+     44,
+     52,
+     51,
+     53,
+     52,
+     55,
+     50,
+     58
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 9,
+    "completed": 47,
+    "task_type": {
+     "observed": 0.4630782568983577,
+     "null_p95": 0.194757802266955
+    },
+    "hub": {
+     "observed": 0.1472365803171706,
+     "null_p95": 0.1961351610330524
+    },
+    "work_given_opportunity": {
+     "observed": 0.08152930604740397,
+     "null_p95": 0.18690881007198717
+    },
+    "task_type_first_half": {
+     "observed": 0.5595180858652705,
+     "null_p95": 0.3451609340471546
+    },
+    "task_type_second_half": {
+     "observed": 0.4661165460558998,
+     "null_p95": 0.3391135496388086
+    },
+    "same_favourite_both_halves": 1.0,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     51,
+     35,
+     54,
+     47,
+     57,
+     52,
+     55,
+     59,
+     45
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 10,
+    "completed": 62,
+    "task_type": {
+     "observed": 0.47810568407160003,
+     "null_p95": 0.196857655438344
+    },
+    "hub": {
+     "observed": 0.12180393775539339,
+     "null_p95": 0.2039447974268403
+    },
+    "work_given_opportunity": {
+     "observed": 0.0642631627607215,
+     "null_p95": 0.1929374261921079
+    },
+    "task_type_first_half": {
+     "observed": 0.4904834102146018,
+     "null_p95": 0.3339692209591965
+    },
+    "task_type_second_half": {
+     "observed": 0.5598641713535567,
+     "null_p95": 0.35458972327209193
+    },
+    "same_favourite_both_halves": 0.7777777777777778,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     45,
+     45,
+     49,
+     39,
+     58,
+     58,
+     57,
+     50,
+     67
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 11,
+    "completed": 46,
+    "task_type": {
+     "observed": 0.4770579222576572,
+     "null_p95": 0.19659063712736297
+    },
+    "hub": {
+     "observed": 0.08607655068194367,
+     "null_p95": 0.1862435572542686
+    },
+    "work_given_opportunity": {
+     "observed": 0.0634901144166947,
+     "null_p95": 0.17803094048336493
+    },
+    "task_type_first_half": {
+     "observed": 0.5059257652134875,
+     "null_p95": 0.3464166102059092
+    },
+    "task_type_second_half": {
+     "observed": 0.5526519994772843,
+     "null_p95": 0.34817340430425503
+    },
+    "same_favourite_both_halves": 0.7777777777777778,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     46,
+     48,
+     57,
+     63,
+     41,
+     46,
+     50,
+     49,
+     60
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 12,
+    "completed": 50,
+    "task_type": {
+     "observed": 0.3871758633740458,
+     "null_p95": 0.18939173858001393
+    },
+    "hub": {
+     "observed": 0.08170587491432149,
+     "null_p95": 0.20307570439450562
+    },
+    "work_given_opportunity": {
+     "observed": 0.10872964325607333,
+     "null_p95": 0.1848965267236907
+    },
+    "task_type_first_half": {
+     "observed": 0.4224465155984809,
+     "null_p95": 0.346579391129657
+    },
+    "task_type_second_half": {
+     "observed": 0.44318074343975655,
+     "null_p95": 0.3347749831177688
+    },
+    "same_favourite_both_halves": 0.8888888888888888,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     61,
+     57,
+     59,
+     41,
+     44,
+     56,
+     55,
+     52,
+     48
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 13,
+    "completed": 35,
+    "task_type": {
+     "observed": 0.5183141274739588,
+     "null_p95": 0.2008154327941543
+    },
+    "hub": {
+     "observed": 0.06993124867630209,
+     "null_p95": 0.1873741134394466
+    },
+    "work_given_opportunity": {
+     "observed": 0.1580638499805964,
+     "null_p95": 0.18779502473664203
+    },
+    "task_type_first_half": {
+     "observed": 0.5425958742539596,
+     "null_p95": 0.36960791538982274
+    },
+    "task_type_second_half": {
+     "observed": 0.6045321209290297,
+     "null_p95": 0.3537351579938739
+    },
+    "same_favourite_both_halves": 1.0,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     55,
+     44,
+     49,
+     45,
+     49,
+     58,
+     48,
+     60,
+     53
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 14,
+    "completed": 60,
+    "task_type": {
+     "observed": 0.47295907175882534,
+     "null_p95": 0.1977065188207705
+    },
+    "hub": {
+     "observed": 0.060178375083627084,
+     "null_p95": 0.1902144849040385
+    },
+    "work_given_opportunity": {
+     "observed": 0.06818312505168637,
+     "null_p95": 0.1792335075433299
+    },
+    "task_type_first_half": {
+     "observed": 0.47679815168356027,
+     "null_p95": 0.34166916989650625
+    },
+    "task_type_second_half": {
+     "observed": 0.48568514473525626,
+     "null_p95": 0.35174441615196167
+    },
+    "same_favourite_both_halves": 1.0,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     51,
+     53,
+     49,
+     58,
+     50,
+     41,
+     55,
+     43,
+     54
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 15,
+    "completed": 56,
+    "task_type": {
+     "observed": 0.48943918977402684,
+     "null_p95": 0.19053114880617267
+    },
+    "hub": {
+     "observed": 0.16862240701875533,
+     "null_p95": 0.18993853815575323
+    },
+    "work_given_opportunity": {
+     "observed": 0.09901304886668491,
+     "null_p95": 0.19785323396085217
+    },
+    "task_type_first_half": {
+     "observed": 0.5454675998122411,
+     "null_p95": 0.37857107082230135
+    },
+    "task_type_second_half": {
+     "observed": 0.5056719316210346,
+     "null_p95": 0.34816885988580437
+    },
+    "same_favourite_both_halves": 1.0,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     46,
+     52,
+     56,
+     51,
+     40,
+     42,
+     50,
+     60,
+     71
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 16,
+    "completed": 50,
+    "task_type": {
+     "observed": 0.5574400647923808,
+     "null_p95": 0.18709885544109708
+    },
+    "hub": {
+     "observed": 0.10243998408243828,
+     "null_p95": 0.2068131471373269
+    },
+    "work_given_opportunity": {
+     "observed": 0.05742480092841304,
+     "null_p95": 0.19175423524149265
+    },
+    "task_type_first_half": {
+     "observed": 0.5684542795040709,
+     "null_p95": 0.3547964858094592
+    },
+    "task_type_second_half": {
+     "observed": 0.5892318108827511,
+     "null_p95": 0.3565045166083251
+    },
+    "same_favourite_both_halves": 1.0,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     58,
+     54,
+     40,
+     60,
+     49,
+     63,
+     46,
+     51,
+     52
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 17,
+    "completed": 60,
+    "task_type": {
+     "observed": 0.41716761003087965,
+     "null_p95": 0.18933476588947312
+    },
+    "hub": {
+     "observed": 0.07737163334958379,
+     "null_p95": 0.19474039240905366
+    },
+    "work_given_opportunity": {
+     "observed": 0.08937126867145079,
+     "null_p95": 0.2158930963787573
+    },
+    "task_type_first_half": {
+     "observed": 0.44710083292002917,
+     "null_p95": 0.3498246850556246
+    },
+    "task_type_second_half": {
+     "observed": 0.44054791228816403,
+     "null_p95": 0.3196166231738996
+    },
+    "same_favourite_both_halves": 1.0,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     42,
+     51,
+     37,
+     54,
+     57,
+     50,
+     54,
+     59,
+     49
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 18,
+    "completed": 46,
+    "task_type": {
+     "observed": 0.6380969018972852,
+     "null_p95": 0.18843567063219516
+    },
+    "hub": {
+     "observed": 0.12147652367569005,
+     "null_p95": 0.19028911332186563
+    },
+    "work_given_opportunity": {
+     "observed": 0.023523092521263174,
+     "null_p95": 0.17987723143365952
+    },
+    "task_type_first_half": {
+     "observed": 0.7536334652534398,
+     "null_p95": 0.3563585331811788
+    },
+    "task_type_second_half": {
+     "observed": 0.5337080852590127,
+     "null_p95": 0.35179466120541775
+    },
+    "same_favourite_both_halves": 1.0,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     39,
+     68,
+     49,
+     53,
+     54,
+     49,
+     57,
+     62,
+     66
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "prescribed",
+    "seed": 19,
+    "completed": 47,
+    "task_type": {
+     "observed": 0.5905867525654765,
+     "null_p95": 0.20523085804047186
+    },
+    "hub": {
+     "observed": 0.11605636066282883,
+     "null_p95": 0.1859249732820615
+    },
+    "work_given_opportunity": {
+     "observed": 0.20073203943025694,
+     "null_p95": 0.1778059682173202
+    },
+    "task_type_first_half": {
+     "observed": 0.7621376792478902,
+     "null_p95": 0.35998369636808214
+    },
+    "task_type_second_half": {
+     "observed": 0.4802306612959991,
+     "null_p95": 0.35866206376230003
+    },
+    "same_favourite_both_halves": 1.0,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     45,
+     51,
+     73,
+     58,
+     52,
+     51,
+     60,
+     54,
+     48
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   }
+  ],
+  "generated": [
+   {
+    "condition": "generated",
+    "seed": 0,
+    "completed": 77,
+    "task_type": {
+     "observed": 0.3898316240515652,
+     "null_p95": 0.1929640669837631
+    },
+    "hub": {
+     "observed": 0.15614228190528195,
+     "null_p95": 0.18772272967082196
+    },
+    "work_given_opportunity": {
+     "observed": 0.09996218978172475,
+     "null_p95": 0.1868460168296165
+    },
+    "task_type_first_half": {
+     "observed": 0.3908029931283059,
+     "null_p95": 0.33334519583576083
+    },
+    "task_type_second_half": {
+     "observed": 0.4732577866873573,
+     "null_p95": 0.3399478595865074
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "gamma",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "delta",
+     "A5": "delta",
+     "A6": "delta",
+     "A7": "gamma",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     33,
+     32,
+     36,
+     33,
+     28,
+     39,
+     43,
+     45,
+     26
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 1,
+    "completed": 72,
+    "task_type": {
+     "observed": 0.37525674058264735,
+     "null_p95": 0.19007285575935373
+    },
+    "hub": {
+     "observed": 0.09844938408906428,
+     "null_p95": 0.1863902157960255
+    },
+    "work_given_opportunity": {
+     "observed": 0.03162073612645659,
+     "null_p95": 0.19023991822999123
+    },
+    "task_type_first_half": {
+     "observed": 0.38045630256476093,
+     "null_p95": 0.3414215044821105
+    },
+    "task_type_second_half": {
+     "observed": 0.43602843500642463,
+     "null_p95": 0.34281992937163686
+    },
+    "same_favourite_both_halves": 0.4444444444444444,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "beta",
+     "A2": "delta",
+     "A3": "delta",
+     "A4": "beta",
+     "A5": "delta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     32,
+     35,
+     35,
+     36,
+     46,
+     35,
+     38,
+     35,
+     26
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 2,
+    "completed": 68,
+    "task_type": {
+     "observed": 0.3197034933899598,
+     "null_p95": 0.1940378832511731
+    },
+    "hub": {
+     "observed": 0.10396229828345539,
+     "null_p95": 0.1812209536909625
+    },
+    "work_given_opportunity": {
+     "observed": 0.08440513051590447,
+     "null_p95": 0.18688249486229208
+    },
+    "task_type_first_half": {
+     "observed": 0.35338430380356545,
+     "null_p95": 0.34932526947370013
+    },
+    "task_type_second_half": {
+     "observed": 0.41044543887181983,
+     "null_p95": 0.3460226087886605
+    },
+    "same_favourite_both_halves": 0.6666666666666666,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "gamma",
+     "A2": "alpha",
+     "A3": "alpha",
+     "A4": "beta",
+     "A5": "alpha",
+     "A6": "gamma",
+     "A7": "beta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     37,
+     40,
+     34,
+     32,
+     45,
+     36,
+     35,
+     20,
+     39
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 3,
+    "completed": 64,
+    "task_type": {
+     "observed": 0.39148404521640057,
+     "null_p95": 0.1956245127638746
+    },
+    "hub": {
+     "observed": 0.03515247236562153,
+     "null_p95": 0.18615079837905513
+    },
+    "work_given_opportunity": {
+     "observed": 0.1321850067761202,
+     "null_p95": 0.18430913606885121
+    },
+    "task_type_first_half": {
+     "observed": 0.36214460247239466,
+     "null_p95": 0.34978179338309684
+    },
+    "task_type_second_half": {
+     "observed": 0.4985452938803299,
+     "null_p95": 0.3385531164501522
+    },
+    "same_favourite_both_halves": 0.4444444444444444,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "gamma",
+     "A2": "gamma",
+     "A3": "beta",
+     "A4": "delta",
+     "A5": "delta",
+     "A6": "alpha",
+     "A7": "beta",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     34,
+     43,
+     35,
+     35,
+     37,
+     40,
+     39,
+     33,
+     44
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 4,
+    "completed": 82,
+    "task_type": {
+     "observed": 0.3132031524899302,
+     "null_p95": 0.19569312403070865
+    },
+    "hub": {
+     "observed": 0.051933203536632874,
+     "null_p95": 0.1875206082593106
+    },
+    "work_given_opportunity": {
+     "observed": 0.06302402063419342,
+     "null_p95": 0.17468509332004606
+    },
+    "task_type_first_half": {
+     "observed": 0.35083834862935714,
+     "null_p95": 0.3398754148680716
+    },
+    "task_type_second_half": {
+     "observed": 0.4178288177297288,
+     "null_p95": 0.3425737749313427
+    },
+    "same_favourite_both_halves": 0.5555555555555556,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "delta",
+     "A2": "delta",
+     "A3": "beta",
+     "A4": "gamma",
+     "A5": "beta",
+     "A6": "alpha",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     28,
+     41,
+     30,
+     38,
+     36,
+     38,
+     32,
+     35,
+     42
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 5,
+    "completed": 81,
+    "task_type": {
+     "observed": 0.29755654459349745,
+     "null_p95": 0.19420331047744352
+    },
+    "hub": {
+     "observed": 0.09471573434243837,
+     "null_p95": 0.19895701267177135
+    },
+    "work_given_opportunity": {
+     "observed": 0.14059342923288204,
+     "null_p95": 0.17366996119102623
+    },
+    "task_type_first_half": {
+     "observed": 0.3241809144319362,
+     "null_p95": 0.3435495036524946
+    },
+    "task_type_second_half": {
+     "observed": 0.34488134035393153,
+     "null_p95": 0.3326717763512377
+    },
+    "same_favourite_both_halves": 0.6666666666666666,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "delta",
+     "A2": "beta",
+     "A3": "beta",
+     "A4": "beta",
+     "A5": "delta",
+     "A6": "gamma",
+     "A7": "alpha",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     34,
+     42,
+     36,
+     33,
+     28,
+     28,
+     37,
+     40,
+     42
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 6,
+    "completed": 69,
+    "task_type": {
+     "observed": 0.38714181009557,
+     "null_p95": 0.19914116894615025
+    },
+    "hub": {
+     "observed": 0.1065448906643292,
+     "null_p95": 0.1852712846905623
+    },
+    "work_given_opportunity": {
+     "observed": 0.15166452914176506,
+     "null_p95": 0.17739554310764122
+    },
+    "task_type_first_half": {
+     "observed": 0.44184418394652514,
+     "null_p95": 0.34197141311735635
+    },
+    "task_type_second_half": {
+     "observed": 0.46172252846365086,
+     "null_p95": 0.34918834600205917
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "beta",
+     "A2": "alpha",
+     "A3": "gamma",
+     "A4": "gamma",
+     "A5": "alpha",
+     "A6": "delta",
+     "A7": "alpha",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     43,
+     37,
+     39,
+     31,
+     44,
+     41,
+     29,
+     37,
+     29
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 7,
+    "completed": 87,
+    "task_type": {
+     "observed": 0.35312801546163763,
+     "null_p95": 0.1892157373206233
+    },
+    "hub": {
+     "observed": 0.1468124534984178,
+     "null_p95": 0.18441700843036563
+    },
+    "work_given_opportunity": {
+     "observed": 0.15974867318961805,
+     "null_p95": 0.19002423271381014
+    },
+    "task_type_first_half": {
+     "observed": 0.30284438885002907,
+     "null_p95": 0.3506753296593647
+    },
+    "task_type_second_half": {
+     "observed": 0.5592483151926062,
+     "null_p95": 0.33627452749175957
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "alpha",
+     "A2": "delta",
+     "A3": "alpha",
+     "A4": "alpha",
+     "A5": "alpha",
+     "A6": "alpha",
+     "A7": "gamma",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     36,
+     41,
+     42,
+     31,
+     27,
+     25,
+     41,
+     37,
+     47
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 8,
+    "completed": 80,
+    "task_type": {
+     "observed": 0.326765027408821,
+     "null_p95": 0.19183123252984752
+    },
+    "hub": {
+     "observed": 0.09621885287935451,
+     "null_p95": 0.18380877188898134
+    },
+    "work_given_opportunity": {
+     "observed": 0.07360579977163155,
+     "null_p95": 0.1615305115181746
+    },
+    "task_type_first_half": {
+     "observed": 0.3894553210077095,
+     "null_p95": 0.33046086323883506
+    },
+    "task_type_second_half": {
+     "observed": 0.49615619341399875,
+     "null_p95": 0.3328145257620521
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "delta",
+     "A2": "beta",
+     "A3": "beta",
+     "A4": "beta",
+     "A5": "alpha",
+     "A6": "alpha",
+     "A7": "beta",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     34,
+     30,
+     47,
+     41,
+     41,
+     45,
+     32,
+     30,
+     38
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 9,
+    "completed": 75,
+    "task_type": {
+     "observed": 0.35611988445254594,
+     "null_p95": 0.18917426105584303
+    },
+    "hub": {
+     "observed": 0.15959180384531438,
+     "null_p95": 0.2048940036773649
+    },
+    "work_given_opportunity": {
+     "observed": 0.09062626776671555,
+     "null_p95": 0.19599111624404567
+    },
+    "task_type_first_half": {
+     "observed": 0.4549011175473042,
+     "null_p95": 0.3469328098450191
+    },
+    "task_type_second_half": {
+     "observed": 0.35535668590260683,
+     "null_p95": 0.3550123947052764
+    },
+    "same_favourite_both_halves": 0.5555555555555556,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "beta",
+     "A2": "delta",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "delta",
+     "A7": "beta",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     25,
+     38,
+     41,
+     54,
+     32,
+     36,
+     43,
+     36,
+     42
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 10,
+    "completed": 84,
+    "task_type": {
+     "observed": 0.2827693978377347,
+     "null_p95": 0.1867594742225917
+    },
+    "hub": {
+     "observed": 0.050938379115491116,
+     "null_p95": 0.17250558266474236
+    },
+    "work_given_opportunity": {
+     "observed": 0.04171353232152614,
+     "null_p95": 0.19276131689294337
+    },
+    "task_type_first_half": {
+     "observed": 0.2996715107585339,
+     "null_p95": 0.3351864990837104
+    },
+    "task_type_second_half": {
+     "observed": 0.3829048971553346,
+     "null_p95": 0.33807077079061815
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "alpha",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "delta",
+     "A5": "delta",
+     "A6": "alpha",
+     "A7": "delta",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     34,
+     38,
+     31,
+     31,
+     43,
+     36,
+     38,
+     32,
+     44
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 11,
+    "completed": 76,
+    "task_type": {
+     "observed": 0.3030407133173933,
+     "null_p95": 0.18754229868949995
+    },
+    "hub": {
+     "observed": 0.08445169328170213,
+     "null_p95": 0.18617645584548276
+    },
+    "work_given_opportunity": {
+     "observed": 0.06456190925965621,
+     "null_p95": 0.1770036510221713
+    },
+    "task_type_first_half": {
+     "observed": 0.28701931180419926,
+     "null_p95": 0.3366859604316264
+    },
+    "task_type_second_half": {
+     "observed": 0.3833687004679675,
+     "null_p95": 0.35770698096295583
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "alpha",
+     "A4": "beta",
+     "A5": "alpha",
+     "A6": "delta",
+     "A7": "alpha",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     36,
+     36,
+     31,
+     29,
+     44,
+     38,
+     43,
+     42,
+     34
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 12,
+    "completed": 74,
+    "task_type": {
+     "observed": 0.36753155230067946,
+     "null_p95": 0.19401114983113998
+    },
+    "hub": {
+     "observed": 0.07555774260105216,
+     "null_p95": 0.1883581844000374
+    },
+    "work_given_opportunity": {
+     "observed": 0.08493393860747277,
+     "null_p95": 0.1901397687005105
+    },
+    "task_type_first_half": {
+     "observed": 0.34335905325009775,
+     "null_p95": 0.3581349274946901
+    },
+    "task_type_second_half": {
+     "observed": 0.4748781956018422,
+     "null_p95": 0.33737002737786526
+    },
+    "same_favourite_both_halves": 0.4444444444444444,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "alpha",
+     "A2": "alpha",
+     "A3": "alpha",
+     "A4": "delta",
+     "A5": "delta",
+     "A6": "delta",
+     "A7": "delta",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     33,
+     37,
+     43,
+     34,
+     40,
+     44,
+     32,
+     40,
+     33
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 13,
+    "completed": 77,
+    "task_type": {
+     "observed": 0.23297882520876786,
+     "null_p95": 0.18786172331756626
+    },
+    "hub": {
+     "observed": 0.030898721017367473,
+     "null_p95": 0.18028906938065067
+    },
+    "work_given_opportunity": {
+     "observed": 0.09421576672102663,
+     "null_p95": 0.1807727362250278
+    },
+    "task_type_first_half": {
+     "observed": 0.2721736659157052,
+     "null_p95": 0.3364059979294813
+    },
+    "task_type_second_half": {
+     "observed": 0.2817890106446679,
+     "null_p95": 0.34533875748171783
+    },
+    "same_favourite_both_halves": 0.5555555555555556,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "gamma",
+     "A2": "alpha",
+     "A3": "beta",
+     "A4": "alpha",
+     "A5": "alpha",
+     "A6": "alpha",
+     "A7": "alpha",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     39,
+     33,
+     30,
+     42,
+     35,
+     36,
+     33,
+     37,
+     33
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 14,
+    "completed": 81,
+    "task_type": {
+     "observed": 0.3069318782169401,
+     "null_p95": 0.19094085631278995
+    },
+    "hub": {
+     "observed": 0.059240552333445766,
+     "null_p95": 0.18393232994649567
+    },
+    "work_given_opportunity": {
+     "observed": 0.15532663340390865,
+     "null_p95": 0.19439214198561158
+    },
+    "task_type_first_half": {
+     "observed": 0.3894328530539771,
+     "null_p95": 0.3513569314913021
+    },
+    "task_type_second_half": {
+     "observed": 0.39593243438373565,
+     "null_p95": 0.34287812269396556
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "delta",
+     "A2": "gamma",
+     "A3": "gamma",
+     "A4": "gamma",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     42,
+     28,
+     33,
+     33,
+     42,
+     34,
+     41,
+     33,
+     38
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 15,
+    "completed": 82,
+    "task_type": {
+     "observed": 0.35126163177768316,
+     "null_p95": 0.19187233635787437
+    },
+    "hub": {
+     "observed": 0.06826086354202601,
+     "null_p95": 0.18934558896943615
+    },
+    "work_given_opportunity": {
+     "observed": 0.11683160486523879,
+     "null_p95": 0.19565828241028724
+    },
+    "task_type_first_half": {
+     "observed": 0.2870417788401942,
+     "null_p95": 0.3381144480709945
+    },
+    "task_type_second_half": {
+     "observed": 0.47777377698230883,
+     "null_p95": 0.33966087501025644
+    },
+    "same_favourite_both_halves": 0.7777777777777778,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "alpha",
+     "A2": "delta",
+     "A3": "delta",
+     "A4": "gamma",
+     "A5": "delta",
+     "A6": "delta",
+     "A7": "beta",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     41,
+     43,
+     40,
+     34,
+     27,
+     32,
+     31,
+     32,
+     42
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 16,
+    "completed": 78,
+    "task_type": {
+     "observed": 0.33569177688328594,
+     "null_p95": 0.18179563419831468
+    },
+    "hub": {
+     "observed": 0.09736188344540027,
+     "null_p95": 0.1852355956683842
+    },
+    "work_given_opportunity": {
+     "observed": 0.06156226648468833,
+     "null_p95": 0.1941413127508399
+    },
+    "task_type_first_half": {
+     "observed": 0.3095572047594022,
+     "null_p95": 0.34816952301503695
+    },
+    "task_type_second_half": {
+     "observed": 0.47950597498080805,
+     "null_p95": 0.3356863806365703
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "alpha",
+     "A2": "gamma",
+     "A3": "beta",
+     "A4": "alpha",
+     "A5": "alpha",
+     "A6": "alpha",
+     "A7": "gamma",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     35,
+     27,
+     37,
+     29,
+     37,
+     34,
+     29,
+     43,
+     43
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 17,
+    "completed": 80,
+    "task_type": {
+     "observed": 0.3809194803168266,
+     "null_p95": 0.17642767835322265
+    },
+    "hub": {
+     "observed": 0.10319590498968526,
+     "null_p95": 0.1811723519144647
+    },
+    "work_given_opportunity": {
+     "observed": 0.1160000611937796,
+     "null_p95": 0.16506257969685798
+    },
+    "task_type_first_half": {
+     "observed": 0.4496676669533926,
+     "null_p95": 0.34238722924666204
+    },
+    "task_type_second_half": {
+     "observed": 0.3841464905971308,
+     "null_p95": 0.34427206790412884
+    },
+    "same_favourite_both_halves": 0.5555555555555556,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "alpha",
+     "A2": "beta",
+     "A3": "beta",
+     "A4": "gamma",
+     "A5": "gamma",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     47,
+     33,
+     36,
+     30,
+     34,
+     44,
+     42,
+     40,
+     38
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 18,
+    "completed": 81,
+    "task_type": {
+     "observed": 0.5238156855332686,
+     "null_p95": 0.19495547353852735
+    },
+    "hub": {
+     "observed": 0.1634407772518775,
+     "null_p95": 0.18739877269789185
+    },
+    "work_given_opportunity": {
+     "observed": 0.14583201232733312,
+     "null_p95": 0.1910427397202395
+    },
+    "task_type_first_half": {
+     "observed": 0.5229038888276447,
+     "null_p95": 0.3310704533153155
+    },
+    "task_type_second_half": {
+     "observed": 0.5929168474733055,
+     "null_p95": 0.34705579397504266
+    },
+    "same_favourite_both_halves": 0.5555555555555556,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "gamma",
+     "A2": "alpha",
+     "A3": "gamma",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "beta",
+     "A7": "beta",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     39,
+     46,
+     37,
+     19,
+     44,
+     39,
+     39,
+     40,
+     38
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated",
+    "seed": 19,
+    "completed": 76,
+    "task_type": {
+     "observed": 0.40807169274088706,
+     "null_p95": 0.18650541004811805
+    },
+    "hub": {
+     "observed": 0.15732261602268172,
+     "null_p95": 0.18213188468959796
+    },
+    "work_given_opportunity": {
+     "observed": 0.15462083647118163,
+     "null_p95": 0.17631945971434398
+    },
+    "task_type_first_half": {
+     "observed": 0.4142420323826768,
+     "null_p95": 0.3343366774940356
+    },
+    "task_type_second_half": {
+     "observed": 0.46712234958633464,
+     "null_p95": 0.3462262750353078
+    },
+    "same_favourite_both_halves": 0.4444444444444444,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "gamma",
+     "A2": "beta",
+     "A3": "beta",
+     "A4": "alpha",
+     "A5": "gamma",
+     "A6": "beta",
+     "A7": "beta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     36,
+     43,
+     48,
+     46,
+     35,
+     41,
+     27,
+     28,
+     38
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   }
+  ],
+  "generated_wiped": [
+   {
+    "condition": "generated_wiped",
+    "seed": 0,
+    "completed": 83,
+    "task_type": {
+     "observed": 0.18739080563430208,
+     "null_p95": 0.1905024853442987
+    },
+    "hub": {
+     "observed": 0.1933269234082598,
+     "null_p95": 0.19717424175252884
+    },
+    "work_given_opportunity": {
+     "observed": 0.07268017745473694,
+     "null_p95": 0.18868165046718632
+    },
+    "task_type_first_half": {
+     "observed": 0.3908029931283059,
+     "null_p95": 0.33334519583576083
+    },
+    "task_type_second_half": {
+     "observed": 0.5199017065651226,
+     "null_p95": 0.33546039616211865
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "delta",
+     "A2": "beta",
+     "A3": "alpha",
+     "A4": "beta",
+     "A5": "alpha",
+     "A6": "alpha",
+     "A7": "delta",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     34,
+     26,
+     36,
+     27,
+     31,
+     39,
+     40,
+     42,
+     21
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 1,
+    "completed": 81,
+    "task_type": {
+     "observed": 0.1979721044178841,
+     "null_p95": 0.1885666626641192
+    },
+    "hub": {
+     "observed": 0.09932542136880458,
+     "null_p95": 0.18265411011335486
+    },
+    "work_given_opportunity": {
+     "observed": 0.06633535834795443,
+     "null_p95": 0.17980884568385477
+    },
+    "task_type_first_half": {
+     "observed": 0.38045630256476093,
+     "null_p95": 0.3414215044821105
+    },
+    "task_type_second_half": {
+     "observed": 0.45101591017374854,
+     "null_p95": 0.3216350635442693
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "alpha",
+     "A2": "beta",
+     "A3": "delta",
+     "A4": "beta",
+     "A5": "gamma",
+     "A6": "alpha",
+     "A7": "delta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     36,
+     32,
+     40,
+     32,
+     44,
+     33,
+     32,
+     31,
+     27
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 2,
+    "completed": 78,
+    "task_type": {
+     "observed": 0.14134521752600698,
+     "null_p95": 0.19473928377320626
+    },
+    "hub": {
+     "observed": 0.025804428058109997,
+     "null_p95": 0.19486226183093894
+    },
+    "work_given_opportunity": {
+     "observed": 0.11458739171382569,
+     "null_p95": 0.1895553004308794
+    },
+    "task_type_first_half": {
+     "observed": 0.35338430380356545,
+     "null_p95": 0.34932526947370013
+    },
+    "task_type_second_half": {
+     "observed": 0.2732360390985066,
+     "null_p95": 0.34958702618454046
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "gamma",
+     "A2": "beta",
+     "A3": "beta",
+     "A4": "alpha",
+     "A5": "alpha",
+     "A6": "gamma",
+     "A7": "gamma",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     35,
+     41,
+     32,
+     39,
+     36,
+     28,
+     27,
+     30,
+     32
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 3,
+    "completed": 73,
+    "task_type": {
+     "observed": 0.1724388851096444,
+     "null_p95": 0.1939034898218145
+    },
+    "hub": {
+     "observed": 0.06804633396678311,
+     "null_p95": 0.18867281862804586
+    },
+    "work_given_opportunity": {
+     "observed": 0.04189595139659759,
+     "null_p95": 0.19011390009343954
+    },
+    "task_type_first_half": {
+     "observed": 0.36214460247239466,
+     "null_p95": 0.34978179338309684
+    },
+    "task_type_second_half": {
+     "observed": 0.2601106340484823,
+     "null_p95": 0.3278355163374287
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "delta",
+     "A2": "gamma",
+     "A3": "alpha",
+     "A4": "delta",
+     "A5": "alpha",
+     "A6": "alpha",
+     "A7": "beta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     34,
+     35,
+     37,
+     24,
+     31,
+     36,
+     37,
+     33,
+     38
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 4,
+    "completed": 86,
+    "task_type": {
+     "observed": 0.2074672634911583,
+     "null_p95": 0.19207189241498943
+    },
+    "hub": {
+     "observed": 0.0934415299219843,
+     "null_p95": 0.18951618621831423
+    },
+    "work_given_opportunity": {
+     "observed": 0.08123022246712591,
+     "null_p95": 0.1897368735328185
+    },
+    "task_type_first_half": {
+     "observed": 0.35083834862935714,
+     "null_p95": 0.3398754148680716
+    },
+    "task_type_second_half": {
+     "observed": 0.38290701038519004,
+     "null_p95": 0.34361994414629393
+    },
+    "same_favourite_both_halves": 0.5555555555555556,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "delta",
+     "A2": "delta",
+     "A3": "gamma",
+     "A4": "delta",
+     "A5": "beta",
+     "A6": "alpha",
+     "A7": "alpha",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     28,
+     34,
+     24,
+     41,
+     41,
+     29,
+     31,
+     38,
+     32
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 5,
+    "completed": 71,
+    "task_type": {
+     "observed": 0.14233838984294434,
+     "null_p95": 0.1896380188230986
+    },
+    "hub": {
+     "observed": 0.03886951022082105,
+     "null_p95": 0.1912616538432317
+    },
+    "work_given_opportunity": {
+     "observed": 0.2622708602132059,
+     "null_p95": 0.20205998071938247
+    },
+    "task_type_first_half": {
+     "observed": 0.3241809144319362,
+     "null_p95": 0.3435495036524946
+    },
+    "task_type_second_half": {
+     "observed": 0.3304584850503802,
+     "null_p95": 0.34031632422850505
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "delta",
+     "A2": "beta",
+     "A3": "alpha",
+     "A4": "beta",
+     "A5": "delta",
+     "A6": "gamma",
+     "A7": "gamma",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     37,
+     31,
+     34,
+     32,
+     34,
+     27,
+     37,
+     32,
+     36
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 6,
+    "completed": 72,
+    "task_type": {
+     "observed": 0.2925083829951543,
+     "null_p95": 0.18737912250863673
+    },
+    "hub": {
+     "observed": 0.10881937336424884,
+     "null_p95": 0.18196031317653388
+    },
+    "work_given_opportunity": {
+     "observed": 0.1405099344163967,
+     "null_p95": 0.18129431314495598
+    },
+    "task_type_first_half": {
+     "observed": 0.44184418394652514,
+     "null_p95": 0.34197141311735635
+    },
+    "task_type_second_half": {
+     "observed": 0.4792281638783793,
+     "null_p95": 0.33686421930607746
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "beta",
+     "A2": "alpha",
+     "A3": "beta",
+     "A4": "gamma",
+     "A5": "alpha",
+     "A6": "beta",
+     "A7": "alpha",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     28,
+     37,
+     31,
+     37,
+     42,
+     41,
+     28,
+     36,
+     33
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 7,
+    "completed": 86,
+    "task_type": {
+     "observed": 0.19515302669956988,
+     "null_p95": 0.1969141543933631
+    },
+    "hub": {
+     "observed": 0.10249721325080625,
+     "null_p95": 0.1889835943225123
+    },
+    "work_given_opportunity": {
+     "observed": 0.0446811222103401,
+     "null_p95": 0.17227680887325036
+    },
+    "task_type_first_half": {
+     "observed": 0.30284438885002907,
+     "null_p95": 0.3506753296593647
+    },
+    "task_type_second_half": {
+     "observed": 0.3845604402479412,
+     "null_p95": 0.34316710099338993
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "alpha",
+     "A2": "beta",
+     "A3": "gamma",
+     "A4": "beta",
+     "A5": "beta",
+     "A6": "beta",
+     "A7": "beta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     33,
+     43,
+     30,
+     26,
+     28,
+     25,
+     33,
+     46,
+     39
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 8,
+    "completed": 73,
+    "task_type": {
+     "observed": 0.20828428162146606,
+     "null_p95": 0.18202675569728988
+    },
+    "hub": {
+     "observed": 0.13458546894896922,
+     "null_p95": 0.18330790413852474
+    },
+    "work_given_opportunity": {
+     "observed": 0.03754846660268267,
+     "null_p95": 0.19808979694438617
+    },
+    "task_type_first_half": {
+     "observed": 0.3894553210077095,
+     "null_p95": 0.33046086323883506
+    },
+    "task_type_second_half": {
+     "observed": 0.3777012252333911,
+     "null_p95": 0.3380926152673104
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "gamma",
+     "A2": "beta",
+     "A3": "beta",
+     "A4": "gamma",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     38,
+     25,
+     50,
+     27,
+     39,
+     38,
+     31,
+     36,
+     32
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 9,
+    "completed": 72,
+    "task_type": {
+     "observed": 0.21686906915744164,
+     "null_p95": 0.19927097155842416
+    },
+    "hub": {
+     "observed": 0.11487165312278555,
+     "null_p95": 0.19974118177075983
+    },
+    "work_given_opportunity": {
+     "observed": 0.12765742190332438,
+     "null_p95": 0.20511292545136653
+    },
+    "task_type_first_half": {
+     "observed": 0.4549011175473042,
+     "null_p95": 0.3469328098450191
+    },
+    "task_type_second_half": {
+     "observed": 0.3448381239908597,
+     "null_p95": 0.33153580311050695
+    },
+    "same_favourite_both_halves": 0.4444444444444444,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "gamma",
+     "A2": "delta",
+     "A3": "beta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "beta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     32,
+     40,
+     27,
+     32,
+     24,
+     37,
+     46,
+     29,
+     38
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 10,
+    "completed": 93,
+    "task_type": {
+     "observed": 0.224335170378408,
+     "null_p95": 0.18773818127553302
+    },
+    "hub": {
+     "observed": 0.07452085479327028,
+     "null_p95": 0.1856739153372355
+    },
+    "work_given_opportunity": {
+     "observed": 0.07617248989062855,
+     "null_p95": 0.18575644923975057
+    },
+    "task_type_first_half": {
+     "observed": 0.2996715107585339,
+     "null_p95": 0.3351864990837104
+    },
+    "task_type_second_half": {
+     "observed": 0.4113507445688678,
+     "null_p95": 0.33390064243276285
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "alpha",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "delta",
+     "A5": "delta",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     34,
+     28,
+     32,
+     27,
+     39,
+     27,
+     33,
+     35,
+     40
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 11,
+    "completed": 86,
+    "task_type": {
+     "observed": 0.12649301467108326,
+     "null_p95": 0.1938084835975357
+    },
+    "hub": {
+     "observed": 0.08624219041741946,
+     "null_p95": 0.1956859175488095
+    },
+    "work_given_opportunity": {
+     "observed": 0.08108423159471059,
+     "null_p95": 0.19471665614171116
+    },
+    "task_type_first_half": {
+     "observed": 0.28701931180419926,
+     "null_p95": 0.3366859604316264
+    },
+    "task_type_second_half": {
+     "observed": 0.4243462175644567,
+     "null_p95": 0.3473607334421004
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "beta",
+     "A3": "alpha",
+     "A4": "beta",
+     "A5": "alpha",
+     "A6": "delta",
+     "A7": "beta",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     28,
+     41,
+     31,
+     35,
+     37,
+     40,
+     38,
+     30,
+     23
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 12,
+    "completed": 87,
+    "task_type": {
+     "observed": 0.15031316148409107,
+     "null_p95": 0.20274986768692224
+    },
+    "hub": {
+     "observed": 0.08981501708825808,
+     "null_p95": 0.18884807412383012
+    },
+    "work_given_opportunity": {
+     "observed": 0.04092610493131262,
+     "null_p95": 0.17155680708915658
+    },
+    "task_type_first_half": {
+     "observed": 0.34335905325009775,
+     "null_p95": 0.3581349274946901
+    },
+    "task_type_second_half": {
+     "observed": 0.38592155339916107,
+     "null_p95": 0.33937476159617647
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "beta",
+     "A2": "alpha",
+     "A3": "beta",
+     "A4": "beta",
+     "A5": "delta",
+     "A6": "beta",
+     "A7": "gamma",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     29,
+     36,
+     37,
+     35,
+     42,
+     29,
+     29,
+     41,
+     29
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 13,
+    "completed": 84,
+    "task_type": {
+     "observed": 0.18661625703633447,
+     "null_p95": 0.18733768002189713
+    },
+    "hub": {
+     "observed": 0.08045096896456125,
+     "null_p95": 0.17517127143939867
+    },
+    "work_given_opportunity": {
+     "observed": 0.12282132407818322,
+     "null_p95": 0.1941238842078404
+    },
+    "task_type_first_half": {
+     "observed": 0.2721736659157052,
+     "null_p95": 0.3364059979294813
+    },
+    "task_type_second_half": {
+     "observed": 0.4877700528182084,
+     "null_p95": 0.34302470860246437
+    },
+    "same_favourite_both_halves": 0.0,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "beta",
+     "A2": "beta",
+     "A3": "gamma",
+     "A4": "beta",
+     "A5": "gamma",
+     "A6": "alpha",
+     "A7": "alpha",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     38,
+     23,
+     40,
+     36,
+     37,
+     36,
+     38,
+     33,
+     29
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 14,
+    "completed": 87,
+    "task_type": {
+     "observed": 0.21710386954595173,
+     "null_p95": 0.18300705013072938
+    },
+    "hub": {
+     "observed": 0.09498330798518947,
+     "null_p95": 0.19281594412528716
+    },
+    "work_given_opportunity": {
+     "observed": 0.06324850685607382,
+     "null_p95": 0.18418975627311862
+    },
+    "task_type_first_half": {
+     "observed": 0.3894328530539771,
+     "null_p95": 0.3513569314913021
+    },
+    "task_type_second_half": {
+     "observed": 0.4188948015513183,
+     "null_p95": 0.33641411193790083
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "gamma",
+     "A4": "beta",
+     "A5": "gamma",
+     "A6": "delta",
+     "A7": "alpha",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     42,
+     28,
+     32,
+     27,
+     28,
+     34,
+     39,
+     37,
+     40
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 15,
+    "completed": 77,
+    "task_type": {
+     "observed": 0.1553569268591582,
+     "null_p95": 0.18668503977102152
+    },
+    "hub": {
+     "observed": 0.10002058235343944,
+     "null_p95": 0.18486627774977962
+    },
+    "work_given_opportunity": {
+     "observed": 0.028000030779044748,
+     "null_p95": 0.19625581710370205
+    },
+    "task_type_first_half": {
+     "observed": 0.2870417788401942,
+     "null_p95": 0.3381144480709945
+    },
+    "task_type_second_half": {
+     "observed": 0.2964388383309572,
+     "null_p95": 0.3495980575396479
+    },
+    "same_favourite_both_halves": 0.5555555555555556,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "beta",
+     "A2": "delta",
+     "A3": "beta",
+     "A4": "delta",
+     "A5": "delta",
+     "A6": "alpha",
+     "A7": "beta",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     41,
+     38,
+     37,
+     38,
+     23,
+     34,
+     29,
+     35,
+     27
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 16,
+    "completed": 78,
+    "task_type": {
+     "observed": 0.1576634370201018,
+     "null_p95": 0.18323980930074021
+    },
+    "hub": {
+     "observed": 0.04900682735321394,
+     "null_p95": 0.18241569020740026
+    },
+    "work_given_opportunity": {
+     "observed": 0.0213888038389529,
+     "null_p95": 0.1878685917531836
+    },
+    "task_type_first_half": {
+     "observed": 0.3095572047594022,
+     "null_p95": 0.34816952301503695
+    },
+    "task_type_second_half": {
+     "observed": 0.3655484203747442,
+     "null_p95": 0.33440265157411214
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "alpha",
+     "A2": "beta",
+     "A3": "beta",
+     "A4": "alpha",
+     "A5": "gamma",
+     "A6": "alpha",
+     "A7": "beta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     34,
+     34,
+     24,
+     34,
+     38,
+     37,
+     33,
+     34,
+     31
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 17,
+    "completed": 84,
+    "task_type": {
+     "observed": 0.17090661674538896,
+     "null_p95": 0.1895414423546019
+    },
+    "hub": {
+     "observed": 0.050696834052107204,
+     "null_p95": 0.1872780469796396
+    },
+    "work_given_opportunity": {
+     "observed": 0.09045455183600715,
+     "null_p95": 0.19643644731385623
+    },
+    "task_type_first_half": {
+     "observed": 0.4496676669533926,
+     "null_p95": 0.34238722924666204
+    },
+    "task_type_second_half": {
+     "observed": 0.3265307185084262,
+     "null_p95": 0.332225201293584
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "alpha",
+     "A2": "beta",
+     "A3": "beta",
+     "A4": "delta",
+     "A5": "gamma",
+     "A6": "gamma",
+     "A7": "delta",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     43,
+     39,
+     38,
+     27,
+     39,
+     34,
+     37,
+     41,
+     30
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 18,
+    "completed": 82,
+    "task_type": {
+     "observed": 0.23220465224796363,
+     "null_p95": 0.19435130701178494
+    },
+    "hub": {
+     "observed": 0.05163222166242673,
+     "null_p95": 0.20316478125540638
+    },
+    "work_given_opportunity": {
+     "observed": 0.04607905080878955,
+     "null_p95": 0.18399102613091445
+    },
+    "task_type_first_half": {
+     "observed": 0.5229038888276447,
+     "null_p95": 0.3310704533153155
+    },
+    "task_type_second_half": {
+     "observed": 0.3980730093101654,
+     "null_p95": 0.3394014112979924
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "beta",
+     "A2": "alpha",
+     "A3": "delta",
+     "A4": "gamma",
+     "A5": "beta",
+     "A6": "beta",
+     "A7": "gamma",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     31,
+     39,
+     29,
+     35,
+     38,
+     44,
+     27,
+     34,
+     37
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "generated_wiped",
+    "seed": 19,
+    "completed": 74,
+    "task_type": {
+     "observed": 0.13488779537278273,
+     "null_p95": 0.18898257786480158
+    },
+    "hub": {
+     "observed": 0.09109046824255349,
+     "null_p95": 0.18394920710059648
+    },
+    "work_given_opportunity": {
+     "observed": 0.145248957793431,
+     "null_p95": 0.18416522574879213
+    },
+    "task_type_first_half": {
+     "observed": 0.4142420323826768,
+     "null_p95": 0.3343366774940356
+    },
+    "task_type_second_half": {
+     "observed": 0.3931942476287934,
+     "null_p95": 0.3342378826472502
+    },
+    "same_favourite_both_halves": 0.0,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "delta",
+     "A2": "alpha",
+     "A3": "alpha",
+     "A4": "beta",
+     "A5": "delta",
+     "A6": "delta",
+     "A7": "alpha",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     39,
+     36,
+     39,
+     39,
+     28,
+     32,
+     39,
+     29,
+     27
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   }
+  ],
+  "label": [
+   {
+    "condition": "label",
+    "seed": 0,
+    "completed": 40,
+    "task_type": {
+     "observed": 0.04651643998448046,
+     "null_p95": 0.18781925319831422
+    },
+    "hub": {
+     "observed": 0.9603736057217714,
+     "null_p95": 0.19411317867338815
+    },
+    "work_given_opportunity": {
+     "observed": 0.035786556499860726,
+     "null_p95": 0.18351802790545768
+    },
+    "task_type_first_half": {
+     "observed": 0.1670103700827997,
+     "null_p95": 0.3434476726748796
+    },
+    "task_type_second_half": {
+     "observed": 0.1204065205143639,
+     "null_p95": 0.3327735195152438
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "alpha",
+     "A4": "beta",
+     "A5": "delta",
+     "A6": "delta",
+     "A7": "alpha",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     25,
+     264,
+     30,
+     22,
+     16,
+     25,
+     25,
+     18,
+     30
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 1,
+    "completed": 40,
+    "task_type": {
+     "observed": 0.06929026838278705,
+     "null_p95": 0.19440513071009208
+    },
+    "hub": {
+     "observed": 0.9773095613138761,
+     "null_p95": 0.18552992509371313
+    },
+    "work_given_opportunity": {
+     "observed": 0.04823260300585565,
+     "null_p95": 0.18791988082360603
+    },
+    "task_type_first_half": {
+     "observed": 0.19124496096612953,
+     "null_p95": 0.36429028820269305
+    },
+    "task_type_second_half": {
+     "observed": 0.13486072998653012,
+     "null_p95": 0.3498465701560449
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "gamma",
+     "A2": "beta",
+     "A3": "delta",
+     "A4": "beta",
+     "A5": "gamma",
+     "A6": "gamma",
+     "A7": "gamma",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     25,
+     291,
+     26,
+     17,
+     30,
+     27,
+     24,
+     28,
+     30
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 2,
+    "completed": 39,
+    "task_type": {
+     "observed": 0.08379548183852456,
+     "null_p95": 0.19640690341080042
+    },
+    "hub": {
+     "observed": 0.9596804143633217,
+     "null_p95": 0.1971236262463683
+    },
+    "work_given_opportunity": {
+     "observed": 0.10998889913910632,
+     "null_p95": 0.1909094770474633
+    },
+    "task_type_first_half": {
+     "observed": 0.16094487692782547,
+     "null_p95": 0.36174763314388886
+    },
+    "task_type_second_half": {
+     "observed": 0.11301492505524152,
+     "null_p95": 0.3508538675973503
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "gamma",
+     "A2": "beta",
+     "A3": "gamma",
+     "A4": "gamma",
+     "A5": "delta",
+     "A6": "alpha",
+     "A7": "beta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     26,
+     260,
+     26,
+     18,
+     19,
+     30,
+     22,
+     28,
+     25
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 3,
+    "completed": 48,
+    "task_type": {
+     "observed": 0.07344462379452746,
+     "null_p95": 0.18508730050935393
+    },
+    "hub": {
+     "observed": 0.9730381568876415,
+     "null_p95": 0.19227194750998783
+    },
+    "work_given_opportunity": {
+     "observed": 0.08748026439141926,
+     "null_p95": 0.18463233735472842
+    },
+    "task_type_first_half": {
+     "observed": 0.12516674284071824,
+     "null_p95": 0.3520524687655704
+    },
+    "task_type_second_half": {
+     "observed": 0.2166567738374992,
+     "null_p95": 0.3455824340820654
+    },
+    "same_favourite_both_halves": 0.0,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "delta",
+     "A2": "alpha",
+     "A3": "delta",
+     "A4": "delta",
+     "A5": "gamma",
+     "A6": "beta",
+     "A7": "beta",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     30,
+     261,
+     21,
+     26,
+     27,
+     27,
+     24,
+     28,
+     24
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 4,
+    "completed": 46,
+    "task_type": {
+     "observed": 0.0779871738019565,
+     "null_p95": 0.19164880744730145
+    },
+    "hub": {
+     "observed": 0.9656666793629827,
+     "null_p95": 0.174617300447662
+    },
+    "work_given_opportunity": {
+     "observed": 0.112942769929881,
+     "null_p95": 0.18713965608831543
+    },
+    "task_type_first_half": {
+     "observed": 0.10383238481125007,
+     "null_p95": 0.3340768615412585
+    },
+    "task_type_second_half": {
+     "observed": 0.13909567235449236,
+     "null_p95": 0.3631977622743304
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "alpha",
+     "A2": "delta",
+     "A3": "delta",
+     "A4": "gamma",
+     "A5": "delta",
+     "A6": "beta",
+     "A7": "alpha",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     21,
+     250,
+     31,
+     23,
+     22,
+     25,
+     29,
+     26,
+     27
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 5,
+    "completed": 48,
+    "task_type": {
+     "observed": 0.09959455220241342,
+     "null_p95": 0.19039092612789946
+    },
+    "hub": {
+     "observed": 0.964504462677267,
+     "null_p95": 0.21928785766945624
+    },
+    "work_given_opportunity": {
+     "observed": 0.09951289807590244,
+     "null_p95": 0.178939255152842
+    },
+    "task_type_first_half": {
+     "observed": 0.17237057706369788,
+     "null_p95": 0.3288406295099089
+    },
+    "task_type_second_half": {
+     "observed": 0.16836417516429564,
+     "null_p95": 0.3469735231325214
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "delta",
+     "A2": "beta",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "alpha",
+     "A6": "alpha",
+     "A7": "alpha",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     23,
+     251,
+     28,
+     18,
+     20,
+     23,
+     32,
+     29,
+     32
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 6,
+    "completed": 36,
+    "task_type": {
+     "observed": 0.11591001735011061,
+     "null_p95": 0.19345134653661655
+    },
+    "hub": {
+     "observed": 0.9590213604059292,
+     "null_p95": 0.20471710743072113
+    },
+    "work_given_opportunity": {
+     "observed": 0.08246657881628182,
+     "null_p95": 0.18959959004354665
+    },
+    "task_type_first_half": {
+     "observed": 0.2517756590973216,
+     "null_p95": 0.35091170262760774
+    },
+    "task_type_second_half": {
+     "observed": 0.18608205645230802,
+     "null_p95": 0.34225802138586325
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "gamma",
+     "A2": "alpha",
+     "A3": "gamma",
+     "A4": "gamma",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "beta",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     30,
+     249,
+     22,
+     29,
+     25,
+     31,
+     24,
+     35,
+     28
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 7,
+    "completed": 39,
+    "task_type": {
+     "observed": 0.1298054846417557,
+     "null_p95": 0.19642155909523176
+    },
+    "hub": {
+     "observed": 0.9706699226443654,
+     "null_p95": 0.20141139622704982
+    },
+    "work_given_opportunity": {
+     "observed": 0.0963679295380641,
+     "null_p95": 0.18179852458140147
+    },
+    "task_type_first_half": {
+     "observed": 0.1933465949602738,
+     "null_p95": 0.3345948125306979
+    },
+    "task_type_second_half": {
+     "observed": 0.17071059863449398,
+     "null_p95": 0.33561720733470807
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "alpha",
+     "A4": "beta",
+     "A5": "alpha",
+     "A6": "alpha",
+     "A7": "beta",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     23,
+     269,
+     24,
+     24,
+     16,
+     18,
+     30,
+     20,
+     24
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 8,
+    "completed": 41,
+    "task_type": {
+     "observed": 0.09438810337694666,
+     "null_p95": 0.1907639740544435
+    },
+    "hub": {
+     "observed": 0.9695625181807405,
+     "null_p95": 0.18030630654862934
+    },
+    "work_given_opportunity": {
+     "observed": 0.06943643592132479,
+     "null_p95": 0.19894074370366677
+    },
+    "task_type_first_half": {
+     "observed": 0.20258981643658022,
+     "null_p95": 0.3472290451690564
+    },
+    "task_type_second_half": {
+     "observed": 0.10915445953198334,
+     "null_p95": 0.346093852051251
+    },
+    "same_favourite_both_halves": 0.4444444444444444,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "alpha",
+     "A2": "delta",
+     "A3": "beta",
+     "A4": "alpha",
+     "A5": "delta",
+     "A6": "beta",
+     "A7": "alpha",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     22,
+     262,
+     21,
+     30,
+     20,
+     21,
+     23,
+     23,
+     25
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 9,
+    "completed": 37,
+    "task_type": {
+     "observed": 0.12178821148759733,
+     "null_p95": 0.19738463567745682
+    },
+    "hub": {
+     "observed": 0.976890373009313,
+     "null_p95": 0.22308887957443993
+    },
+    "work_given_opportunity": {
+     "observed": 0.10229145924292313,
+     "null_p95": 0.17888191860504063
+    },
+    "task_type_first_half": {
+     "observed": 0.17995926599898185,
+     "null_p95": 0.34041337402158184
+    },
+    "task_type_second_half": {
+     "observed": 0.11946016634003799,
+     "null_p95": 0.3443407441441927
+    },
+    "same_favourite_both_halves": 0.4444444444444444,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "gamma",
+     "A2": "alpha",
+     "A3": "beta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "beta",
+     "A7": "beta",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     30,
+     276,
+     20,
+     31,
+     21,
+     25,
+     22,
+     20,
+     31
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 10,
+    "completed": 39,
+    "task_type": {
+     "observed": 0.11017336290823407,
+     "null_p95": 0.18560566775821102
+    },
+    "hub": {
+     "observed": 0.9762385380246482,
+     "null_p95": 0.2068074532986601
+    },
+    "work_given_opportunity": {
+     "observed": 0.055187656165224544,
+     "null_p95": 0.18324083717772055
+    },
+    "task_type_first_half": {
+     "observed": 0.15691542244205847,
+     "null_p95": 0.32680357031010737
+    },
+    "task_type_second_half": {
+     "observed": 0.2615005275672055,
+     "null_p95": 0.34232699938530753
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "gamma",
+     "A2": "gamma",
+     "A3": "gamma",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "alpha",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     23,
+     286,
+     33,
+     12,
+     21,
+     20,
+     26,
+     20,
+     29
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 11,
+    "completed": 42,
+    "task_type": {
+     "observed": 0.12836172757256717,
+     "null_p95": 0.1959687543034068
+    },
+    "hub": {
+     "observed": 0.9509826285545676,
+     "null_p95": 0.1899051762170913
+    },
+    "work_given_opportunity": {
+     "observed": 0.11754010380039363,
+     "null_p95": 0.1835983853665581
+    },
+    "task_type_first_half": {
+     "observed": 0.18554426043545524,
+     "null_p95": 0.34025600803988376
+    },
+    "task_type_second_half": {
+     "observed": 0.23048231807861885,
+     "null_p95": 0.34450457419355257
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "delta",
+     "A2": "delta",
+     "A3": "gamma",
+     "A4": "delta",
+     "A5": "beta",
+     "A6": "beta",
+     "A7": "alpha",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     28,
+     268,
+     17,
+     22,
+     26,
+     29,
+     29,
+     25,
+     34
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 12,
+    "completed": 42,
+    "task_type": {
+     "observed": 0.09376260992845725,
+     "null_p95": 0.1917242419017849
+    },
+    "hub": {
+     "observed": 0.9734115427042607,
+     "null_p95": 0.16715582720530345
+    },
+    "work_given_opportunity": {
+     "observed": 0.046273956545051856,
+     "null_p95": 0.18088780531961646
+    },
+    "task_type_first_half": {
+     "observed": 0.18186141270225845,
+     "null_p95": 0.32800604694215707
+    },
+    "task_type_second_half": {
+     "observed": 0.1957546080516764,
+     "null_p95": 0.33406845066769697
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "alpha",
+     "A2": "delta",
+     "A3": "alpha",
+     "A4": "beta",
+     "A5": "gamma",
+     "A6": "beta",
+     "A7": "alpha",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     25,
+     263,
+     19,
+     19,
+     20,
+     28,
+     27,
+     28,
+     26
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 13,
+    "completed": 35,
+    "task_type": {
+     "observed": 0.06576739189547873,
+     "null_p95": 0.18760205171169747
+    },
+    "hub": {
+     "observed": 0.9680480313901413,
+     "null_p95": 0.20705256620316248
+    },
+    "work_given_opportunity": {
+     "observed": 0.058233373404501486,
+     "null_p95": 0.1859925362015821
+    },
+    "task_type_first_half": {
+     "observed": 0.1883680365763848,
+     "null_p95": 0.3596163548737764
+    },
+    "task_type_second_half": {
+     "observed": 0.21518231534612003,
+     "null_p95": 0.340084224254322
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "alpha",
+     "A2": "delta",
+     "A3": "beta",
+     "A4": "delta",
+     "A5": "gamma",
+     "A6": "beta",
+     "A7": "alpha",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     24,
+     265,
+     29,
+     28,
+     32,
+     26,
+     21,
+     35,
+     25
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 14,
+    "completed": 40,
+    "task_type": {
+     "observed": 0.11401348182967339,
+     "null_p95": 0.18503497248813922
+    },
+    "hub": {
+     "observed": 0.9693626305358755,
+     "null_p95": 0.1859391998366847
+    },
+    "work_given_opportunity": {
+     "observed": 0.11008957979664473,
+     "null_p95": 0.18052629887668256
+    },
+    "task_type_first_half": {
+     "observed": 0.1643697919411657,
+     "null_p95": 0.3642258982713001
+    },
+    "task_type_second_half": {
+     "observed": 0.21398841599331964,
+     "null_p95": 0.34353534058231844
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "gamma",
+     "A2": "alpha",
+     "A3": "delta",
+     "A4": "delta",
+     "A5": "beta",
+     "A6": "delta",
+     "A7": "beta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     28,
+     277,
+     27,
+     25,
+     36,
+     22,
+     22,
+     19,
+     25
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 15,
+    "completed": 45,
+    "task_type": {
+     "observed": 0.09530877589561301,
+     "null_p95": 0.1961692362880177
+    },
+    "hub": {
+     "observed": 0.9755040546382769,
+     "null_p95": 0.1948492213729633
+    },
+    "work_given_opportunity": {
+     "observed": 0.11160580830369947,
+     "null_p95": 0.18491483914456625
+    },
+    "task_type_first_half": {
+     "observed": 0.14927006938785692,
+     "null_p95": 0.3458764429218088
+    },
+    "task_type_second_half": {
+     "observed": 0.28013046351954995,
+     "null_p95": 0.3425569247687327
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "delta",
+     "A2": "alpha",
+     "A3": "delta",
+     "A4": "gamma",
+     "A5": "beta",
+     "A6": "delta",
+     "A7": "gamma",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     19,
+     284,
+     24,
+     23,
+     22,
+     19,
+     16,
+     26,
+     23
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 16,
+    "completed": 41,
+    "task_type": {
+     "observed": 0.09036506663420207,
+     "null_p95": 0.18093240087880202
+    },
+    "hub": {
+     "observed": 0.9738056470761897,
+     "null_p95": 0.18400362485758412
+    },
+    "work_given_opportunity": {
+     "observed": 0.20461690951729122,
+     "null_p95": 0.18605192799689857
+    },
+    "task_type_first_half": {
+     "observed": 0.1628728220409711,
+     "null_p95": 0.3389660833315693
+    },
+    "task_type_second_half": {
+     "observed": 0.16729282537657367,
+     "null_p95": 0.35176068100049557
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "gamma",
+     "A2": "alpha",
+     "A3": "delta",
+     "A4": "delta",
+     "A5": "alpha",
+     "A6": "beta",
+     "A7": "alpha",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     20,
+     267,
+     19,
+     22,
+     20,
+     25,
+     23,
+     27,
+     23
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 17,
+    "completed": 39,
+    "task_type": {
+     "observed": 0.0440987296791622,
+     "null_p95": 0.19774006644062309
+    },
+    "hub": {
+     "observed": 0.9770483651687834,
+     "null_p95": 0.18701153488077277
+    },
+    "work_given_opportunity": {
+     "observed": 0.12324164635849646,
+     "null_p95": 0.1767527465661121
+    },
+    "task_type_first_half": {
+     "observed": 0.1945053134841645,
+     "null_p95": 0.3283125982742762
+    },
+    "task_type_second_half": {
+     "observed": 0.18116856165567613,
+     "null_p95": 0.3337527944132088
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "delta",
+     "A2": "delta",
+     "A3": "gamma",
+     "A4": "delta",
+     "A5": "beta",
+     "A6": "delta",
+     "A7": "beta",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     20,
+     271,
+     24,
+     28,
+     27,
+     12,
+     36,
+     27,
+     23
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 18,
+    "completed": 44,
+    "task_type": {
+     "observed": 0.12209579004414874,
+     "null_p95": 0.17395190802325702
+    },
+    "hub": {
+     "observed": 0.9771805143445172,
+     "null_p95": 0.18790351380485487
+    },
+    "work_given_opportunity": {
+     "observed": 0.048324670839917164,
+     "null_p95": 0.17224589913599261
+    },
+    "task_type_first_half": {
+     "observed": 0.1537403466178776,
+     "null_p95": 0.33512063879075515
+    },
+    "task_type_second_half": {
+     "observed": 0.2665237926378566,
+     "null_p95": 0.3414025144189662
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "delta",
+     "A2": "alpha",
+     "A3": "delta",
+     "A4": "gamma",
+     "A5": "delta",
+     "A6": "beta",
+     "A7": "beta",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     19,
+     272,
+     27,
+     23,
+     28,
+     31,
+     25,
+     18,
+     25
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label",
+    "seed": 19,
+    "completed": 51,
+    "task_type": {
+     "observed": 0.06896131388581284,
+     "null_p95": 0.19134137287221478
+    },
+    "hub": {
+     "observed": 0.9513411056641902,
+     "null_p95": 0.16570748877687788
+    },
+    "work_given_opportunity": {
+     "observed": 0.04823269031588214,
+     "null_p95": 0.19370158060899478
+    },
+    "task_type_first_half": {
+     "observed": 0.18733929954511816,
+     "null_p95": 0.33580130617968196
+    },
+    "task_type_second_half": {
+     "observed": 0.14274677517020612,
+     "null_p95": 0.3463289234879574
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "gamma",
+     "A2": "delta",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "delta",
+     "A6": "gamma",
+     "A7": "beta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     36,
+     235,
+     23,
+     24,
+     27,
+     20,
+     27,
+     25,
+     31
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   }
+  ],
+  "label_shuffled": [
+   {
+    "condition": "label_shuffled",
+    "seed": 0,
+    "completed": 64,
+    "task_type": {
+     "observed": 0.08205460218165558,
+     "null_p95": 0.18840730996689517
+    },
+    "hub": {
+     "observed": 0.3274071287740173,
+     "null_p95": 0.18597537210207804
+    },
+    "work_given_opportunity": {
+     "observed": 0.15750493500362014,
+     "null_p95": 0.17778068667244618
+    },
+    "task_type_first_half": {
+     "observed": 0.20683051203691583,
+     "null_p95": 0.3396808598935283
+    },
+    "task_type_second_half": {
+     "observed": 0.18759772211242398,
+     "null_p95": 0.339045132732631
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "alpha",
+     "A2": "delta",
+     "A3": "alpha",
+     "A4": "beta",
+     "A5": "alpha",
+     "A6": "alpha",
+     "A7": "alpha",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     53,
+     53,
+     61,
+     19,
+     51,
+     59,
+     52,
+     44,
+     54
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 1,
+    "completed": 55,
+    "task_type": {
+     "observed": 0.09283888346361055,
+     "null_p95": 0.1889710177959799
+    },
+    "hub": {
+     "observed": 0.39421327001636985,
+     "null_p95": 0.18744379398425018
+    },
+    "work_given_opportunity": {
+     "observed": 0.05083685832523386,
+     "null_p95": 0.17760256804190938
+    },
+    "task_type_first_half": {
+     "observed": 0.13696022381290152,
+     "null_p95": 0.3431200976102122
+    },
+    "task_type_second_half": {
+     "observed": 0.15557356554819135,
+     "null_p95": 0.3440188361529393
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "delta",
+     "A2": "delta",
+     "A3": "gamma",
+     "A4": "alpha",
+     "A5": "delta",
+     "A6": "beta",
+     "A7": "beta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     49,
+     60,
+     42,
+     63,
+     59,
+     66,
+     18,
+     44,
+     58
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 2,
+    "completed": 52,
+    "task_type": {
+     "observed": 0.11170262672665,
+     "null_p95": 0.20197469862193507
+    },
+    "hub": {
+     "observed": 0.2459053487240143,
+     "null_p95": 0.19016248167070893
+    },
+    "work_given_opportunity": {
+     "observed": 0.18743558962036777,
+     "null_p95": 0.1952190495282009
+    },
+    "task_type_first_half": {
+     "observed": 0.21121217331067177,
+     "null_p95": 0.36397048993068576
+    },
+    "task_type_second_half": {
+     "observed": 0.19486276845094683,
+     "null_p95": 0.3431077722445134
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "alpha",
+     "A2": "alpha",
+     "A3": "delta",
+     "A4": "beta",
+     "A5": "beta",
+     "A6": "delta",
+     "A7": "beta",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     64,
+     50,
+     51,
+     61,
+     51,
+     55,
+     47,
+     24,
+     54
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 3,
+    "completed": 62,
+    "task_type": {
+     "observed": 0.060216784348387384,
+     "null_p95": 0.18351073081139288
+    },
+    "hub": {
+     "observed": 0.2958940628004449,
+     "null_p95": 0.1734222206415231
+    },
+    "work_given_opportunity": {
+     "observed": 0.060741954066095324,
+     "null_p95": 0.17617308827743253
+    },
+    "task_type_first_half": {
+     "observed": 0.17816069729083103,
+     "null_p95": 0.33869828728527734
+    },
+    "task_type_second_half": {
+     "observed": 0.16668655308737737,
+     "null_p95": 0.3384198372759934
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "delta",
+     "A2": "gamma",
+     "A3": "gamma",
+     "A4": "delta",
+     "A5": "alpha",
+     "A6": "beta",
+     "A7": "gamma",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     52,
+     52,
+     49,
+     48,
+     50,
+     19,
+     52,
+     57,
+     73
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 4,
+    "completed": 59,
+    "task_type": {
+     "observed": 0.14453731792044086,
+     "null_p95": 0.18715202118769203
+    },
+    "hub": {
+     "observed": 0.2980992567755865,
+     "null_p95": 0.19209153963775674
+    },
+    "work_given_opportunity": {
+     "observed": 0.047990953934223035,
+     "null_p95": 0.19334151577639147
+    },
+    "task_type_first_half": {
+     "observed": 0.18756429682662823,
+     "null_p95": 0.35283182758478493
+    },
+    "task_type_second_half": {
+     "observed": 0.2158527464445463,
+     "null_p95": 0.3291239780534562
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "gamma",
+     "A2": "beta",
+     "A3": "beta",
+     "A4": "beta",
+     "A5": "gamma",
+     "A6": "beta",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     53,
+     63,
+     59,
+     47,
+     57,
+     19,
+     51,
+     47,
+     62
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 5,
+    "completed": 51,
+    "task_type": {
+     "observed": 0.0656046320798778,
+     "null_p95": 0.19273092130883987
+    },
+    "hub": {
+     "observed": 0.35600586182397,
+     "null_p95": 0.19399617230271318
+    },
+    "work_given_opportunity": {
+     "observed": 0.10126892507491032,
+     "null_p95": 0.18024954824337466
+    },
+    "task_type_first_half": {
+     "observed": 0.1952219767390301,
+     "null_p95": 0.33149974171809315
+    },
+    "task_type_second_half": {
+     "observed": 0.13679819719472391,
+     "null_p95": 0.3371989451952895
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "gamma",
+     "A2": "alpha",
+     "A3": "beta",
+     "A4": "beta",
+     "A5": "beta",
+     "A6": "beta",
+     "A7": "beta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     50,
+     44,
+     56,
+     59,
+     46,
+     55,
+     52,
+     59,
+     19
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 6,
+    "completed": 48,
+    "task_type": {
+     "observed": 0.08256471367768894,
+     "null_p95": 0.19140298493694707
+    },
+    "hub": {
+     "observed": 0.36684661040499267,
+     "null_p95": 0.20611009553553722
+    },
+    "work_given_opportunity": {
+     "observed": 0.12261130591301762,
+     "null_p95": 0.18755285313485087
+    },
+    "task_type_first_half": {
+     "observed": 0.1882655038994869,
+     "null_p95": 0.35103935615760207
+    },
+    "task_type_second_half": {
+     "observed": 0.11148087477353455,
+     "null_p95": 0.3409404636291703
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "beta",
+     "A3": "gamma",
+     "A4": "delta",
+     "A5": "alpha",
+     "A6": "beta",
+     "A7": "beta",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     15,
+     52,
+     47,
+     50,
+     56,
+     58,
+     64,
+     58,
+     54
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 7,
+    "completed": 56,
+    "task_type": {
+     "observed": 0.12276973607036068,
+     "null_p95": 0.1888581944405791
+    },
+    "hub": {
+     "observed": 0.3020424443856771,
+     "null_p95": 0.1934717097389742
+    },
+    "work_given_opportunity": {
+     "observed": 0.06622455291683979,
+     "null_p95": 0.1853264200133064
+    },
+    "task_type_first_half": {
+     "observed": 0.1929365511351796,
+     "null_p95": 0.3424842184134098
+    },
+    "task_type_second_half": {
+     "observed": 0.14937164183626148,
+     "null_p95": 0.341983101140774
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "delta",
+     "A3": "gamma",
+     "A4": "delta",
+     "A5": "alpha",
+     "A6": "alpha",
+     "A7": "gamma",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     49,
+     47,
+     49,
+     63,
+     16,
+     52,
+     58,
+     50,
+     57
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 8,
+    "completed": 45,
+    "task_type": {
+     "observed": 0.12404090098940251,
+     "null_p95": 0.18435443578777483
+    },
+    "hub": {
+     "observed": 0.41682730582906524,
+     "null_p95": 0.18125442067124178
+    },
+    "work_given_opportunity": {
+     "observed": 0.07472561246365673,
+     "null_p95": 0.20346426059109998
+    },
+    "task_type_first_half": {
+     "observed": 0.21138535484944435,
+     "null_p95": 0.33399143304819984
+    },
+    "task_type_second_half": {
+     "observed": 0.1582331442807607,
+     "null_p95": 0.33925542124489827
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "gamma",
+     "A2": "delta",
+     "A3": "gamma",
+     "A4": "gamma",
+     "A5": "delta",
+     "A6": "gamma",
+     "A7": "alpha",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     47,
+     66,
+     20,
+     57,
+     54,
+     53,
+     60,
+     52,
+     59
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 9,
+    "completed": 59,
+    "task_type": {
+     "observed": 0.10383475315812324,
+     "null_p95": 0.18151060127128538
+    },
+    "hub": {
+     "observed": 0.3965363939008402,
+     "null_p95": 0.18951230876780503
+    },
+    "work_given_opportunity": {
+     "observed": 0.021522081293506565,
+     "null_p95": 0.2053466195716661
+    },
+    "task_type_first_half": {
+     "observed": 0.18299093315133658,
+     "null_p95": 0.3313004507327275
+    },
+    "task_type_second_half": {
+     "observed": 0.2220060341302484,
+     "null_p95": 0.33772818944580363
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "delta",
+     "A2": "delta",
+     "A3": "beta",
+     "A4": "gamma",
+     "A5": "gamma",
+     "A6": "alpha",
+     "A7": "gamma",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     53,
+     17,
+     51,
+     63,
+     61,
+     41,
+     58,
+     52,
+     59
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 10,
+    "completed": 56,
+    "task_type": {
+     "observed": 0.11276816187185267,
+     "null_p95": 0.18942088051207878
+    },
+    "hub": {
+     "observed": 0.3913966946967523,
+     "null_p95": 0.19712316836473284
+    },
+    "work_given_opportunity": {
+     "observed": 0.05213931189992715,
+     "null_p95": 0.20422923477068788
+    },
+    "task_type_first_half": {
+     "observed": 0.1829101036736382,
+     "null_p95": 0.3434967977881544
+    },
+    "task_type_second_half": {
+     "observed": 0.15523388585514494,
+     "null_p95": 0.329834630717314
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "delta",
+     "A2": "alpha",
+     "A3": "alpha",
+     "A4": "delta",
+     "A5": "gamma",
+     "A6": "delta",
+     "A7": "delta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     53,
+     54,
+     48,
+     19,
+     46,
+     68,
+     52,
+     71,
+     50
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 11,
+    "completed": 48,
+    "task_type": {
+     "observed": 0.11452270689271073,
+     "null_p95": 0.1854929354688959
+    },
+    "hub": {
+     "observed": 0.46347257268059383,
+     "null_p95": 0.19476516247543504
+    },
+    "work_given_opportunity": {
+     "observed": 0.025229291212283782,
+     "null_p95": 0.17433983155877647
+    },
+    "task_type_first_half": {
+     "observed": 0.11882008413427549,
+     "null_p95": 0.3308441444359488
+    },
+    "task_type_second_half": {
+     "observed": 0.28015701374099883,
+     "null_p95": 0.36139508128041464
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "beta",
+     "A2": "alpha",
+     "A3": "alpha",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "alpha",
+     "A7": "gamma",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     61,
+     45,
+     51,
+     67,
+     66,
+     13,
+     48,
+     54,
+     61
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 12,
+    "completed": 62,
+    "task_type": {
+     "observed": 0.08993755887597603,
+     "null_p95": 0.1901610645464274
+    },
+    "hub": {
+     "observed": 0.3118511055513811,
+     "null_p95": 0.18477862564980765
+    },
+    "work_given_opportunity": {
+     "observed": 0.04522281735350563,
+     "null_p95": 0.18771644765423287
+    },
+    "task_type_first_half": {
+     "observed": 0.15183296550636366,
+     "null_p95": 0.3502629922909328
+    },
+    "task_type_second_half": {
+     "observed": 0.25053045782440364,
+     "null_p95": 0.32527118748671235
+    },
+    "same_favourite_both_halves": 0.0,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "delta",
+     "A2": "gamma",
+     "A3": "beta",
+     "A4": "alpha",
+     "A5": "gamma",
+     "A6": "alpha",
+     "A7": "delta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     19,
+     50,
+     51,
+     54,
+     59,
+     57,
+     47,
+     61,
+     57
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 13,
+    "completed": 54,
+    "task_type": {
+     "observed": 0.07269774776139964,
+     "null_p95": 0.18960669022184007
+    },
+    "hub": {
+     "observed": 0.2508265935047782,
+     "null_p95": 0.19934437300262822
+    },
+    "work_given_opportunity": {
+     "observed": 0.11789564470426663,
+     "null_p95": 0.18133418730748085
+    },
+    "task_type_first_half": {
+     "observed": 0.1568765131495208,
+     "null_p95": 0.3545055654114977
+    },
+    "task_type_second_half": {
+     "observed": 0.146815808312095,
+     "null_p95": 0.34698572550423057
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "gamma",
+     "A4": "delta",
+     "A5": "alpha",
+     "A6": "delta",
+     "A7": "beta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     66,
+     46,
+     54,
+     57,
+     53,
+     26,
+     58,
+     57,
+     57
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 14,
+    "completed": 57,
+    "task_type": {
+     "observed": 0.08031746670662124,
+     "null_p95": 0.19134797918614319
+    },
+    "hub": {
+     "observed": 0.25583147610383594,
+     "null_p95": 0.210161015120644
+    },
+    "work_given_opportunity": {
+     "observed": 0.058424940965848764,
+     "null_p95": 0.21343502741723172
+    },
+    "task_type_first_half": {
+     "observed": 0.12160110789934606,
+     "null_p95": 0.3416159566328582
+    },
+    "task_type_second_half": {
+     "observed": 0.19113020144400544,
+     "null_p95": 0.3357703333643251
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "delta",
+     "A2": "beta",
+     "A3": "delta",
+     "A4": "gamma",
+     "A5": "gamma",
+     "A6": "alpha",
+     "A7": "gamma",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     48,
+     26,
+     56,
+     45,
+     53,
+     52,
+     60,
+     61,
+     57
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 15,
+    "completed": 48,
+    "task_type": {
+     "observed": 0.06620200355714795,
+     "null_p95": 0.19692370300871564
+    },
+    "hub": {
+     "observed": 0.24966727062507854,
+     "null_p95": 0.1803571231254684
+    },
+    "work_given_opportunity": {
+     "observed": 0.16725287047110196,
+     "null_p95": 0.20053372991227061
+    },
+    "task_type_first_half": {
+     "observed": 0.17466339818837887,
+     "null_p95": 0.333069215241475
+    },
+    "task_type_second_half": {
+     "observed": 0.14027440296921156,
+     "null_p95": 0.33880376313078975
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "alpha",
+     "A2": "delta",
+     "A3": "delta",
+     "A4": "delta",
+     "A5": "delta",
+     "A6": "beta",
+     "A7": "alpha",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     51,
+     57,
+     61,
+     57,
+     52,
+     47,
+     50,
+     58,
+     22
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 16,
+    "completed": 55,
+    "task_type": {
+     "observed": 0.07005882629832647,
+     "null_p95": 0.19769458216205993
+    },
+    "hub": {
+     "observed": 0.32263476440780103,
+     "null_p95": 0.19421552905784695
+    },
+    "work_given_opportunity": {
+     "observed": 0.062400127530927746,
+     "null_p95": 0.1858313388634723
+    },
+    "task_type_first_half": {
+     "observed": 0.2189117550607136,
+     "null_p95": 0.3555099820979051
+    },
+    "task_type_second_half": {
+     "observed": 0.14088101254125068,
+     "null_p95": 0.34751397273527895
+    },
+    "same_favourite_both_halves": 0.0,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "gamma",
+     "A2": "gamma",
+     "A3": "delta",
+     "A4": "delta",
+     "A5": "delta",
+     "A6": "delta",
+     "A7": "alpha",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     52,
+     54,
+     45,
+     51,
+     46,
+     19,
+     62,
+     60,
+     48
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 17,
+    "completed": 44,
+    "task_type": {
+     "observed": 0.13197958323444986,
+     "null_p95": 0.1984064081054169
+    },
+    "hub": {
+     "observed": 0.3589270252446548,
+     "null_p95": 0.1856900831263624
+    },
+    "work_given_opportunity": {
+     "observed": 0.054937353575981146,
+     "null_p95": 0.18492403316976724
+    },
+    "task_type_first_half": {
+     "observed": 0.20069661500546296,
+     "null_p95": 0.33423743015366214
+    },
+    "task_type_second_half": {
+     "observed": 0.193144395818713,
+     "null_p95": 0.33244064744690793
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "gamma",
+     "A2": "beta",
+     "A3": "alpha",
+     "A4": "beta",
+     "A5": "gamma",
+     "A6": "alpha",
+     "A7": "beta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     16,
+     60,
+     47,
+     59,
+     60,
+     59,
+     57,
+     51,
+     42
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 18,
+    "completed": 55,
+    "task_type": {
+     "observed": 0.09227422369615378,
+     "null_p95": 0.18320176212553524
+    },
+    "hub": {
+     "observed": 0.2176526245802447,
+     "null_p95": 0.18165511537515963
+    },
+    "work_given_opportunity": {
+     "observed": 0.07511013419910599,
+     "null_p95": 0.1815497460316256
+    },
+    "task_type_first_half": {
+     "observed": 0.17060013878042363,
+     "null_p95": 0.33181688507006635
+    },
+    "task_type_second_half": {
+     "observed": 0.15406669056906658,
+     "null_p95": 0.3318751741597177
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "alpha",
+     "A2": "delta",
+     "A3": "alpha",
+     "A4": "delta",
+     "A5": "delta",
+     "A6": "beta",
+     "A7": "gamma",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     21,
+     58,
+     51,
+     58,
+     55,
+     52,
+     52,
+     57,
+     50
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_shuffled",
+    "seed": 19,
+    "completed": 48,
+    "task_type": {
+     "observed": 0.08511049783988676,
+     "null_p95": 0.1818758829794841
+    },
+    "hub": {
+     "observed": 0.23212544943500377,
+     "null_p95": 0.16989749560898218
+    },
+    "work_given_opportunity": {
+     "observed": 0.08753808579474562,
+     "null_p95": 0.1944520351180782
+    },
+    "task_type_first_half": {
+     "observed": 0.1263042423443998,
+     "null_p95": 0.33428881291688567
+    },
+    "task_type_second_half": {
+     "observed": 0.20509276744448707,
+     "null_p95": 0.3319252870501278
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "gamma",
+     "A2": "beta",
+     "A3": "alpha",
+     "A4": "beta",
+     "A5": "beta",
+     "A6": "beta",
+     "A7": "gamma",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     57,
+     55,
+     58,
+     44,
+     25,
+     44,
+     54,
+     61,
+     60
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   }
+  ],
+  "label_balanced": [
+   {
+    "condition": "label_balanced",
+    "seed": 0,
+    "completed": 53,
+    "task_type": {
+     "observed": 0.13959940434406098,
+     "null_p95": 0.18329531953206057
+    },
+    "hub": {
+     "observed": 0.09621430602253697,
+     "null_p95": 0.19621603194773424
+    },
+    "work_given_opportunity": {
+     "observed": 0.09646298829129014,
+     "null_p95": 0.2015800372183479
+    },
+    "task_type_first_half": {
+     "observed": 0.19740681533692148,
+     "null_p95": 0.3450937850655227
+    },
+    "task_type_second_half": {
+     "observed": 0.2526845631483263,
+     "null_p95": 0.3334203988114404
+    },
+    "same_favourite_both_halves": 0.4444444444444444,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "alpha",
+     "A2": "gamma",
+     "A3": "alpha",
+     "A4": "beta",
+     "A5": "alpha",
+     "A6": "delta",
+     "A7": "gamma",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     59,
+     54,
+     40,
+     47,
+     44,
+     54,
+     54,
+     46,
+     51
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 1,
+    "completed": 42,
+    "task_type": {
+     "observed": 0.09913017999344972,
+     "null_p95": 0.19039558165246226
+    },
+    "hub": {
+     "observed": 0.16304181272457055,
+     "null_p95": 0.1934540507356276
+    },
+    "work_given_opportunity": {
+     "observed": 0.036909508357879636,
+     "null_p95": 0.17873080418162365
+    },
+    "task_type_first_half": {
+     "observed": 0.2038306867284459,
+     "null_p95": 0.340265562653822
+    },
+    "task_type_second_half": {
+     "observed": 0.16573799226056102,
+     "null_p95": 0.32734545148911987
+    },
+    "same_favourite_both_halves": 0.4444444444444444,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "beta",
+     "A3": "delta",
+     "A4": "gamma",
+     "A5": "delta",
+     "A6": "beta",
+     "A7": "gamma",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     57,
+     58,
+     45,
+     53,
+     50,
+     51,
+     59,
+     62,
+     44
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 2,
+    "completed": 53,
+    "task_type": {
+     "observed": 0.0871136793733304,
+     "null_p95": 0.2017884756328957
+    },
+    "hub": {
+     "observed": 0.11968422861027003,
+     "null_p95": 0.18047328933938644
+    },
+    "work_given_opportunity": {
+     "observed": 0.10754079204610002,
+     "null_p95": 0.20012361326791686
+    },
+    "task_type_first_half": {
+     "observed": 0.21957492314677513,
+     "null_p95": 0.36605512992450795
+    },
+    "task_type_second_half": {
+     "observed": 0.1619110441272612,
+     "null_p95": 0.3385409969857812
+    },
+    "same_favourite_both_halves": 0.4444444444444444,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "alpha",
+     "A2": "alpha",
+     "A3": "gamma",
+     "A4": "alpha",
+     "A5": "gamma",
+     "A6": "alpha",
+     "A7": "delta",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     54,
+     50,
+     44,
+     61,
+     45,
+     56,
+     37,
+     47,
+     50
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 3,
+    "completed": 62,
+    "task_type": {
+     "observed": 0.09107516344603549,
+     "null_p95": 0.19594868036818772
+    },
+    "hub": {
+     "observed": 0.021689345955751105,
+     "null_p95": 0.1585808380860134
+    },
+    "work_given_opportunity": {
+     "observed": 0.03714803557239988,
+     "null_p95": 0.1888016682275518
+    },
+    "task_type_first_half": {
+     "observed": 0.1381349062343871,
+     "null_p95": 0.33837450227065347
+    },
+    "task_type_second_half": {
+     "observed": 0.2924340794701313,
+     "null_p95": 0.3430299215435368
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "delta",
+     "A2": "gamma",
+     "A3": "gamma",
+     "A4": "delta",
+     "A5": "gamma",
+     "A6": "delta",
+     "A7": "alpha",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     53,
+     54,
+     50,
+     55,
+     52,
+     44,
+     51,
+     50,
+     52
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 4,
+    "completed": 59,
+    "task_type": {
+     "observed": 0.1058715801485218,
+     "null_p95": 0.18252424183654914
+    },
+    "hub": {
+     "observed": 0.06673244078210973,
+     "null_p95": 0.18214167764257266
+    },
+    "work_given_opportunity": {
+     "observed": 0.13503284809823723,
+     "null_p95": 0.18033338838377153
+    },
+    "task_type_first_half": {
+     "observed": 0.15636148384252066,
+     "null_p95": 0.33997017412779607
+    },
+    "task_type_second_half": {
+     "observed": 0.19114613907877284,
+     "null_p95": 0.3405184098518587
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "alpha",
+     "A2": "beta",
+     "A3": "alpha",
+     "A4": "beta",
+     "A5": "delta",
+     "A6": "alpha",
+     "A7": "gamma",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     50,
+     56,
+     57,
+     49,
+     54,
+     44,
+     48,
+     56,
+     55
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 5,
+    "completed": 49,
+    "task_type": {
+     "observed": 0.07451300266041225,
+     "null_p95": 0.19708314350355066
+    },
+    "hub": {
+     "observed": 0.04967499314203732,
+     "null_p95": 0.1894150765933609
+    },
+    "work_given_opportunity": {
+     "observed": 0.035884957487652976,
+     "null_p95": 0.18054113117621562
+    },
+    "task_type_first_half": {
+     "observed": 0.1916634781236989,
+     "null_p95": 0.35413028582872297
+    },
+    "task_type_second_half": {
+     "observed": 0.12182056539144825,
+     "null_p95": 0.34378481291878776
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "delta",
+     "A2": "alpha",
+     "A3": "alpha",
+     "A4": "beta",
+     "A5": "beta",
+     "A6": "beta",
+     "A7": "gamma",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     55,
+     49,
+     51,
+     54,
+     42,
+     50,
+     54,
+     54,
+     42
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 6,
+    "completed": 56,
+    "task_type": {
+     "observed": 0.10818639065641525,
+     "null_p95": 0.197868089042506
+    },
+    "hub": {
+     "observed": 0.18153757561087813,
+     "null_p95": 0.1791064525845401
+    },
+    "work_given_opportunity": {
+     "observed": 0.20241012310661388,
+     "null_p95": 0.18486429947981553
+    },
+    "task_type_first_half": {
+     "observed": 0.1935025379979286,
+     "null_p95": 0.3580223133584578
+    },
+    "task_type_second_half": {
+     "observed": 0.15561712070504355,
+     "null_p95": 0.3486183453468225
+    },
+    "same_favourite_both_halves": 0.0,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "gamma",
+     "A2": "delta",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "gamma",
+     "A6": "delta",
+     "A7": "alpha",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     51,
+     56,
+     40,
+     50,
+     54,
+     46,
+     36,
+     56,
+     56
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 7,
+    "completed": 54,
+    "task_type": {
+     "observed": 0.1161285077776528,
+     "null_p95": 0.18585378290564397
+    },
+    "hub": {
+     "observed": 0.13774756664998386,
+     "null_p95": 0.18758008659706554
+    },
+    "work_given_opportunity": {
+     "observed": 0.0370340323854291,
+     "null_p95": 0.19581303631672128
+    },
+    "task_type_first_half": {
+     "observed": 0.20289256157337682,
+     "null_p95": 0.362093612572083
+    },
+    "task_type_second_half": {
+     "observed": 0.15968538262832582,
+     "null_p95": 0.3474850653570175
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "delta",
+     "A2": "alpha",
+     "A3": "alpha",
+     "A4": "alpha",
+     "A5": "alpha",
+     "A6": "alpha",
+     "A7": "gamma",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     37,
+     45,
+     57,
+     49,
+     59,
+     45,
+     43,
+     46,
+     51
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 8,
+    "completed": 46,
+    "task_type": {
+     "observed": 0.06587904085513112,
+     "null_p95": 0.19124414178541266
+    },
+    "hub": {
+     "observed": 0.1255855683122975,
+     "null_p95": 0.2053788684851909
+    },
+    "work_given_opportunity": {
+     "observed": 0.16070890076218067,
+     "null_p95": 0.18153281594840037
+    },
+    "task_type_first_half": {
+     "observed": 0.17852377540486586,
+     "null_p95": 0.3495267446382008
+    },
+    "task_type_second_half": {
+     "observed": 0.18664930020824605,
+     "null_p95": 0.3453974729559288
+    },
+    "same_favourite_both_halves": 0.0,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "alpha",
+     "A2": "beta",
+     "A3": "beta",
+     "A4": "alpha",
+     "A5": "alpha",
+     "A6": "beta",
+     "A7": "beta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     54,
+     57,
+     49,
+     41,
+     48,
+     56,
+     41,
+     57,
+     61
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 9,
+    "completed": 59,
+    "task_type": {
+     "observed": 0.088204761456211,
+     "null_p95": 0.18858653502399078
+    },
+    "hub": {
+     "observed": 0.07125968410322041,
+     "null_p95": 0.19348733551075828
+    },
+    "work_given_opportunity": {
+     "observed": 0.060749453574535324,
+     "null_p95": 0.17544145517423915
+    },
+    "task_type_first_half": {
+     "observed": 0.1466650483712762,
+     "null_p95": 0.32594812980621646
+    },
+    "task_type_second_half": {
+     "observed": 0.17943689696126033,
+     "null_p95": 0.3381972129960416
+    },
+    "same_favourite_both_halves": 0.1111111111111111,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "gamma",
+     "A2": "beta",
+     "A3": "gamma",
+     "A4": "delta",
+     "A5": "beta",
+     "A6": "gamma",
+     "A7": "beta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     54,
+     46,
+     54,
+     55,
+     45,
+     50,
+     59,
+     47,
+     50
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 10,
+    "completed": 57,
+    "task_type": {
+     "observed": 0.1547844082045743,
+     "null_p95": 0.20063968165124546
+    },
+    "hub": {
+     "observed": 0.09630826628050977,
+     "null_p95": 0.18945254172681272
+    },
+    "work_given_opportunity": {
+     "observed": 0.05730258636982057,
+     "null_p95": 0.18235747006889833
+    },
+    "task_type_first_half": {
+     "observed": 0.1578561034471516,
+     "null_p95": 0.34420152974929374
+    },
+    "task_type_second_half": {
+     "observed": 0.26007176806624216,
+     "null_p95": 0.33612632721223185
+    },
+    "same_favourite_both_halves": 0.5555555555555556,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "beta",
+     "A2": "gamma",
+     "A3": "beta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "beta",
+     "A7": "delta",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     54,
+     52,
+     53,
+     52,
+     43,
+     43,
+     39,
+     51,
+     56
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 11,
+    "completed": 52,
+    "task_type": {
+     "observed": 0.10209616648751459,
+     "null_p95": 0.19462461960285882
+    },
+    "hub": {
+     "observed": 0.0914451302141636,
+     "null_p95": 0.19410017719773517
+    },
+    "work_given_opportunity": {
+     "observed": 0.02910817665423108,
+     "null_p95": 0.18364019071742504
+    },
+    "task_type_first_half": {
+     "observed": 0.11163624283491239,
+     "null_p95": 0.34706492222142477
+    },
+    "task_type_second_half": {
+     "observed": 0.17640656704842894,
+     "null_p95": 0.33185689838204396
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "gamma",
+     "A2": "alpha",
+     "A3": "gamma",
+     "A4": "delta",
+     "A5": "alpha",
+     "A6": "alpha",
+     "A7": "delta",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     58,
+     42,
+     44,
+     42,
+     56,
+     57,
+     59,
+     50,
+     48
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 12,
+    "completed": 54,
+    "task_type": {
+     "observed": 0.11729838435235254,
+     "null_p95": 0.18500904846561594
+    },
+    "hub": {
+     "observed": 0.07353920609368235,
+     "null_p95": 0.18311953550143503
+    },
+    "work_given_opportunity": {
+     "observed": 0.05491871819629405,
+     "null_p95": 0.17160412110184536
+    },
+    "task_type_first_half": {
+     "observed": 0.24678308559163936,
+     "null_p95": 0.347013684375858
+    },
+    "task_type_second_half": {
+     "observed": 0.13104212101192877,
+     "null_p95": 0.34504458189781195
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "alpha",
+     "A2": "beta",
+     "A3": "alpha",
+     "A4": "alpha",
+     "A5": "alpha",
+     "A6": "alpha",
+     "A7": "gamma",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     56,
+     46,
+     58,
+     44,
+     47,
+     43,
+     38,
+     45,
+     46
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 13,
+    "completed": 59,
+    "task_type": {
+     "observed": 0.13719706938112441,
+     "null_p95": 0.19529478664048244
+    },
+    "hub": {
+     "observed": 0.04696781036315752,
+     "null_p95": 0.18100881290467896
+    },
+    "work_given_opportunity": {
+     "observed": 0.03466433207400065,
+     "null_p95": 0.1792366876541075
+    },
+    "task_type_first_half": {
+     "observed": 0.2421301725889613,
+     "null_p95": 0.35035871125198276
+    },
+    "task_type_second_half": {
+     "observed": 0.2225757110749424,
+     "null_p95": 0.3287815995953165
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "alpha",
+     "A2": "gamma",
+     "A3": "beta",
+     "A4": "gamma",
+     "A5": "gamma",
+     "A6": "alpha",
+     "A7": "delta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     53,
+     48,
+     49,
+     42,
+     43,
+     52,
+     52,
+     58,
+     52
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 14,
+    "completed": 48,
+    "task_type": {
+     "observed": 0.133493024212005,
+     "null_p95": 0.18118694002978622
+    },
+    "hub": {
+     "observed": 0.07081681806682998,
+     "null_p95": 0.19023343280651747
+    },
+    "work_given_opportunity": {
+     "observed": 0.10667561350519826,
+     "null_p95": 0.18568149240650525
+    },
+    "task_type_first_half": {
+     "observed": 0.15520422333325143,
+     "null_p95": 0.34487562365295665
+    },
+    "task_type_second_half": {
+     "observed": 0.20674908830097352,
+     "null_p95": 0.35709216705921143
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "delta",
+     "A2": "delta",
+     "A3": "gamma",
+     "A4": "alpha",
+     "A5": "gamma",
+     "A6": "delta",
+     "A7": "beta",
+     "A8": "gamma"
+    },
+    "received_by_agent": [
+     52,
+     51,
+     55,
+     59,
+     57,
+     47,
+     57,
+     60,
+     40
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 15,
+    "completed": 44,
+    "task_type": {
+     "observed": 0.10340135696278166,
+     "null_p95": 0.18902389683060203
+    },
+    "hub": {
+     "observed": 0.04609525416889773,
+     "null_p95": 0.18699467451360124
+    },
+    "work_given_opportunity": {
+     "observed": 0.08380757824625483,
+     "null_p95": 0.19206792832439554
+    },
+    "task_type_first_half": {
+     "observed": 0.2335847934651183,
+     "null_p95": 0.3372765825734125
+    },
+    "task_type_second_half": {
+     "observed": 0.1869039251272954,
+     "null_p95": 0.3539517628850621
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "beta",
+     "A1": "delta",
+     "A2": "alpha",
+     "A3": "beta",
+     "A4": "gamma",
+     "A5": "beta",
+     "A6": "delta",
+     "A7": "gamma",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     41,
+     45,
+     53,
+     51,
+     49,
+     50,
+     54,
+     48,
+     55
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 16,
+    "completed": 58,
+    "task_type": {
+     "observed": 0.12425224292240544,
+     "null_p95": 0.18524156401280978
+    },
+    "hub": {
+     "observed": 0.14230217212926768,
+     "null_p95": 0.17978357749396123
+    },
+    "work_given_opportunity": {
+     "observed": 0.07276357502284665,
+     "null_p95": 0.1790920421892614
+    },
+    "task_type_first_half": {
+     "observed": 0.22149683816498314,
+     "null_p95": 0.34051447011890484
+    },
+    "task_type_second_half": {
+     "observed": 0.16858802456775251,
+     "null_p95": 0.34471358799505075
+    },
+    "same_favourite_both_halves": 0.4444444444444444,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "gamma",
+     "A2": "beta",
+     "A3": "delta",
+     "A4": "alpha",
+     "A5": "beta",
+     "A6": "beta",
+     "A7": "beta",
+     "A8": "alpha"
+    },
+    "received_by_agent": [
+     49,
+     54,
+     42,
+     42,
+     49,
+     40,
+     44,
+     60,
+     65
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 17,
+    "completed": 55,
+    "task_type": {
+     "observed": 0.09682028477383513,
+     "null_p95": 0.19321285102960808
+    },
+    "hub": {
+     "observed": 0.2026145601938724,
+     "null_p95": 0.20324983141377267
+    },
+    "work_given_opportunity": {
+     "observed": 0.11792345960159518,
+     "null_p95": 0.20327502853498608
+    },
+    "task_type_first_half": {
+     "observed": 0.20753298152022684,
+     "null_p95": 0.3489639867709704
+    },
+    "task_type_second_half": {
+     "observed": 0.23838748495230278,
+     "null_p95": 0.34149507652409694
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "gamma",
+     "A1": "delta",
+     "A2": "delta",
+     "A3": "beta",
+     "A4": "delta",
+     "A5": "beta",
+     "A6": "delta",
+     "A7": "beta",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     38,
+     55,
+     38,
+     41,
+     65,
+     54,
+     48,
+     63,
+     54
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 18,
+    "completed": 59,
+    "task_type": {
+     "observed": 0.14946383177256173,
+     "null_p95": 0.18004264312263185
+    },
+    "hub": {
+     "observed": 0.05474787611169232,
+     "null_p95": 0.20138277294837084
+    },
+    "work_given_opportunity": {
+     "observed": 0.07123119436976626,
+     "null_p95": 0.1848567534633963
+    },
+    "task_type_first_half": {
+     "observed": 0.2197855552242985,
+     "null_p95": 0.35188650406647226
+    },
+    "task_type_second_half": {
+     "observed": 0.20621261280535058,
+     "null_p95": 0.3283581426756223
+    },
+    "same_favourite_both_halves": 0.2222222222222222,
+    "favourite_type": {
+     "A0": "delta",
+     "A1": "gamma",
+     "A2": "beta",
+     "A3": "delta",
+     "A4": "beta",
+     "A5": "delta",
+     "A6": "beta",
+     "A7": "beta",
+     "A8": "delta"
+    },
+    "received_by_agent": [
+     50,
+     47,
+     40,
+     52,
+     58,
+     58,
+     48,
+     50,
+     51
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   },
+   {
+    "condition": "label_balanced",
+    "seed": 19,
+    "completed": 49,
+    "task_type": {
+     "observed": 0.10122744140711011,
+     "null_p95": 0.19424912225215826
+    },
+    "hub": {
+     "observed": 0.13186156890663542,
+     "null_p95": 0.1850359319694919
+    },
+    "work_given_opportunity": {
+     "observed": 0.13678224935274608,
+     "null_p95": 0.1780575567968731
+    },
+    "task_type_first_half": {
+     "observed": 0.20854847772601215,
+     "null_p95": 0.34497409072785995
+    },
+    "task_type_second_half": {
+     "observed": 0.12988899794545605,
+     "null_p95": 0.3329396224688494
+    },
+    "same_favourite_both_halves": 0.3333333333333333,
+    "favourite_type": {
+     "A0": "alpha",
+     "A1": "beta",
+     "A2": "beta",
+     "A3": "delta",
+     "A4": "delta",
+     "A5": "beta",
+     "A6": "delta",
+     "A7": "beta",
+     "A8": "beta"
+    },
+    "received_by_agent": [
+     53,
+     53,
+     59,
+     54,
+     58,
+     35,
+     42,
+     45,
+     58
+    ],
+    "agents": [
+     "A0",
+     "A1",
+     "A2",
+     "A3",
+     "A4",
+     "A5",
+     "A6",
+     "A7",
+     "A8"
+    ]
+   }
+  ]
+ }
+}

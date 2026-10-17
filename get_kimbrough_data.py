@@ -339,7 +339,7 @@ def main():
     ap.add_argument("zip", nargs="?", type=Path)
     ap.add_argument("--tidy-only", action="store_true")
     ap.add_argument("--project", type=Path, default=Path.home() / "OS_Special_Issue")
-    ap.add_argument("--drive", type=Path, default=Path("/Volumes/OWC Express 1M2/BeeOrg"))
+    ap.add_argument("--drive", type=Path, default=Path("data"))
     a = ap.parse_args()
     out = a.project / "data" / "kimbrough_2008"
     raw = out / "raw"

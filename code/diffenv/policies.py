@@ -149,6 +149,23 @@ def alias_square(agents: List[str], seed: int) -> Dict[str, Dict[str, str]]:
     return {v: {x: sym[(a[i] + a[j]) % n] for i, x in enumerate(agents)} for j, v in enumerate(agents)}
 
 
+def alias_balanced(agents: List[str], seed: int) -> Dict[str, Dict[str, str]]:
+    """Fully balanced per-viewer names (added 16 Oct 2026).  square[viewer][agent] = "A{k}" with
+    k = (pos[agent] - pos[viewer]) mod n for a seeded permutation `pos`.  Every viewer sees itself
+    as "A0" and its colleagues as A1..A{n-1}; every agent carries each colleague label exactly
+    once across its n-1 observers, so no label (A1 included) can pile up on any agent.
+
+    Why: alias_square gives each viewer a distinct own name, so the agent whose own name is "A1"
+    is never anyone's "A1" and receives less of an "A1" preference -- a residual imbalance the
+    known-answer test (ground_truth.py) detects (hub R 0.32 against 0.19).  This cyclic
+    construction removes it (all labels balanced; own name constant)."""
+    n = len(agents)
+    rng = random.Random(seed * 7919 + 19)
+    order = list(range(n)); rng.shuffle(order)
+    pos = {a: order[i] for i, a in enumerate(agents)}
+    return {v: {x: f"A{(pos[x] - pos[v]) % n}" for x in agents} for v in agents}
+
+
 _NAME_RE = re.compile(r"\bA\d+\b")
 
 
@@ -381,7 +398,10 @@ class LLMPolicy:
                  temperature: float = 1.0, seed: int = 0, n_types: int = 4, exit_allowed: bool = False,
                  budget=None, journal=None, spec_id: str = "unspecified", alias: bool = False):
         assert variant in ("exchangeable", "role", "persona")
-        self.alias = alias_square(agents, seed) if alias else None
+        if alias == "balanced":
+            self.alias = alias_balanced(agents, seed)
+        else:
+            self.alias = alias_square(agents, seed) if alias else None
         self.unalias = ({v: {lab: x for x, lab in view.items()} for v, view in self.alias.items()}
                         if alias else None)
         from .budget import Budget, CallJournal

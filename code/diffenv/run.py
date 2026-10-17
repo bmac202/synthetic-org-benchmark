@@ -55,7 +55,8 @@ def spec_id_for(cond, backend, model, seed, competence, exit_allowed, visibility
     if competence: factors.append("competence")
     if exit_allowed: factors.append("exit")
     if visibility == "private": factors.append("private")
-    if alias: factors.append("alias")
+    if alias == "balanced": factors.append("aliasbal")
+    elif alias: factors.append("alias")
     return f"{cond}" + ("+" + "+".join(factors) if factors else "") + \
            (f"-{backend}-{model}" if cond in ("c1", "c2", "c3") else "") + f"-seed{seed}", factors
 
@@ -104,7 +105,7 @@ def run_one(cond: str, seed: int, backend: str = "mock", model: str = "", temper
     if competence:
         cfg["competence"] = competence_table(env.agents, seed, cfg.n_types)
     is_llm = cond in ("c1", "c2", "c3")
-    alias = bool(cfg.get("alias")) and is_llm
+    alias = (cfg.get("alias") or False) if is_llm else False   # False, True (Latin square) or "balanced"
     spec_id, factors = spec_id_for(cond, backend, model, seed, competence, exit_allowed, cfg.get("visibility", "sampled"), alias)
     if budget is None:
         budget = Budget.from_env()
@@ -192,6 +193,7 @@ def main(argv=None):
     p.add_argument("--visibility", default="sampled", choices=["sampled", "private"], help="sampled: agents sample m open items per round; private: each item is revealed to one agent only")
     p.add_argument("--no-shuffle", dest="shuffle_view", action="store_false", help="present known items sorted by id (the pre-30-Sept behaviour; list-position bias)")
     p.add_argument("--alias", action="store_true", help="show each agent its colleagues under per-viewer labels balanced as a Latin square (removes name-preference bias; LLM conditions only)")
+    p.add_argument("--alias-balanced", action="store_true", help="per-viewer labels in which every agent carries every colleague label exactly once (own name A0 for all); fixes the Latin-square residual. Implies --alias")
     p.add_argument("--draws", type=int, default=200)
     p.add_argument("--out", default="specimens")
     p.add_argument("--rounds", type=int, default=100)
@@ -209,7 +211,7 @@ def main(argv=None):
             run_one(a.condition, s, a.backend, a.model, a.temperature, a.competence, a.exit_allowed,
                     a.draws, a.out, budget=budget, journal_dir=a.journal_dir,
                     rounds=a.rounds, n_agents=a.agents, window=a.window,
-                    visibility=a.visibility, shuffle_view=a.shuffle_view, alias=a.alias)
+                    visibility=a.visibility, shuffle_view=a.shuffle_view, alias=("balanced" if a.alias_balanced else a.alias))
     except BudgetExceeded as e:
         print(f"STOPPED: {e}", file=sys.stderr)
         sys.exit(2)

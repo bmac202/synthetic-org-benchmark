@@ -14,7 +14,7 @@ Usage (Terminal; the download needs your own network, ~3 GB, resumable):
     python3 data/dota_sample/get_dota_sample.py --min-matches 20
 
 Where things go
-  raw CSV:  /Volumes/OWC Express 1M2/BeeOrg/data/raw/opendota_sample/matches_small.csv
+  raw CSV:  data/raw/opendota_sample/matches_small.csv
             (or data/dota_sample/raw/ if the drive is not mounted)
   outputs:  data/dota_sample/out/  (mirrored to BeeOrg/data/processed/opendota_sample/)
     profile.txt           what the sample is: matches, dates, modes, anonymity, repeat players
@@ -38,7 +38,7 @@ from pathlib import Path
 URL = "https://storage.googleapis.com/dota-match-dumps/matches_small.csv"
 ANON = 4294967295
 HERE = Path(__file__).resolve().parent
-DRIVE = Path("/Volumes/OWC Express 1M2/BeeOrg")
+DRIVE = Path(".")
 csv.field_size_limit(sys.maxsize)
 LOBBY = {0: "public", 1: "practice", 2: "tournament", 5: "team", 6: "solo queue",
          7: "ranked", 8: "1v1 mid", -1: "invalid"}

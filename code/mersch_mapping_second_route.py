@@ -70,7 +70,7 @@ counts relabellings directly -- ants with a real label following an `NA` -- rath
 than inferring them. A note contradicted by the number printed beside it is worse
 than no note at all, and this one was.
 
-Run:  python3 mersch_mapping_second_route.py "/Volumes/OWC Express 1M2/BeeOrg/data/raw/mersch_keller_2013"
+Run:  python3 mersch_mapping_second_route.py data/raw/mersch_keller_2013
 """
 from __future__ import annotations
 
