@@ -1,6 +1,7 @@
 Structure-provenance tour: rule-based agents with known sources of differentiation, 5 runs per condition.
-Each value is repeatability R (the share of between-member differences that persists across windows),
-read against the 95th percentile of its own label-permutation null. Simulating........ done in 97 s.
+Questions 1 and 2 use repeatability R (the share of between-member differences that persists across
+windows), read against the 95th percentile of its own label-permutation null. Question 3 uses a
+different measure, continuity of each agent's favorite task across a mid-run history wipe. Simulating........ done in 91 s.
 
 1. IS THERE STRUCTURE?  Does task specialization persist beyond chance?
   No source (identical agents)                 task-type R 0.09 vs baseline 0.19   above in 0 of 5 runs

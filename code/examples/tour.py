@@ -81,8 +81,9 @@ def main():
     n = 3 if a.quick else 5
     t0 = time.time()
     print(f"Structure-provenance tour: rule-based agents with known sources of differentiation, {n} runs per condition.")
-    print("Each value is repeatability R (the share of between-member differences that persists across windows),")
-    print("read against the 95th percentile of its own label-permutation null. Simulating", end="", flush=True)
+    print("Questions 1 and 2 use repeatability R (the share of between-member differences that persists across")
+    print("windows), read against the 95th percentile of its own label-permutation null. Question 3 uses a")
+    print("different measure, continuity of each agent's favorite task across a mid-run history wipe. Simulating", end="", flush=True)
     res = {}
     for c in TOUR:
         res[c] = [run_condition(c, s, 200) for s in range(n)]

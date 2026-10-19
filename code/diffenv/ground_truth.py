@@ -1,35 +1,43 @@
 """Known-answer test of structure-provenance analysis (added 16 Oct 2026).
 
-Does the analysis tell apart differentiation whose source we know by construction?  Six
+Does the analysis tell apart differentiation whose source we know by construction?  Ten
 rule-based conditions run in the same environment, under the same private visibility and with
-the same scoring as the LLM runs; only the agents' decision rule changes.
+the same scoring as the LLM runs; only the agents' decision rule changes. Every condition uses
+one response-threshold rule (Theraulaz et al. 1998) or, for the label conditions, a fixed
+preference for one colleague label.
 
-  none           one response-threshold rule, all thresholds equal and fixed     nothing to find
-  prescribed     the same rule, each agent's thresholds assigned (low on one
-                 type) and fixed                                                  prescribed
-  generated      the same rule, thresholds start equal and are learned: doing a
-                 task type lowers the threshold for it (Theraulaz et al. 1998)    interaction-generated
-  generated,     the same, with every agent's thresholds reset to the common
-   history wiped  start at round 50                                              generated, then erased
-  label bias     identical agents who send tells to the colleague they see
-                 labelled "A1" with probability 0.6                              design-induced
-  label bias,    the same agents with per-viewer shuffled labels as in the LLM reruns
-   labels shuffled (policies.alias_square)                                        artifact largely removed
-  label bias,    the same agents, labels shuffled so that every agent is exactly one
-   balanced       colleague's "A1"                                                artifact removed
+  none                     all thresholds equal and fixed                         nothing to find
+  prescribed               each agent's thresholds assigned (low on one type)
+                           and fixed, by agent index                              prescribed
+  prescribed_random        the same, with the assignment redrawn each run         prescribed
+  prescribed_random_wiped  the same, every agent's thresholds reset at round 50
+                           (assigned thresholds survive the reset)                prescribed
+  generated                thresholds start equal and are learned: working a
+                           type lowers its threshold                              history-dependent
+  generated_wiped          the same, thresholds reset to the common start at
+                           round 50                                               history-dependent, erased
+  generated_isolated       the same learning, but agents never tell colleagues    individual learning only
+  label                    identical agents who tell the colleague they see as
+                           "A1" with probability 0.6                              design-induced
+  label_shuffled           the same with per-viewer Latin-square labels
+                           (policies.alias_square)                                residual hub remains
+  label_balanced           the same with balanced labels: every agent is exactly
+                           one colleague's "A1"                                   artifact removed
 
 Read-outs, per condition over N seeds:
-  Detect      R and its shuffled baseline for task type (favoured-type R), hub (tells
-              received) and work given opportunity; count of seeds above the 95th percentile.
-  Stress-test the label-shuffle rerun of the label-bias condition.
-  Attribute   three signatures that need no access to the agents' internals:
-              growth     task-type R in rounds 1-50 vs 51-100;
-              continuity share of agents whose most-worked type is the same in rounds 1-50
-                         and 51-100, against a null permuting second-half favourites;
-              same agent across runs  how often an agent's favourite type (or hub rank) recurs
-                         across seeds; chance for task type is 1/4.
+  Is there structure?  R and its label-permutation baseline for task type (favored-type R), hub
+                       (tells received) and work given opportunity; count of seeds above the 95th
+                       percentile.
+  Is it robust?        the label conditions under the two shuffles.
+  Where did it come from?  signatures that need no access to the agents' internals:
+              growth      task-type R in rounds 1-50 vs 51-100;
+              continuity  share of agents whose most-worked type is the same in rounds 1-50
+                          and 51-100, against a null permuting second-half favorites; the
+                          wipe contrasts are paired by seed;
+              recurrence  how often an agent's favorite type (or top-receiver rank) recurs
+                          across seeds; chance for task type is 1/4.
 
-    python3 -m diffenv.ground_truth --seeds 10 --out diffenv_results/ground_truth_2026-10-16
+    python3 -m diffenv.ground_truth --seeds 20 --out results/ground_truth
 """
 from __future__ import annotations
 

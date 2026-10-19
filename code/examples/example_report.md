@@ -1,7 +1,7 @@
 # Structure-provenance report
 
 Source: `examples/example_log.csv`  
-Runs: 3; label-permutation baseline: 95th percentile of 200 draws per run and dimension.
+Runs: 3; baseline: 95th percentile of 200 null draws per run and dimension (label permutation within windows for individual, functional and structural; random partner sets for relational).
 
 ## Is there structure? Persistence against each run's own baseline
 

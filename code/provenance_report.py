@@ -17,12 +17,16 @@ LOG FORMAT (CSV, one row per action; header required)
     opportunity  1 if the member had something to work on at this time step, else 0
                  (rows with action "opp"; enables the opportunity-adjusted individual measure)
 
-WHAT THE REPORT COMPUTES, per run, each against its own label-permutation baseline
-(95th percentile of 200 draws that shuffle member labels within each window):
-    individual  work per window (or per opportunity, if supplied)
+WHAT THE REPORT COMPUTES, per run, each against its own dimension-appropriate null baseline
+(the 95th percentile of 200 draws):
+    individual  work per window (or per opportunity, if supplied); repeatability R against a
+                label permutation (member labels shuffled within each window)
     functional  favored-type repeatability: is the type a member favors stable over windows?
-    relational  partner consistency: overlap of a member's partners in consecutive windows
+                (label permutation, as above)
+    relational  partner consistency: overlap of a member's partners in consecutive windows,
+                against random partner sets of the same sizes
     structural  hub persistence: repeatability of interactions received per window
+                (label permutation, as above)
 and, across runs: the count of runs above baseline (about 5% expected by chance), the median
 with a bootstrap 95% interval, and whether the same member holds the top structural position
 in every run (a signature of prescribed or label-induced structure when member identities are
@@ -151,8 +155,9 @@ DIMS = ("individual", "functional", "relational", "structural")
 
 def report(runs, source):
     res = {k: score_run_dims(v) for k, v in runs.items()}
-    L = [f"# Structure-provenance report", "", f"Source: `{source}`  ", f"Runs: {len(res)}; label-permutation baseline: "
-         f"95th percentile of {N_DRAWS} draws per run and dimension.", "",
+    L = [f"# Structure-provenance report", "", f"Source: `{source}`  ", f"Runs: {len(res)}; baseline: 95th percentile of {N_DRAWS} null draws per run and dimension "
+         f"(label permutation within windows for individual, functional and structural; random partner sets "
+         f"for relational).", "",
          "## Is there structure? Persistence against each run's own baseline", "",
          "Each cell is observed persistence / baseline; **bold** = above baseline.", "",
          "| run | " + " | ".join(DIMS) + " | top receiver |", "|---|" + "---|" * (len(DIMS) + 1)]
