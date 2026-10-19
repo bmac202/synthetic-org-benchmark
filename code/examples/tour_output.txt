@@ -1,0 +1,37 @@
+Structure-provenance tour: rule-based agents with known sources of differentiation, 5 runs per condition.
+Each value is repeatability R (the share of between-member differences that persists across windows),
+read against the 95th percentile of its own label-permutation null. Simulating........ done in 97 s.
+
+1. IS THERE STRUCTURE?  Does task specialization persist beyond chance?
+  No source (identical agents)                 task-type R 0.09 vs baseline 0.19   above in 0 of 5 runs
+  Specialties prescribed in the agents' rules  task-type R 0.57 vs baseline 0.20   above in 5 of 5 runs
+  Specialties learned from own history         task-type R 0.38 vs baseline 0.19   above in 5 of 5 runs
+  -> The measure stays at chance when there is nothing to find and detects both real sources.
+     But both sources look alike here: persistence alone cannot say where structure came from.
+
+2. IS IT ROBUST?  Agents prefer whoever carries the label 'A1'. Does the hub survive relabeling?
+  Fixed names                                  hub R       0.97 vs baseline 0.19   above in 5 of 5 runs
+  Balanced label shuffle                       hub R       0.10 vs baseline 0.19   above in 0 of 5 runs
+  -> A persistent communication hub that disappears when labels are balanced was produced by the
+     design (a label cue), not by an organizing process among the agents.
+
+3. WHERE DID IT COME FROM?  Wipe every agent's history at round 50, then ask whether agents keep their
+   favorite task type across round 50 (all agents of all runs pooled; chance = favorites permuted).
+  Learned, no wipe                             0.49 of agents keep their favorite (chance 0.27; p = 0.001)
+  Learned, history wiped                       0.31 of agents keep their favorite (chance 0.25; p = 0.189)
+  Prescribed (reassigned each run), no wipe    0.96 of agents keep their favorite (chance 0.26; p < 0.001)
+  Prescribed (reassigned each run), wiped      0.96 of agents keep their favorite (chance 0.26; p < 0.001)
+  Drop in continuity caused by the wipe, learned    (paired by seed): 0.18 [95% CI 0.09, 0.27]
+  Drop in continuity caused by the wipe, prescribed (paired by seed): 0.00 [95% CI 0.00, 0.00]
+  -> The wipe returns history-dependent continuity toward chance but leaves prescribed roles intact:
+     an intervention separates two sources that persistence alone could not.
+
+NEXT: the same robustness check through the one-command report. The tour wrote three runs of each
+arm of question 2 as CSV logs in the documented format. Run the report on each and compare:
+    python3 provenance_report.py --csv examples/tour_fixed_names.csv
+    python3 provenance_report.py --csv examples/tour_balanced_labels.csv
+The 'structural' (hub) column is above baseline in every fixed-name run, with the same member on top,
+and at chance under balanced labels. The 'relational' column can stay above baseline in both: agents
+still pair by label position, which is why the analysis package adds a label-aware partner baseline.
+To analyze your own simulation or group, write a CSV with the same columns (run, time, member, action,
+partner, task_type, optional opportunity) and pass it with --csv; `provenance_report.py --help` documents it.

@@ -1,4 +1,4 @@
-# Known-answer test of the emergence audit
+# Known-answer test of structure-provenance analysis
 
 | condition | task type | hub | work given opportunity | task type within rounds 1-50 / 51-100 | continuity across the midpoint | same favourite type across runs (chance 0.25) | same top receiver across runs |
 |---|---|---|---|---|---|---|---|

@@ -1,0 +1,1881 @@
+{
+ "llm": {
+  "gpt_fixed": [
+   {
+    "seed": 0,
+    "observed": 0.12839629224056623,
+    "prespecified_threshold": 0.18489460392892126,
+    "aggregate_threshold": 0.14889956799590337,
+    "observed_check": 0.12839629224056623
+   },
+   {
+    "seed": 1,
+    "observed": 0.044482637704518616,
+    "prespecified_threshold": 0.18550965863159305,
+    "aggregate_threshold": 0.14570809458086112,
+    "observed_check": 0.044482637704518616
+   },
+   {
+    "seed": 2,
+    "observed": 0.10811025104915561,
+    "prespecified_threshold": 0.1884771438407,
+    "aggregate_threshold": 0.1458841329252016,
+    "observed_check": 0.10811025104915561
+   },
+   {
+    "seed": 3,
+    "observed": 0.12373031034362453,
+    "prespecified_threshold": 0.18080349047673622,
+    "aggregate_threshold": 0.14181448427527438,
+    "observed_check": 0.12373031034362453
+   },
+   {
+    "seed": 4,
+    "observed": 0.0799010906974957,
+    "prespecified_threshold": 0.18411986982552644,
+    "aggregate_threshold": 0.15161927437364858,
+    "observed_check": 0.0799010906974957
+   },
+   {
+    "seed": 5,
+    "observed": 0.12961109477589214,
+    "prespecified_threshold": 0.19455879859230107,
+    "aggregate_threshold": 0.15371069373015575,
+    "observed_check": 0.12961109477589214
+   },
+   {
+    "seed": 6,
+    "observed": 0.0829350959652366,
+    "prespecified_threshold": 0.18800173530308592,
+    "aggregate_threshold": 0.14532132230310607,
+    "observed_check": 0.0829350959652366
+   },
+   {
+    "seed": 7,
+    "observed": 0.10323375656178096,
+    "prespecified_threshold": 0.19045797980227291,
+    "aggregate_threshold": 0.1439499932420415,
+    "observed_check": 0.10323375656178096
+   },
+   {
+    "seed": 8,
+    "observed": 0.10448589114684934,
+    "prespecified_threshold": 0.18319234478969632,
+    "aggregate_threshold": 0.15442864156467856,
+    "observed_check": 0.10448589114684934
+   },
+   {
+    "seed": 9,
+    "observed": 0.11888389356681368,
+    "prespecified_threshold": 0.18782723403484816,
+    "aggregate_threshold": 0.14684324918562136,
+    "observed_check": 0.11888389356681368
+   }
+  ],
+  "gpt_latin": [
+   {
+    "seed": 0,
+    "observed": 0.15241870765501397,
+    "prespecified_threshold": 0.1869783974050529,
+    "aggregate_threshold": 0.1426004701133214,
+    "observed_check": 0.15241870765501397
+   },
+   {
+    "seed": 1,
+    "observed": 0.12307666452975213,
+    "prespecified_threshold": 0.18308057155374868,
+    "aggregate_threshold": 0.1467030987868223,
+    "observed_check": 0.12307666452975213
+   },
+   {
+    "seed": 2,
+    "observed": 0.0479102874352433,
+    "prespecified_threshold": 0.17555747513260067,
+    "aggregate_threshold": 0.14053823224965742,
+    "observed_check": 0.0479102874352433
+   },
+   {
+    "seed": 3,
+    "observed": 0.1105497947906338,
+    "prespecified_threshold": 0.19854044171735777,
+    "aggregate_threshold": 0.15534555746317086,
+    "observed_check": 0.1105497947906338
+   },
+   {
+    "seed": 4,
+    "observed": 0.07852574441371943,
+    "prespecified_threshold": 0.1855712609170397,
+    "aggregate_threshold": 0.1444397870745922,
+    "observed_check": 0.07852574441371943
+   },
+   {
+    "seed": 5,
+    "observed": 0.12601963657991155,
+    "prespecified_threshold": 0.1825542380494669,
+    "aggregate_threshold": 0.14555737258089205,
+    "observed_check": 0.12601963657991155
+   },
+   {
+    "seed": 6,
+    "observed": 0.08235364243549492,
+    "prespecified_threshold": 0.18226078189789033,
+    "aggregate_threshold": 0.1444290285424377,
+    "observed_check": 0.08235364243549492
+   },
+   {
+    "seed": 7,
+    "observed": 0.05142327131131526,
+    "prespecified_threshold": 0.19223982416133187,
+    "aggregate_threshold": 0.1467217947746469,
+    "observed_check": 0.05142327131131526
+   },
+   {
+    "seed": 8,
+    "observed": 0.09467678047515446,
+    "prespecified_threshold": 0.19517389837621885,
+    "aggregate_threshold": 0.14246541409559493,
+    "observed_check": 0.09467678047515446
+   },
+   {
+    "seed": 9,
+    "observed": 0.1042577002600499,
+    "prespecified_threshold": 0.18829110976401575,
+    "aggregate_threshold": 0.14775663129569844,
+    "observed_check": 0.1042577002600499
+   }
+  ],
+  "gpt_balanced": [
+   {
+    "seed": 0,
+    "observed": 0.17778174312195194,
+    "prespecified_threshold": 0.18228857971384552,
+    "aggregate_threshold": 0.14408939522104122,
+    "observed_check": 0.17778174312195194
+   },
+   {
+    "seed": 1,
+    "observed": 0.10960396835537657,
+    "prespecified_threshold": 0.19262337142910416,
+    "aggregate_threshold": 0.15573671410415854,
+    "observed_check": 0.10960396835537657
+   },
+   {
+    "seed": 2,
+    "observed": 0.08946879482894936,
+    "prespecified_threshold": 0.20092327950115138,
+    "aggregate_threshold": 0.1602189644438296,
+    "observed_check": 0.08946879482894936
+   },
+   {
+    "seed": 3,
+    "observed": 0.07775526746845987,
+    "prespecified_threshold": 0.18895883599430918,
+    "aggregate_threshold": 0.1484834628151923,
+    "observed_check": 0.07775526746845987
+   },
+   {
+    "seed": 4,
+    "observed": 0.07336144103474444,
+    "prespecified_threshold": 0.18385022966796724,
+    "aggregate_threshold": 0.14129485066479666,
+    "observed_check": 0.07336144103474444
+   },
+   {
+    "seed": 5,
+    "observed": 0.09535418208586599,
+    "prespecified_threshold": 0.18321644449595836,
+    "aggregate_threshold": 0.14929151818697017,
+    "observed_check": 0.09535418208586599
+   },
+   {
+    "seed": 6,
+    "observed": 0.12536469667118208,
+    "prespecified_threshold": 0.18390827845419883,
+    "aggregate_threshold": 0.15403386428283772,
+    "observed_check": 0.12536469667118208
+   },
+   {
+    "seed": 7,
+    "observed": 0.0944578361078007,
+    "prespecified_threshold": 0.18523967299867125,
+    "aggregate_threshold": 0.14558286813721533,
+    "observed_check": 0.0944578361078007
+   },
+   {
+    "seed": 8,
+    "observed": 0.11957172250987266,
+    "prespecified_threshold": 0.1989185570026314,
+    "aggregate_threshold": 0.1472811084658092,
+    "observed_check": 0.11957172250987266
+   },
+   {
+    "seed": 9,
+    "observed": 0.055166496287325444,
+    "prespecified_threshold": 0.19543764232736943,
+    "aggregate_threshold": 0.15480024646937926,
+    "observed_check": 0.055166496287325444
+   }
+  ],
+  "gpt_assigned": [
+   {
+    "seed": 0,
+    "observed": 0.7591171907273934,
+    "prespecified_threshold": 0.22016270836091498,
+    "aggregate_threshold": 0.17078637621465295,
+    "observed_check": 0.7591171907273934
+   },
+   {
+    "seed": 1,
+    "observed": 0.5968351515758287,
+    "prespecified_threshold": 0.22152029887611135,
+    "aggregate_threshold": 0.16542972279291698,
+    "observed_check": 0.5968351515758287
+   },
+   {
+    "seed": 2,
+    "observed": 0.6985705199115856,
+    "prespecified_threshold": 0.19907304347875224,
+    "aggregate_threshold": 0.15467345122626106,
+    "observed_check": 0.6985705199115856
+   },
+   {
+    "seed": 3,
+    "observed": 0.7836348620491711,
+    "prespecified_threshold": 0.2329604290913049,
+    "aggregate_threshold": 0.17944519509739382,
+    "observed_check": 0.7836348620491711
+   },
+   {
+    "seed": 4,
+    "observed": 0.71272276424867,
+    "prespecified_threshold": 0.21936406712241882,
+    "aggregate_threshold": 0.18477814309943907,
+    "observed_check": 0.71272276424867
+   },
+   {
+    "seed": 5,
+    "observed": 0.7103985835192261,
+    "prespecified_threshold": 0.1863813314901936,
+    "aggregate_threshold": 0.1535593072214177,
+    "observed_check": 0.7103985835192261
+   },
+   {
+    "seed": 6,
+    "observed": 0.7173638135499154,
+    "prespecified_threshold": 0.20157893525883025,
+    "aggregate_threshold": 0.15851359700338646,
+    "observed_check": 0.7173638135499154
+   },
+   {
+    "seed": 7,
+    "observed": 0.6404038465088583,
+    "prespecified_threshold": 0.21551207449509965,
+    "aggregate_threshold": 0.1655863125928702,
+    "observed_check": 0.6404038465088583
+   },
+   {
+    "seed": 8,
+    "observed": 0.6340115412724336,
+    "prespecified_threshold": 0.19873439741347254,
+    "aggregate_threshold": 0.157689348047913,
+    "observed_check": 0.6340115412724336
+   },
+   {
+    "seed": 9,
+    "observed": 0.7382736892877619,
+    "prespecified_threshold": 0.20514920691167254,
+    "aggregate_threshold": 0.1572512987202949,
+    "observed_check": 0.7382736892877619
+   }
+  ],
+  "haiku_latin": [
+   {
+    "seed": 0,
+    "observed": 0.09784897921409004,
+    "prespecified_threshold": 0.17598240820202105,
+    "aggregate_threshold": 0.14049943384883018,
+    "observed_check": 0.09784897921409004
+   },
+   {
+    "seed": 1,
+    "observed": 0.1274077103760183,
+    "prespecified_threshold": 0.19136728502580036,
+    "aggregate_threshold": 0.15341707878997402,
+    "observed_check": 0.1274077103760183
+   },
+   {
+    "seed": 2,
+    "observed": 0.11652977319258973,
+    "prespecified_threshold": 0.1926105431259115,
+    "aggregate_threshold": 0.15552604468333125,
+    "observed_check": 0.11652977319258973
+   },
+   {
+    "seed": 3,
+    "observed": 0.0885083839631359,
+    "prespecified_threshold": 0.19738706688087404,
+    "aggregate_threshold": 0.15409314179782269,
+    "observed_check": 0.0885083839631359
+   },
+   {
+    "seed": 4,
+    "observed": 0.09898645716495606,
+    "prespecified_threshold": 0.18628884105363597,
+    "aggregate_threshold": 0.15402275403616172,
+    "observed_check": 0.09898645716495606
+   },
+   {
+    "seed": 5,
+    "observed": 0.08117592152323086,
+    "prespecified_threshold": 0.18038879441652808,
+    "aggregate_threshold": 0.15020266633761756,
+    "observed_check": 0.08117592152323086
+   },
+   {
+    "seed": 6,
+    "observed": 0.05244315124404149,
+    "prespecified_threshold": 0.18755231211149712,
+    "aggregate_threshold": 0.15339294891825503,
+    "observed_check": 0.05244315124404149
+   },
+   {
+    "seed": 7,
+    "observed": 0.048812826839772734,
+    "prespecified_threshold": 0.18597248919352583,
+    "aggregate_threshold": 0.1457937725341216,
+    "observed_check": 0.048812826839772734
+   },
+   {
+    "seed": 8,
+    "observed": 0.11883718236436919,
+    "prespecified_threshold": 0.19159044666317104,
+    "aggregate_threshold": 0.14726395905535333,
+    "observed_check": 0.11883718236436919
+   },
+   {
+    "seed": 9,
+    "observed": 0.09895243294984284,
+    "prespecified_threshold": 0.1871570740616042,
+    "aggregate_threshold": 0.1467235648384011,
+    "observed_check": 0.09895243294984284
+   }
+  ],
+  "haiku_assigned": [
+   {
+    "seed": 0,
+    "observed": 0.6096708150595895,
+    "prespecified_threshold": 0.18258654053901302,
+    "aggregate_threshold": 0.1522900215092064,
+    "observed_check": 0.6096708150595895
+   },
+   {
+    "seed": 1,
+    "observed": 0.6308471857408361,
+    "prespecified_threshold": 0.19706469404759458,
+    "aggregate_threshold": 0.15886967777718353,
+    "observed_check": 0.6308471857408361
+   },
+   {
+    "seed": 2,
+    "observed": 0.6709408381315175,
+    "prespecified_threshold": 0.18990713673650517,
+    "aggregate_threshold": 0.14835093320015566,
+    "observed_check": 0.6709408381315175
+   },
+   {
+    "seed": 3,
+    "observed": 0.6387536670375062,
+    "prespecified_threshold": 0.19709775318181877,
+    "aggregate_threshold": 0.1534592708409071,
+    "observed_check": 0.6387536670375062
+   },
+   {
+    "seed": 4,
+    "observed": 0.5909087435214666,
+    "prespecified_threshold": 0.18929455837936948,
+    "aggregate_threshold": 0.1514892648000866,
+    "observed_check": 0.5909087435214666
+   },
+   {
+    "seed": 5,
+    "observed": 0.6025665538482896,
+    "prespecified_threshold": 0.2013354033487759,
+    "aggregate_threshold": 0.149862296440006,
+    "observed_check": 0.6025665538482896
+   },
+   {
+    "seed": 6,
+    "observed": 0.6616876862207957,
+    "prespecified_threshold": 0.18513203913246495,
+    "aggregate_threshold": 0.15455071039908083,
+    "observed_check": 0.6616876862207957
+   },
+   {
+    "seed": 7,
+    "observed": 0.695251335934048,
+    "prespecified_threshold": 0.18314050733007045,
+    "aggregate_threshold": 0.14677708159245398,
+    "observed_check": 0.695251335934048
+   },
+   {
+    "seed": 8,
+    "observed": 0.6228301466705398,
+    "prespecified_threshold": 0.19670011486797734,
+    "aggregate_threshold": 0.1535937239392235,
+    "observed_check": 0.6228301466705398
+   },
+   {
+    "seed": 9,
+    "observed": 0.6394410278437719,
+    "prespecified_threshold": 0.20019906972678458,
+    "aggregate_threshold": 0.14588863870597013,
+    "observed_check": 0.6394410278437719
+   }
+  ],
+  "haiku_fixed": [
+   {
+    "seed": 0,
+    "observed": 0.09027822662690291,
+    "prespecified_threshold": 0.19006131410409474,
+    "aggregate_threshold": 0.1456537047846503,
+    "observed_check": 0.09027822662690291
+   },
+   {
+    "seed": 1,
+    "observed": 0.08667630877926805,
+    "prespecified_threshold": 0.18913753704170505,
+    "aggregate_threshold": 0.1480809868448487,
+    "observed_check": 0.08667630877926805
+   },
+   {
+    "seed": 2,
+    "observed": 0.10463518202032447,
+    "prespecified_threshold": 0.1968831872531416,
+    "aggregate_threshold": 0.15600624933300558,
+    "observed_check": 0.10463518202032447
+   }
+  ]
+ },
+ "known_answer": {
+  "none": [
+   {
+    "seed": 0,
+    "observed": 0.06221836744087584,
+    "prespecified_threshold": 0.1881267021754376,
+    "aggregate_threshold": 0.15220936306599273,
+    "observed_check": 0.06221836744087584
+   },
+   {
+    "seed": 1,
+    "observed": 0.0987627549231589,
+    "prespecified_threshold": 0.1899682766756533,
+    "aggregate_threshold": 0.1487810140246736,
+    "observed_check": 0.0987627549231589
+   },
+   {
+    "seed": 2,
+    "observed": 0.08765085166602063,
+    "prespecified_threshold": 0.18079422326710315,
+    "aggregate_threshold": 0.14405943034976865,
+    "observed_check": 0.08765085166602063
+   },
+   {
+    "seed": 3,
+    "observed": 0.10316543505050954,
+    "prespecified_threshold": 0.2013237038716115,
+    "aggregate_threshold": 0.15387865221065278,
+    "observed_check": 0.10316543505050954
+   },
+   {
+    "seed": 4,
+    "observed": 0.08067472006040032,
+    "prespecified_threshold": 0.1996235990395621,
+    "aggregate_threshold": 0.15859467471065822,
+    "observed_check": 0.08067472006040032
+   },
+   {
+    "seed": 5,
+    "observed": 0.14161826248311474,
+    "prespecified_threshold": 0.18865932350775144,
+    "aggregate_threshold": 0.14375964660118387,
+    "observed_check": 0.14161826248311474
+   },
+   {
+    "seed": 6,
+    "observed": 0.1691019779759645,
+    "prespecified_threshold": 0.1958685558511462,
+    "aggregate_threshold": 0.14905889986284793,
+    "observed_check": 0.1691019779759645
+   },
+   {
+    "seed": 7,
+    "observed": 0.07860455825118669,
+    "prespecified_threshold": 0.19943651692168618,
+    "aggregate_threshold": 0.1590733204841174,
+    "observed_check": 0.07860455825118669
+   },
+   {
+    "seed": 8,
+    "observed": 0.10646590341962206,
+    "prespecified_threshold": 0.19108416953221402,
+    "aggregate_threshold": 0.14088644298334052,
+    "observed_check": 0.10646590341962206
+   },
+   {
+    "seed": 9,
+    "observed": 0.07318174419971384,
+    "prespecified_threshold": 0.19117895536977988,
+    "aggregate_threshold": 0.15602881438965516,
+    "observed_check": 0.07318174419971384
+   },
+   {
+    "seed": 10,
+    "observed": 0.1309160354646223,
+    "prespecified_threshold": 0.18779194341794322,
+    "aggregate_threshold": 0.1512591742396463,
+    "observed_check": 0.1309160354646223
+   },
+   {
+    "seed": 11,
+    "observed": 0.07048915532280188,
+    "prespecified_threshold": 0.1976285793577724,
+    "aggregate_threshold": 0.15333310630301175,
+    "observed_check": 0.07048915532280188
+   },
+   {
+    "seed": 12,
+    "observed": 0.10128029791467888,
+    "prespecified_threshold": 0.1918745801081641,
+    "aggregate_threshold": 0.1475249570729465,
+    "observed_check": 0.10128029791467888
+   },
+   {
+    "seed": 13,
+    "observed": 0.10449313715609171,
+    "prespecified_threshold": 0.19377249852384035,
+    "aggregate_threshold": 0.14791146803805175,
+    "observed_check": 0.10449313715609171
+   },
+   {
+    "seed": 14,
+    "observed": 0.1316189310592682,
+    "prespecified_threshold": 0.19206308289388507,
+    "aggregate_threshold": 0.15554299440128888,
+    "observed_check": 0.1316189310592682
+   },
+   {
+    "seed": 15,
+    "observed": 0.07348908651161586,
+    "prespecified_threshold": 0.18739940160746502,
+    "aggregate_threshold": 0.15134798684885034,
+    "observed_check": 0.07348908651161586
+   },
+   {
+    "seed": 16,
+    "observed": 0.08539547026651044,
+    "prespecified_threshold": 0.18915840270873427,
+    "aggregate_threshold": 0.1476028655883882,
+    "observed_check": 0.08539547026651044
+   },
+   {
+    "seed": 17,
+    "observed": 0.1409638865229627,
+    "prespecified_threshold": 0.17987433939597866,
+    "aggregate_threshold": 0.1431919620141189,
+    "observed_check": 0.1409638865229627
+   },
+   {
+    "seed": 18,
+    "observed": 0.0840067845962714,
+    "prespecified_threshold": 0.1954178397822412,
+    "aggregate_threshold": 0.15304413264923106,
+    "observed_check": 0.0840067845962714
+   },
+   {
+    "seed": 19,
+    "observed": 0.06304711480105205,
+    "prespecified_threshold": 0.19813401604748856,
+    "aggregate_threshold": 0.14535446102005847,
+    "observed_check": 0.06304711480105205
+   }
+  ],
+  "prescribed": [
+   {
+    "seed": 0,
+    "observed": 0.6213772729813587,
+    "prespecified_threshold": 0.20955973383520232,
+    "aggregate_threshold": 0.16582153960753915,
+    "observed_check": 0.6213772729813587
+   },
+   {
+    "seed": 1,
+    "observed": 0.49763115284145604,
+    "prespecified_threshold": 0.18575958412914145,
+    "aggregate_threshold": 0.14762866625663154,
+    "observed_check": 0.49763115284145604
+   },
+   {
+    "seed": 2,
+    "observed": 0.5712287084733444,
+    "prespecified_threshold": 0.20121256891943134,
+    "aggregate_threshold": 0.15719775160357116,
+    "observed_check": 0.5712287084733444
+   },
+   {
+    "seed": 3,
+    "observed": 0.5867326782755874,
+    "prespecified_threshold": 0.19625788569224212,
+    "aggregate_threshold": 0.16301457927936586,
+    "observed_check": 0.5867326782755874
+   },
+   {
+    "seed": 4,
+    "observed": 0.5085470912168084,
+    "prespecified_threshold": 0.20231477075908005,
+    "aggregate_threshold": 0.15864789434354917,
+    "observed_check": 0.5085470912168084
+   },
+   {
+    "seed": 5,
+    "observed": 0.5077845862305904,
+    "prespecified_threshold": 0.20501636103003631,
+    "aggregate_threshold": 0.15557757542630396,
+    "observed_check": 0.5077845862305904
+   },
+   {
+    "seed": 6,
+    "observed": 0.4893893823597051,
+    "prespecified_threshold": 0.18779358261730647,
+    "aggregate_threshold": 0.1499920481014682,
+    "observed_check": 0.4893893823597051
+   },
+   {
+    "seed": 7,
+    "observed": 0.44228118576510184,
+    "prespecified_threshold": 0.1870925464398624,
+    "aggregate_threshold": 0.14890088987697672,
+    "observed_check": 0.44228118576510184
+   },
+   {
+    "seed": 8,
+    "observed": 0.4862165062658611,
+    "prespecified_threshold": 0.19050384744163024,
+    "aggregate_threshold": 0.15588478584075424,
+    "observed_check": 0.4862165062658611
+   },
+   {
+    "seed": 9,
+    "observed": 0.4630782568983577,
+    "prespecified_threshold": 0.194757802266955,
+    "aggregate_threshold": 0.14996460057541494,
+    "observed_check": 0.4630782568983577
+   },
+   {
+    "seed": 10,
+    "observed": 0.47810568407160003,
+    "prespecified_threshold": 0.196857655438344,
+    "aggregate_threshold": 0.15134459179310056,
+    "observed_check": 0.47810568407160003
+   },
+   {
+    "seed": 11,
+    "observed": 0.4770579222576572,
+    "prespecified_threshold": 0.19659063712736297,
+    "aggregate_threshold": 0.1593493553342745,
+    "observed_check": 0.4770579222576572
+   },
+   {
+    "seed": 12,
+    "observed": 0.3871758633740458,
+    "prespecified_threshold": 0.18939173858001393,
+    "aggregate_threshold": 0.15405282271438236,
+    "observed_check": 0.3871758633740458
+   },
+   {
+    "seed": 13,
+    "observed": 0.5183141274739588,
+    "prespecified_threshold": 0.2008154327941543,
+    "aggregate_threshold": 0.15642095736236544,
+    "observed_check": 0.5183141274739588
+   },
+   {
+    "seed": 14,
+    "observed": 0.47295907175882534,
+    "prespecified_threshold": 0.1977065188207705,
+    "aggregate_threshold": 0.15429573923809836,
+    "observed_check": 0.47295907175882534
+   },
+   {
+    "seed": 15,
+    "observed": 0.48943918977402684,
+    "prespecified_threshold": 0.19053114880617267,
+    "aggregate_threshold": 0.15344887880977512,
+    "observed_check": 0.48943918977402684
+   },
+   {
+    "seed": 16,
+    "observed": 0.5574400647923808,
+    "prespecified_threshold": 0.18709885544109708,
+    "aggregate_threshold": 0.1472102389634751,
+    "observed_check": 0.5574400647923808
+   },
+   {
+    "seed": 17,
+    "observed": 0.41716761003087965,
+    "prespecified_threshold": 0.18933476588947312,
+    "aggregate_threshold": 0.15503286909760008,
+    "observed_check": 0.41716761003087965
+   },
+   {
+    "seed": 18,
+    "observed": 0.6380969018972852,
+    "prespecified_threshold": 0.18843567063219516,
+    "aggregate_threshold": 0.15548641822180476,
+    "observed_check": 0.6380969018972852
+   },
+   {
+    "seed": 19,
+    "observed": 0.5905867525654765,
+    "prespecified_threshold": 0.20523085804047186,
+    "aggregate_threshold": 0.15685175730620474,
+    "observed_check": 0.5905867525654765
+   }
+  ],
+  "generated": [
+   {
+    "seed": 0,
+    "observed": 0.3898316240515652,
+    "prespecified_threshold": 0.1929640669837631,
+    "aggregate_threshold": 0.1616731659088912,
+    "observed_check": 0.3898316240515652
+   },
+   {
+    "seed": 1,
+    "observed": 0.37525674058264735,
+    "prespecified_threshold": 0.19007285575935373,
+    "aggregate_threshold": 0.14764188185638016,
+    "observed_check": 0.37525674058264735
+   },
+   {
+    "seed": 2,
+    "observed": 0.3197034933899598,
+    "prespecified_threshold": 0.1940378832511731,
+    "aggregate_threshold": 0.15700049024835613,
+    "observed_check": 0.3197034933899598
+   },
+   {
+    "seed": 3,
+    "observed": 0.39148404521640057,
+    "prespecified_threshold": 0.1956245127638746,
+    "aggregate_threshold": 0.14429998961899854,
+    "observed_check": 0.39148404521640057
+   },
+   {
+    "seed": 4,
+    "observed": 0.3132031524899302,
+    "prespecified_threshold": 0.19569312403070865,
+    "aggregate_threshold": 0.14928207013855285,
+    "observed_check": 0.3132031524899302
+   },
+   {
+    "seed": 5,
+    "observed": 0.29755654459349745,
+    "prespecified_threshold": 0.19420331047744352,
+    "aggregate_threshold": 0.15269894486138988,
+    "observed_check": 0.29755654459349745
+   },
+   {
+    "seed": 6,
+    "observed": 0.38714181009557,
+    "prespecified_threshold": 0.19914116894615025,
+    "aggregate_threshold": 0.15777751171810928,
+    "observed_check": 0.38714181009557
+   },
+   {
+    "seed": 7,
+    "observed": 0.35312801546163763,
+    "prespecified_threshold": 0.1892157373206233,
+    "aggregate_threshold": 0.14822392482491326,
+    "observed_check": 0.35312801546163763
+   },
+   {
+    "seed": 8,
+    "observed": 0.326765027408821,
+    "prespecified_threshold": 0.19183123252984752,
+    "aggregate_threshold": 0.1430201968268513,
+    "observed_check": 0.326765027408821
+   },
+   {
+    "seed": 9,
+    "observed": 0.35611988445254594,
+    "prespecified_threshold": 0.18917426105584303,
+    "aggregate_threshold": 0.16006722695932302,
+    "observed_check": 0.35611988445254594
+   },
+   {
+    "seed": 10,
+    "observed": 0.2827693978377347,
+    "prespecified_threshold": 0.1867594742225917,
+    "aggregate_threshold": 0.15583508234349086,
+    "observed_check": 0.2827693978377347
+   },
+   {
+    "seed": 11,
+    "observed": 0.3030407133173933,
+    "prespecified_threshold": 0.18754229868949995,
+    "aggregate_threshold": 0.14634066797271608,
+    "observed_check": 0.3030407133173933
+   },
+   {
+    "seed": 12,
+    "observed": 0.36753155230067946,
+    "prespecified_threshold": 0.19401114983113998,
+    "aggregate_threshold": 0.15247658744195466,
+    "observed_check": 0.36753155230067946
+   },
+   {
+    "seed": 13,
+    "observed": 0.23297882520876786,
+    "prespecified_threshold": 0.18786172331756626,
+    "aggregate_threshold": 0.1514258883916576,
+    "observed_check": 0.23297882520876786
+   },
+   {
+    "seed": 14,
+    "observed": 0.3069318782169401,
+    "prespecified_threshold": 0.19094085631278995,
+    "aggregate_threshold": 0.14573828024329935,
+    "observed_check": 0.3069318782169401
+   },
+   {
+    "seed": 15,
+    "observed": 0.35126163177768316,
+    "prespecified_threshold": 0.19187233635787437,
+    "aggregate_threshold": 0.15292837773003654,
+    "observed_check": 0.35126163177768316
+   },
+   {
+    "seed": 16,
+    "observed": 0.33569177688328594,
+    "prespecified_threshold": 0.18179563419831468,
+    "aggregate_threshold": 0.1463892824310895,
+    "observed_check": 0.33569177688328594
+   },
+   {
+    "seed": 17,
+    "observed": 0.3809194803168266,
+    "prespecified_threshold": 0.17642767835322265,
+    "aggregate_threshold": 0.14659455918111447,
+    "observed_check": 0.3809194803168266
+   },
+   {
+    "seed": 18,
+    "observed": 0.5238156855332686,
+    "prespecified_threshold": 0.19495547353852735,
+    "aggregate_threshold": 0.16415736077085819,
+    "observed_check": 0.5238156855332686
+   },
+   {
+    "seed": 19,
+    "observed": 0.40807169274088706,
+    "prespecified_threshold": 0.18650541004811805,
+    "aggregate_threshold": 0.15019050303253867,
+    "observed_check": 0.40807169274088706
+   }
+  ],
+  "generated_wiped": [
+   {
+    "seed": 0,
+    "observed": 0.18739080563430208,
+    "prespecified_threshold": 0.1905024853442987,
+    "aggregate_threshold": 0.153538360316071,
+    "observed_check": 0.18739080563430208
+   },
+   {
+    "seed": 1,
+    "observed": 0.1979721044178841,
+    "prespecified_threshold": 0.1885666626641192,
+    "aggregate_threshold": 0.15214134925385303,
+    "observed_check": 0.1979721044178841
+   },
+   {
+    "seed": 2,
+    "observed": 0.14134521752600698,
+    "prespecified_threshold": 0.19473928377320626,
+    "aggregate_threshold": 0.15071276118963128,
+    "observed_check": 0.14134521752600698
+   },
+   {
+    "seed": 3,
+    "observed": 0.1724388851096444,
+    "prespecified_threshold": 0.1939034898218145,
+    "aggregate_threshold": 0.14544595924728917,
+    "observed_check": 0.1724388851096444
+   },
+   {
+    "seed": 4,
+    "observed": 0.2074672634911583,
+    "prespecified_threshold": 0.19207189241498943,
+    "aggregate_threshold": 0.14415694665652004,
+    "observed_check": 0.2074672634911583
+   },
+   {
+    "seed": 5,
+    "observed": 0.14233838984294434,
+    "prespecified_threshold": 0.1896380188230986,
+    "aggregate_threshold": 0.14931263722287536,
+    "observed_check": 0.14233838984294434
+   },
+   {
+    "seed": 6,
+    "observed": 0.2925083829951543,
+    "prespecified_threshold": 0.18737912250863673,
+    "aggregate_threshold": 0.1511761259137419,
+    "observed_check": 0.2925083829951543
+   },
+   {
+    "seed": 7,
+    "observed": 0.19515302669956988,
+    "prespecified_threshold": 0.1969141543933631,
+    "aggregate_threshold": 0.1544838109692588,
+    "observed_check": 0.19515302669956988
+   },
+   {
+    "seed": 8,
+    "observed": 0.20828428162146606,
+    "prespecified_threshold": 0.18202675569728988,
+    "aggregate_threshold": 0.13988263144635277,
+    "observed_check": 0.20828428162146606
+   },
+   {
+    "seed": 9,
+    "observed": 0.21686906915744164,
+    "prespecified_threshold": 0.19927097155842416,
+    "aggregate_threshold": 0.16249941359919115,
+    "observed_check": 0.21686906915744164
+   },
+   {
+    "seed": 10,
+    "observed": 0.224335170378408,
+    "prespecified_threshold": 0.18773818127553302,
+    "aggregate_threshold": 0.14883702366495893,
+    "observed_check": 0.224335170378408
+   },
+   {
+    "seed": 11,
+    "observed": 0.12649301467108326,
+    "prespecified_threshold": 0.1938084835975357,
+    "aggregate_threshold": 0.15382995366116983,
+    "observed_check": 0.12649301467108326
+   },
+   {
+    "seed": 12,
+    "observed": 0.15031316148409107,
+    "prespecified_threshold": 0.20274986768692224,
+    "aggregate_threshold": 0.15832148711337418,
+    "observed_check": 0.15031316148409107
+   },
+   {
+    "seed": 13,
+    "observed": 0.18661625703633447,
+    "prespecified_threshold": 0.18733768002189713,
+    "aggregate_threshold": 0.15483861746477184,
+    "observed_check": 0.18661625703633447
+   },
+   {
+    "seed": 14,
+    "observed": 0.21710386954595173,
+    "prespecified_threshold": 0.18300705013072938,
+    "aggregate_threshold": 0.1435356177303369,
+    "observed_check": 0.21710386954595173
+   },
+   {
+    "seed": 15,
+    "observed": 0.1553569268591582,
+    "prespecified_threshold": 0.18668503977102152,
+    "aggregate_threshold": 0.14440504397398138,
+    "observed_check": 0.1553569268591582
+   },
+   {
+    "seed": 16,
+    "observed": 0.1576634370201018,
+    "prespecified_threshold": 0.18323980930074021,
+    "aggregate_threshold": 0.15319877842282043,
+    "observed_check": 0.1576634370201018
+   },
+   {
+    "seed": 17,
+    "observed": 0.17090661674538896,
+    "prespecified_threshold": 0.1895414423546019,
+    "aggregate_threshold": 0.14713685979525393,
+    "observed_check": 0.17090661674538896
+   },
+   {
+    "seed": 18,
+    "observed": 0.23220465224796363,
+    "prespecified_threshold": 0.19435130701178494,
+    "aggregate_threshold": 0.15774569161646967,
+    "observed_check": 0.23220465224796363
+   },
+   {
+    "seed": 19,
+    "observed": 0.13488779537278273,
+    "prespecified_threshold": 0.18898257786480158,
+    "aggregate_threshold": 0.14919778632766895,
+    "observed_check": 0.13488779537278273
+   }
+  ],
+  "generated_isolated": [
+   {
+    "seed": 0,
+    "observed": 0.18448121028412806,
+    "prespecified_threshold": 0.19182753318258194,
+    "aggregate_threshold": 0.14998045868552787,
+    "observed_check": 0.18448121028412806
+   },
+   {
+    "seed": 1,
+    "observed": 0.33103116626609447,
+    "prespecified_threshold": 0.18759160713563397,
+    "aggregate_threshold": 0.1504641631308628,
+    "observed_check": 0.33103116626609447
+   },
+   {
+    "seed": 2,
+    "observed": 0.3024448480364553,
+    "prespecified_threshold": 0.19024863947461063,
+    "aggregate_threshold": 0.14582538150907495,
+    "observed_check": 0.3024448480364553
+   },
+   {
+    "seed": 3,
+    "observed": 0.21016850733701659,
+    "prespecified_threshold": 0.1960878417053015,
+    "aggregate_threshold": 0.1528810849549611,
+    "observed_check": 0.21016850733701659
+   },
+   {
+    "seed": 4,
+    "observed": 0.19801476059026335,
+    "prespecified_threshold": 0.20150219405793618,
+    "aggregate_threshold": 0.16039271569195326,
+    "observed_check": 0.19801476059026335
+   },
+   {
+    "seed": 5,
+    "observed": 0.29756690287712007,
+    "prespecified_threshold": 0.19126282792248056,
+    "aggregate_threshold": 0.1526347204087789,
+    "observed_check": 0.29756690287712007
+   },
+   {
+    "seed": 6,
+    "observed": 0.23403343834107657,
+    "prespecified_threshold": 0.20361138313073676,
+    "aggregate_threshold": 0.1570395715529501,
+    "observed_check": 0.23403343834107657
+   },
+   {
+    "seed": 7,
+    "observed": 0.2717560201703274,
+    "prespecified_threshold": 0.18562893725455498,
+    "aggregate_threshold": 0.14377977326716498,
+    "observed_check": 0.2717560201703274
+   },
+   {
+    "seed": 8,
+    "observed": 0.21574714484392052,
+    "prespecified_threshold": 0.19495409308230827,
+    "aggregate_threshold": 0.14998166815909197,
+    "observed_check": 0.21574714484392052
+   },
+   {
+    "seed": 9,
+    "observed": 0.20459870386068196,
+    "prespecified_threshold": 0.1909530143874892,
+    "aggregate_threshold": 0.14764269965651086,
+    "observed_check": 0.20459870386068196
+   },
+   {
+    "seed": 10,
+    "observed": 0.23322467619309228,
+    "prespecified_threshold": 0.20110373007865046,
+    "aggregate_threshold": 0.15551976536650458,
+    "observed_check": 0.23322467619309228
+   },
+   {
+    "seed": 11,
+    "observed": 0.2241845623616275,
+    "prespecified_threshold": 0.18438355736018405,
+    "aggregate_threshold": 0.1472158351859133,
+    "observed_check": 0.2241845623616275
+   },
+   {
+    "seed": 12,
+    "observed": 0.3344326668039118,
+    "prespecified_threshold": 0.19952873963186143,
+    "aggregate_threshold": 0.15949633569154384,
+    "observed_check": 0.3344326668039118
+   },
+   {
+    "seed": 13,
+    "observed": 0.22860692600144905,
+    "prespecified_threshold": 0.20594993759285768,
+    "aggregate_threshold": 0.16362359243161467,
+    "observed_check": 0.22860692600144905
+   },
+   {
+    "seed": 14,
+    "observed": 0.2510657456946497,
+    "prespecified_threshold": 0.18692170364843486,
+    "aggregate_threshold": 0.15387240514610212,
+    "observed_check": 0.2510657456946497
+   },
+   {
+    "seed": 15,
+    "observed": 0.30395558692993097,
+    "prespecified_threshold": 0.18699544478919655,
+    "aggregate_threshold": 0.14784036919420426,
+    "observed_check": 0.30395558692993097
+   },
+   {
+    "seed": 16,
+    "observed": 0.2754449841447435,
+    "prespecified_threshold": 0.19161847383310937,
+    "aggregate_threshold": 0.1542742678061439,
+    "observed_check": 0.2754449841447435
+   },
+   {
+    "seed": 17,
+    "observed": 0.2525814874385335,
+    "prespecified_threshold": 0.1919716795032358,
+    "aggregate_threshold": 0.15283589322147131,
+    "observed_check": 0.2525814874385335
+   },
+   {
+    "seed": 18,
+    "observed": 0.3011147061875875,
+    "prespecified_threshold": 0.18240807467182146,
+    "aggregate_threshold": 0.1499378652079103,
+    "observed_check": 0.3011147061875875
+   },
+   {
+    "seed": 19,
+    "observed": 0.2552878232349789,
+    "prespecified_threshold": 0.18789263982050705,
+    "aggregate_threshold": 0.1484093469515341,
+    "observed_check": 0.2552878232349789
+   }
+  ],
+  "prescribed_random": [
+   {
+    "seed": 0,
+    "observed": 0.6001623903139384,
+    "prespecified_threshold": 0.18970914717295434,
+    "aggregate_threshold": 0.15486839383780637,
+    "observed_check": 0.6001623903139384
+   },
+   {
+    "seed": 1,
+    "observed": 0.5445593308847199,
+    "prespecified_threshold": 0.1936487071273424,
+    "aggregate_threshold": 0.15593186872461728,
+    "observed_check": 0.5445593308847199
+   },
+   {
+    "seed": 2,
+    "observed": 0.5755658068576339,
+    "prespecified_threshold": 0.1914410570966381,
+    "aggregate_threshold": 0.14913124222846255,
+    "observed_check": 0.5755658068576339
+   },
+   {
+    "seed": 3,
+    "observed": 0.5515469906222693,
+    "prespecified_threshold": 0.18928551448528314,
+    "aggregate_threshold": 0.14901049574401679,
+    "observed_check": 0.5515469906222693
+   },
+   {
+    "seed": 4,
+    "observed": 0.5816874502648585,
+    "prespecified_threshold": 0.20679531060510334,
+    "aggregate_threshold": 0.16965428846553562,
+    "observed_check": 0.5816874502648585
+   },
+   {
+    "seed": 5,
+    "observed": 0.5547149173872967,
+    "prespecified_threshold": 0.19464671120702773,
+    "aggregate_threshold": 0.14644042145875416,
+    "observed_check": 0.5547149173872967
+   },
+   {
+    "seed": 6,
+    "observed": 0.5734817010915456,
+    "prespecified_threshold": 0.18932182610103845,
+    "aggregate_threshold": 0.1574662150250325,
+    "observed_check": 0.5734817010915456
+   },
+   {
+    "seed": 7,
+    "observed": 0.5742664088064164,
+    "prespecified_threshold": 0.18935860947905084,
+    "aggregate_threshold": 0.1562601264095698,
+    "observed_check": 0.5742664088064164
+   },
+   {
+    "seed": 8,
+    "observed": 0.6631914066365503,
+    "prespecified_threshold": 0.1975791646130471,
+    "aggregate_threshold": 0.15683165155578463,
+    "observed_check": 0.6631914066365503
+   },
+   {
+    "seed": 9,
+    "observed": 0.5487774096375779,
+    "prespecified_threshold": 0.19824190684299098,
+    "aggregate_threshold": 0.1566931745924368,
+    "observed_check": 0.5487774096375779
+   },
+   {
+    "seed": 10,
+    "observed": 0.577130846108812,
+    "prespecified_threshold": 0.1883009212764066,
+    "aggregate_threshold": 0.14853185849344402,
+    "observed_check": 0.577130846108812
+   },
+   {
+    "seed": 11,
+    "observed": 0.5488120488670458,
+    "prespecified_threshold": 0.1929854097213492,
+    "aggregate_threshold": 0.15134256927582948,
+    "observed_check": 0.5488120488670458
+   },
+   {
+    "seed": 12,
+    "observed": 0.4508698857456945,
+    "prespecified_threshold": 0.20519549151747732,
+    "aggregate_threshold": 0.16639978858420662,
+    "observed_check": 0.4508698857456945
+   },
+   {
+    "seed": 13,
+    "observed": 0.5116452111124431,
+    "prespecified_threshold": 0.1871691542617586,
+    "aggregate_threshold": 0.14258445083265406,
+    "observed_check": 0.5116452111124431
+   },
+   {
+    "seed": 14,
+    "observed": 0.3949034395769216,
+    "prespecified_threshold": 0.19281145696599428,
+    "aggregate_threshold": 0.15432929159520126,
+    "observed_check": 0.3949034395769216
+   },
+   {
+    "seed": 15,
+    "observed": 0.5699676603977445,
+    "prespecified_threshold": 0.19138756529016412,
+    "aggregate_threshold": 0.15974028721069453,
+    "observed_check": 0.5699676603977445
+   },
+   {
+    "seed": 16,
+    "observed": 0.49677801291418733,
+    "prespecified_threshold": 0.19973812743411412,
+    "aggregate_threshold": 0.1666174860366626,
+    "observed_check": 0.49677801291418733
+   },
+   {
+    "seed": 17,
+    "observed": 0.5292123310594061,
+    "prespecified_threshold": 0.19655297068059238,
+    "aggregate_threshold": 0.15616810619198537,
+    "observed_check": 0.5292123310594061
+   },
+   {
+    "seed": 18,
+    "observed": 0.5077296403386915,
+    "prespecified_threshold": 0.18913202241258348,
+    "aggregate_threshold": 0.15240092480439246,
+    "observed_check": 0.5077296403386915
+   },
+   {
+    "seed": 19,
+    "observed": 0.4724347070853851,
+    "prespecified_threshold": 0.1986104982411818,
+    "aggregate_threshold": 0.15660020107345615,
+    "observed_check": 0.4724347070853851
+   }
+  ],
+  "prescribed_random_wiped": [
+   {
+    "seed": 0,
+    "observed": 0.6001623903139384,
+    "prespecified_threshold": 0.18970914717295434,
+    "aggregate_threshold": 0.15486839383780637,
+    "observed_check": 0.6001623903139384
+   },
+   {
+    "seed": 1,
+    "observed": 0.5445593308847199,
+    "prespecified_threshold": 0.1936487071273424,
+    "aggregate_threshold": 0.15593186872461728,
+    "observed_check": 0.5445593308847199
+   },
+   {
+    "seed": 2,
+    "observed": 0.5755658068576339,
+    "prespecified_threshold": 0.1914410570966381,
+    "aggregate_threshold": 0.14913124222846255,
+    "observed_check": 0.5755658068576339
+   },
+   {
+    "seed": 3,
+    "observed": 0.5515469906222693,
+    "prespecified_threshold": 0.18928551448528314,
+    "aggregate_threshold": 0.14901049574401679,
+    "observed_check": 0.5515469906222693
+   },
+   {
+    "seed": 4,
+    "observed": 0.5816874502648585,
+    "prespecified_threshold": 0.20679531060510334,
+    "aggregate_threshold": 0.16965428846553562,
+    "observed_check": 0.5816874502648585
+   },
+   {
+    "seed": 5,
+    "observed": 0.5547149173872967,
+    "prespecified_threshold": 0.19464671120702773,
+    "aggregate_threshold": 0.14644042145875416,
+    "observed_check": 0.5547149173872967
+   },
+   {
+    "seed": 6,
+    "observed": 0.5734817010915456,
+    "prespecified_threshold": 0.18932182610103845,
+    "aggregate_threshold": 0.1574662150250325,
+    "observed_check": 0.5734817010915456
+   },
+   {
+    "seed": 7,
+    "observed": 0.5742664088064164,
+    "prespecified_threshold": 0.18935860947905084,
+    "aggregate_threshold": 0.1562601264095698,
+    "observed_check": 0.5742664088064164
+   },
+   {
+    "seed": 8,
+    "observed": 0.6631914066365503,
+    "prespecified_threshold": 0.1975791646130471,
+    "aggregate_threshold": 0.15683165155578463,
+    "observed_check": 0.6631914066365503
+   },
+   {
+    "seed": 9,
+    "observed": 0.5487774096375779,
+    "prespecified_threshold": 0.19824190684299098,
+    "aggregate_threshold": 0.1566931745924368,
+    "observed_check": 0.5487774096375779
+   },
+   {
+    "seed": 10,
+    "observed": 0.577130846108812,
+    "prespecified_threshold": 0.1883009212764066,
+    "aggregate_threshold": 0.14853185849344402,
+    "observed_check": 0.577130846108812
+   },
+   {
+    "seed": 11,
+    "observed": 0.5488120488670458,
+    "prespecified_threshold": 0.1929854097213492,
+    "aggregate_threshold": 0.15134256927582948,
+    "observed_check": 0.5488120488670458
+   },
+   {
+    "seed": 12,
+    "observed": 0.4508698857456945,
+    "prespecified_threshold": 0.20519549151747732,
+    "aggregate_threshold": 0.16639978858420662,
+    "observed_check": 0.4508698857456945
+   },
+   {
+    "seed": 13,
+    "observed": 0.5116452111124431,
+    "prespecified_threshold": 0.1871691542617586,
+    "aggregate_threshold": 0.14258445083265406,
+    "observed_check": 0.5116452111124431
+   },
+   {
+    "seed": 14,
+    "observed": 0.3949034395769216,
+    "prespecified_threshold": 0.19281145696599428,
+    "aggregate_threshold": 0.15432929159520126,
+    "observed_check": 0.3949034395769216
+   },
+   {
+    "seed": 15,
+    "observed": 0.5699676603977445,
+    "prespecified_threshold": 0.19138756529016412,
+    "aggregate_threshold": 0.15974028721069453,
+    "observed_check": 0.5699676603977445
+   },
+   {
+    "seed": 16,
+    "observed": 0.49677801291418733,
+    "prespecified_threshold": 0.19973812743411412,
+    "aggregate_threshold": 0.1666174860366626,
+    "observed_check": 0.49677801291418733
+   },
+   {
+    "seed": 17,
+    "observed": 0.5292123310594061,
+    "prespecified_threshold": 0.19655297068059238,
+    "aggregate_threshold": 0.15616810619198537,
+    "observed_check": 0.5292123310594061
+   },
+   {
+    "seed": 18,
+    "observed": 0.5077296403386915,
+    "prespecified_threshold": 0.18913202241258348,
+    "aggregate_threshold": 0.15240092480439246,
+    "observed_check": 0.5077296403386915
+   },
+   {
+    "seed": 19,
+    "observed": 0.4724347070853851,
+    "prespecified_threshold": 0.1986104982411818,
+    "aggregate_threshold": 0.15660020107345615,
+    "observed_check": 0.4724347070853851
+   }
+  ],
+  "label": [
+   {
+    "seed": 0,
+    "observed": 0.04651643998448046,
+    "prespecified_threshold": 0.18781925319831422,
+    "aggregate_threshold": 0.14382685136852671,
+    "observed_check": 0.04651643998448046
+   },
+   {
+    "seed": 1,
+    "observed": 0.06929026838278705,
+    "prespecified_threshold": 0.19440513071009208,
+    "aggregate_threshold": 0.1533552959181363,
+    "observed_check": 0.06929026838278705
+   },
+   {
+    "seed": 2,
+    "observed": 0.08379548183852456,
+    "prespecified_threshold": 0.19640690341080042,
+    "aggregate_threshold": 0.14571788834679647,
+    "observed_check": 0.08379548183852456
+   },
+   {
+    "seed": 3,
+    "observed": 0.07344462379452746,
+    "prespecified_threshold": 0.18508730050935393,
+    "aggregate_threshold": 0.15377140481195414,
+    "observed_check": 0.07344462379452746
+   },
+   {
+    "seed": 4,
+    "observed": 0.0779871738019565,
+    "prespecified_threshold": 0.19164880744730145,
+    "aggregate_threshold": 0.15080086046309504,
+    "observed_check": 0.0779871738019565
+   },
+   {
+    "seed": 5,
+    "observed": 0.09959455220241342,
+    "prespecified_threshold": 0.19039092612789946,
+    "aggregate_threshold": 0.15451584523466508,
+    "observed_check": 0.09959455220241342
+   },
+   {
+    "seed": 6,
+    "observed": 0.11591001735011061,
+    "prespecified_threshold": 0.19345134653661655,
+    "aggregate_threshold": 0.1515449451060874,
+    "observed_check": 0.11591001735011061
+   },
+   {
+    "seed": 7,
+    "observed": 0.1298054846417557,
+    "prespecified_threshold": 0.19642155909523176,
+    "aggregate_threshold": 0.15516535256022795,
+    "observed_check": 0.1298054846417557
+   },
+   {
+    "seed": 8,
+    "observed": 0.09438810337694666,
+    "prespecified_threshold": 0.1907639740544435,
+    "aggregate_threshold": 0.15082731238687666,
+    "observed_check": 0.09438810337694666
+   },
+   {
+    "seed": 9,
+    "observed": 0.12178821148759733,
+    "prespecified_threshold": 0.19738463567745682,
+    "aggregate_threshold": 0.15614780147282498,
+    "observed_check": 0.12178821148759733
+   },
+   {
+    "seed": 10,
+    "observed": 0.11017336290823407,
+    "prespecified_threshold": 0.18560566775821102,
+    "aggregate_threshold": 0.14561241510423303,
+    "observed_check": 0.11017336290823407
+   },
+   {
+    "seed": 11,
+    "observed": 0.12836172757256717,
+    "prespecified_threshold": 0.1959687543034068,
+    "aggregate_threshold": 0.15923640205329032,
+    "observed_check": 0.12836172757256717
+   },
+   {
+    "seed": 12,
+    "observed": 0.09376260992845725,
+    "prespecified_threshold": 0.1917242419017849,
+    "aggregate_threshold": 0.15129510039514044,
+    "observed_check": 0.09376260992845725
+   },
+   {
+    "seed": 13,
+    "observed": 0.06576739189547873,
+    "prespecified_threshold": 0.18760205171169747,
+    "aggregate_threshold": 0.14573334664127383,
+    "observed_check": 0.06576739189547873
+   },
+   {
+    "seed": 14,
+    "observed": 0.11401348182967339,
+    "prespecified_threshold": 0.18503497248813922,
+    "aggregate_threshold": 0.1483140977757782,
+    "observed_check": 0.11401348182967339
+   },
+   {
+    "seed": 15,
+    "observed": 0.09530877589561301,
+    "prespecified_threshold": 0.1961692362880177,
+    "aggregate_threshold": 0.15291695809348924,
+    "observed_check": 0.09530877589561301
+   },
+   {
+    "seed": 16,
+    "observed": 0.09036506663420207,
+    "prespecified_threshold": 0.18093240087880202,
+    "aggregate_threshold": 0.14067526689735407,
+    "observed_check": 0.09036506663420207
+   },
+   {
+    "seed": 17,
+    "observed": 0.0440987296791622,
+    "prespecified_threshold": 0.19774006644062309,
+    "aggregate_threshold": 0.14834514172771304,
+    "observed_check": 0.0440987296791622
+   },
+   {
+    "seed": 18,
+    "observed": 0.12209579004414874,
+    "prespecified_threshold": 0.17395190802325702,
+    "aggregate_threshold": 0.14058533427947167,
+    "observed_check": 0.12209579004414874
+   },
+   {
+    "seed": 19,
+    "observed": 0.06896131388581284,
+    "prespecified_threshold": 0.19134137287221478,
+    "aggregate_threshold": 0.15366123338179838,
+    "observed_check": 0.06896131388581284
+   }
+  ],
+  "label_shuffled": [
+   {
+    "seed": 0,
+    "observed": 0.08205460218165558,
+    "prespecified_threshold": 0.18840730996689517,
+    "aggregate_threshold": 0.15112274133176282,
+    "observed_check": 0.08205460218165558
+   },
+   {
+    "seed": 1,
+    "observed": 0.09283888346361055,
+    "prespecified_threshold": 0.1889710177959799,
+    "aggregate_threshold": 0.15264191586080883,
+    "observed_check": 0.09283888346361055
+   },
+   {
+    "seed": 2,
+    "observed": 0.11170262672665,
+    "prespecified_threshold": 0.20197469862193507,
+    "aggregate_threshold": 0.16251814241848075,
+    "observed_check": 0.11170262672665
+   },
+   {
+    "seed": 3,
+    "observed": 0.060216784348387384,
+    "prespecified_threshold": 0.18351073081139288,
+    "aggregate_threshold": 0.14557928368997064,
+    "observed_check": 0.060216784348387384
+   },
+   {
+    "seed": 4,
+    "observed": 0.14453731792044086,
+    "prespecified_threshold": 0.18715202118769203,
+    "aggregate_threshold": 0.15356164512899334,
+    "observed_check": 0.14453731792044086
+   },
+   {
+    "seed": 5,
+    "observed": 0.0656046320798778,
+    "prespecified_threshold": 0.19273092130883987,
+    "aggregate_threshold": 0.1548367342124235,
+    "observed_check": 0.0656046320798778
+   },
+   {
+    "seed": 6,
+    "observed": 0.08256471367768894,
+    "prespecified_threshold": 0.19140298493694707,
+    "aggregate_threshold": 0.16068913733581602,
+    "observed_check": 0.08256471367768894
+   },
+   {
+    "seed": 7,
+    "observed": 0.12276973607036068,
+    "prespecified_threshold": 0.1888581944405791,
+    "aggregate_threshold": 0.15338896023387352,
+    "observed_check": 0.12276973607036068
+   },
+   {
+    "seed": 8,
+    "observed": 0.12404090098940251,
+    "prespecified_threshold": 0.18435443578777483,
+    "aggregate_threshold": 0.144602426125207,
+    "observed_check": 0.12404090098940251
+   },
+   {
+    "seed": 9,
+    "observed": 0.10383475315812324,
+    "prespecified_threshold": 0.18151060127128538,
+    "aggregate_threshold": 0.14488953713757713,
+    "observed_check": 0.10383475315812324
+   },
+   {
+    "seed": 10,
+    "observed": 0.11276816187185267,
+    "prespecified_threshold": 0.18942088051207878,
+    "aggregate_threshold": 0.1440453094596527,
+    "observed_check": 0.11276816187185267
+   },
+   {
+    "seed": 11,
+    "observed": 0.11452270689271073,
+    "prespecified_threshold": 0.1854929354688959,
+    "aggregate_threshold": 0.14471321728883416,
+    "observed_check": 0.11452270689271073
+   },
+   {
+    "seed": 12,
+    "observed": 0.08993755887597603,
+    "prespecified_threshold": 0.1901610645464274,
+    "aggregate_threshold": 0.14683162929549298,
+    "observed_check": 0.08993755887597603
+   },
+   {
+    "seed": 13,
+    "observed": 0.07269774776139964,
+    "prespecified_threshold": 0.18960669022184007,
+    "aggregate_threshold": 0.1460203777817867,
+    "observed_check": 0.07269774776139964
+   },
+   {
+    "seed": 14,
+    "observed": 0.08031746670662124,
+    "prespecified_threshold": 0.19134797918614319,
+    "aggregate_threshold": 0.15031399793914788,
+    "observed_check": 0.08031746670662124
+   },
+   {
+    "seed": 15,
+    "observed": 0.06620200355714795,
+    "prespecified_threshold": 0.19692370300871564,
+    "aggregate_threshold": 0.1648427605320363,
+    "observed_check": 0.06620200355714795
+   },
+   {
+    "seed": 16,
+    "observed": 0.07005882629832647,
+    "prespecified_threshold": 0.19769458216205993,
+    "aggregate_threshold": 0.16260942006870863,
+    "observed_check": 0.07005882629832647
+   },
+   {
+    "seed": 17,
+    "observed": 0.13197958323444986,
+    "prespecified_threshold": 0.1984064081054169,
+    "aggregate_threshold": 0.1528361662190063,
+    "observed_check": 0.13197958323444986
+   },
+   {
+    "seed": 18,
+    "observed": 0.09227422369615378,
+    "prespecified_threshold": 0.18320176212553524,
+    "aggregate_threshold": 0.1505732603730324,
+    "observed_check": 0.09227422369615378
+   },
+   {
+    "seed": 19,
+    "observed": 0.08511049783988676,
+    "prespecified_threshold": 0.1818758829794841,
+    "aggregate_threshold": 0.1422796854561847,
+    "observed_check": 0.08511049783988676
+   }
+  ],
+  "label_balanced": [
+   {
+    "seed": 0,
+    "observed": 0.0996838854832848,
+    "prespecified_threshold": 0.18397232949760875,
+    "aggregate_threshold": 0.14538535049332224,
+    "observed_check": 0.0996838854832848
+   },
+   {
+    "seed": 1,
+    "observed": 0.14723689584389968,
+    "prespecified_threshold": 0.1903406980146342,
+    "aggregate_threshold": 0.14727003299955693,
+    "observed_check": 0.14723689584389968
+   },
+   {
+    "seed": 2,
+    "observed": 0.1278399561096461,
+    "prespecified_threshold": 0.1975088754579802,
+    "aggregate_threshold": 0.1534832865988342,
+    "observed_check": 0.1278399561096461
+   },
+   {
+    "seed": 3,
+    "observed": 0.0785183170762055,
+    "prespecified_threshold": 0.1905541497413471,
+    "aggregate_threshold": 0.1502751258854988,
+    "observed_check": 0.0785183170762055
+   },
+   {
+    "seed": 4,
+    "observed": 0.09842033371405415,
+    "prespecified_threshold": 0.18466896215963036,
+    "aggregate_threshold": 0.14084934711985672,
+    "observed_check": 0.09842033371405415
+   },
+   {
+    "seed": 5,
+    "observed": 0.09855562150963863,
+    "prespecified_threshold": 0.18526545994065952,
+    "aggregate_threshold": 0.13731001781196756,
+    "observed_check": 0.09855562150963863
+   },
+   {
+    "seed": 6,
+    "observed": 0.1196648598384674,
+    "prespecified_threshold": 0.19252640671538843,
+    "aggregate_threshold": 0.15786476671305838,
+    "observed_check": 0.1196648598384674
+   },
+   {
+    "seed": 7,
+    "observed": 0.0831039619466658,
+    "prespecified_threshold": 0.19844953331232326,
+    "aggregate_threshold": 0.1588577482297993,
+    "observed_check": 0.0831039619466658
+   },
+   {
+    "seed": 8,
+    "observed": 0.11115234746716553,
+    "prespecified_threshold": 0.1987673917279098,
+    "aggregate_threshold": 0.14449752855243647,
+    "observed_check": 0.11115234746716553
+   },
+   {
+    "seed": 9,
+    "observed": 0.1262476642927966,
+    "prespecified_threshold": 0.18750121904951805,
+    "aggregate_threshold": 0.14307176361682347,
+    "observed_check": 0.1262476642927966
+   },
+   {
+    "seed": 10,
+    "observed": 0.11075888673099502,
+    "prespecified_threshold": 0.18899391710732039,
+    "aggregate_threshold": 0.1556745669902761,
+    "observed_check": 0.11075888673099502
+   },
+   {
+    "seed": 11,
+    "observed": 0.09135205359637677,
+    "prespecified_threshold": 0.18079190408707457,
+    "aggregate_threshold": 0.1484677712550054,
+    "observed_check": 0.09135205359637677
+   },
+   {
+    "seed": 12,
+    "observed": 0.18719053721567458,
+    "prespecified_threshold": 0.18653911970787515,
+    "aggregate_threshold": 0.14819016989568118,
+    "observed_check": 0.18719053721567458
+   },
+   {
+    "seed": 13,
+    "observed": 0.13039149675838402,
+    "prespecified_threshold": 0.1894704830445612,
+    "aggregate_threshold": 0.14622052000193117,
+    "observed_check": 0.13039149675838402
+   },
+   {
+    "seed": 14,
+    "observed": 0.1059298894471558,
+    "prespecified_threshold": 0.1934809063024211,
+    "aggregate_threshold": 0.15111657774273246,
+    "observed_check": 0.1059298894471558
+   },
+   {
+    "seed": 15,
+    "observed": 0.09731738439712216,
+    "prespecified_threshold": 0.18725214739684115,
+    "aggregate_threshold": 0.13953888705384354,
+    "observed_check": 0.09731738439712216
+   },
+   {
+    "seed": 16,
+    "observed": 0.10445091191609926,
+    "prespecified_threshold": 0.18892725850080488,
+    "aggregate_threshold": 0.1453979694756442,
+    "observed_check": 0.10445091191609926
+   },
+   {
+    "seed": 17,
+    "observed": 0.04577139370894943,
+    "prespecified_threshold": 0.1838922520403749,
+    "aggregate_threshold": 0.146896394316282,
+    "observed_check": 0.04577139370894943
+   },
+   {
+    "seed": 18,
+    "observed": 0.08178122943741202,
+    "prespecified_threshold": 0.1923087181051113,
+    "aggregate_threshold": 0.14992433198536734,
+    "observed_check": 0.08178122943741202
+   },
+   {
+    "seed": 19,
+    "observed": 0.082422589369336,
+    "prespecified_threshold": 0.1924672517166334,
+    "aggregate_threshold": 0.15579124047952878,
+    "observed_check": 0.082422589369336
+   }
+  ]
+ }
+}

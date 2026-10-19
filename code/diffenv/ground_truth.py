@@ -1,6 +1,6 @@
-"""Known-answer test of the emergence audit (added 16 Oct 2026, after Evaluation 2).
+"""Known-answer test of structure-provenance analysis (added 16 Oct 2026).
 
-Does the audit tell apart differentiation whose source we know by construction?  Six
+Does the analysis tell apart differentiation whose source we know by construction?  Six
 rule-based conditions run in the same environment, under the same private visibility and with
 the same scoring as the LLM runs; only the agents' decision rule changes.
 
@@ -18,7 +18,7 @@ the same scoring as the LLM runs; only the agents' decision rule changes.
   label bias,    the same agents, labels shuffled so that every agent is exactly one
    balanced       colleague's "A1"                                                artifact removed
 
-Audit read-outs, per condition over N seeds:
+Read-outs, per condition over N seeds:
   Detect      R and its shuffled baseline for task type (favoured-type R), hub (tells
               received) and work given opportunity; count of seeds above the 95th percentile.
   Stress-test the label-shuffle rerun of the label-bias condition.
@@ -317,7 +317,7 @@ def main(argv=None):
         print(cond, json.dumps({k: (v.get("median", v.get("observed")) if isinstance(v, dict) else v) for k, v in summ[cond].items()}))
     con = contrasts(runs)
     json.dump({"summary": summ, "contrasts": con, "runs": runs}, open(os.path.join(a.out, "ground_truth.json"), "w"), indent=1, default=str)
-    md = "# Known-answer test of the emergence audit\n\n" + table_md(summ) + "\n"
+    md = "# Known-answer test of structure-provenance analysis\n\n" + table_md(summ) + "\n"
     md += "\n## Contrasts (95% bootstrap intervals over runs)\n\n" + "\n".join(
         f"- {k}: {v['mean_difference']:+.2f} [{v['ci95'][0]:+.2f}, {v['ci95'][1]:+.2f}]" for k, v in con.items()) + "\n"
     md += "\nMean items an agent could work per round (median over runs): " + ", ".join(

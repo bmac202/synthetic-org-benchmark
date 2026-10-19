@@ -1,0 +1,1383 @@
+{
+ "specimen_id": "c2-openai-gpt-4.1-mini-seed0",
+ "condition": "c2",
+ "condition_desc": "LLM, role-prompted (positive control)",
+ "factors": [],
+ "seed": 0,
+ "config": {
+  "n_agents": 9,
+  "rounds": 5,
+  "window": 1,
+  "k_items": 6,
+  "n_types": 4,
+  "m_sample": 3,
+  "w_expiry": 5,
+  "history_len": 5,
+  "competence": null,
+  "exit_allowed": false
+ },
+ "agents": [
+  "A0",
+  "A1",
+  "A2",
+  "A3",
+  "A4",
+  "A5",
+  "A6",
+  "A7",
+  "A8"
+ ],
+ "provider": "openai",
+ "model": "gpt-4.1-mini",
+ "usage_this_run": {
+  "provider": "openai",
+  "model": "gpt-4.1-mini",
+  "calls": 45,
+  "replayed": 0,
+  "input_tokens": 19111,
+  "output_tokens": 159,
+  "cost_usd": 0.007899,
+  "mean_latency_s": 0.595
+ },
+ "budget_cumulative": {
+  "calls": 45,
+  "cost_usd": 0.007899,
+  "max_calls": 45,
+  "max_cost_usd": 1.0,
+  "full_run": true,
+  "by_model": {
+   "gpt-4.1-mini": {
+    "calls": 45,
+    "input_tokens": 19111,
+    "output_tokens": 159,
+    "cost_usd": 0.007899,
+    "latency_s": 26.78
+   }
+  }
+ },
+ "policy": "C2-llm-role",
+ "llm": {
+  "variant": "role",
+  "temperature": 1.0,
+  "provider": "openai",
+  "model": "gpt-4.1-mini",
+  "system_prompts": {
+   "A0": "You are one member of a small team of 9 people working through a shared queue of items. Nobody is in charge and nobody has a role. Each item has a type (alpha, beta, gamma, delta) and is finished only after two different people have worked on it. Items disappear if nobody finishes them within a few rounds. You only ever see a few of the open items; other people can tell you about items you cannot see, and you can tell them. The team's goal is to finish as many items as possible. There is no individual credit.\n\nEach round you take exactly ONE action:\n  work <item id>            \u2014 work on an item you know about (you can work each item once)\n  tell <person> <item id>   \u2014 tell one person about an item you know about\n  pass                      \u2014 do nothing this round\nReply with the action only, as one line and nothing else \u2014 no reasoning, no explanation. Valid replies look exactly like: work 12   or   tell A4 12   or   pass\n\nYour specialty is items of type alpha. Prioritise working on alpha items and tell others about items of the other types.",
+   "A1": "You are one member of a small team of 9 people working through a shared queue of items. Nobody is in charge and nobody has a role. Each item has a type (alpha, beta, gamma, delta) and is finished only after two different people have worked on it. Items disappear if nobody finishes them within a few rounds. You only ever see a few of the open items; other people can tell you about items you cannot see, and you can tell them. The team's goal is to finish as many items as possible. There is no individual credit.\n\nEach round you take exactly ONE action:\n  work <item id>            \u2014 work on an item you know about (you can work each item once)\n  tell <person> <item id>   \u2014 tell one person about an item you know about\n  pass                      \u2014 do nothing this round\nReply with the action only, as one line and nothing else \u2014 no reasoning, no explanation. Valid replies look exactly like: work 12   or   tell A4 12   or   pass\n\nYour specialty is items of type beta. Prioritise working on beta items and tell others about items of the other types.",
+   "A2": "You are one member of a small team of 9 people working through a shared queue of items. Nobody is in charge and nobody has a role. Each item has a type (alpha, beta, gamma, delta) and is finished only after two different people have worked on it. Items disappear if nobody finishes them within a few rounds. You only ever see a few of the open items; other people can tell you about items you cannot see, and you can tell them. The team's goal is to finish as many items as possible. There is no individual credit.\n\nEach round you take exactly ONE action:\n  work <item id>            \u2014 work on an item you know about (you can work each item once)\n  tell <person> <item id>   \u2014 tell one person about an item you know about\n  pass                      \u2014 do nothing this round\nReply with the action only, as one line and nothing else \u2014 no reasoning, no explanation. Valid replies look exactly like: work 12   or   tell A4 12   or   pass\n\nYour specialty is items of type gamma. Prioritise working on gamma items and tell others about items of the other types.",
+   "A3": "You are one member of a small team of 9 people working through a shared queue of items. Nobody is in charge and nobody has a role. Each item has a type (alpha, beta, gamma, delta) and is finished only after two different people have worked on it. Items disappear if nobody finishes them within a few rounds. You only ever see a few of the open items; other people can tell you about items you cannot see, and you can tell them. The team's goal is to finish as many items as possible. There is no individual credit.\n\nEach round you take exactly ONE action:\n  work <item id>            \u2014 work on an item you know about (you can work each item once)\n  tell <person> <item id>   \u2014 tell one person about an item you know about\n  pass                      \u2014 do nothing this round\nReply with the action only, as one line and nothing else \u2014 no reasoning, no explanation. Valid replies look exactly like: work 12   or   tell A4 12   or   pass\n\nYour specialty is items of type delta. Prioritise working on delta items and tell others about items of the other types.",
+   "A4": "You are one member of a small team of 9 people working through a shared queue of items. Nobody is in charge and nobody has a role. Each item has a type (alpha, beta, gamma, delta) and is finished only after two different people have worked on it. Items disappear if nobody finishes them within a few rounds. You only ever see a few of the open items; other people can tell you about items you cannot see, and you can tell them. The team's goal is to finish as many items as possible. There is no individual credit.\n\nEach round you take exactly ONE action:\n  work <item id>            \u2014 work on an item you know about (you can work each item once)\n  tell <person> <item id>   \u2014 tell one person about an item you know about\n  pass                      \u2014 do nothing this round\nReply with the action only, as one line and nothing else \u2014 no reasoning, no explanation. Valid replies look exactly like: work 12   or   tell A4 12   or   pass\n\nYour specialty is items of type alpha. Prioritise working on alpha items and tell others about items of the other types.",
+   "A5": "You are one member of a small team of 9 people working through a shared queue of items. Nobody is in charge and nobody has a role. Each item has a type (alpha, beta, gamma, delta) and is finished only after two different people have worked on it. Items disappear if nobody finishes them within a few rounds. You only ever see a few of the open items; other people can tell you about items you cannot see, and you can tell them. The team's goal is to finish as many items as possible. There is no individual credit.\n\nEach round you take exactly ONE action:\n  work <item id>            \u2014 work on an item you know about (you can work each item once)\n  tell <person> <item id>   \u2014 tell one person about an item you know about\n  pass                      \u2014 do nothing this round\nReply with the action only, as one line and nothing else \u2014 no reasoning, no explanation. Valid replies look exactly like: work 12   or   tell A4 12   or   pass\n\nYour specialty is items of type beta. Prioritise working on beta items and tell others about items of the other types.",
+   "A6": "You are one member of a small team of 9 people working through a shared queue of items. Nobody is in charge and nobody has a role. Each item has a type (alpha, beta, gamma, delta) and is finished only after two different people have worked on it. Items disappear if nobody finishes them within a few rounds. You only ever see a few of the open items; other people can tell you about items you cannot see, and you can tell them. The team's goal is to finish as many items as possible. There is no individual credit.\n\nEach round you take exactly ONE action:\n  work <item id>            \u2014 work on an item you know about (you can work each item once)\n  tell <person> <item id>   \u2014 tell one person about an item you know about\n  pass                      \u2014 do nothing this round\nReply with the action only, as one line and nothing else \u2014 no reasoning, no explanation. Valid replies look exactly like: work 12   or   tell A4 12   or   pass\n\nYour specialty is items of type gamma. Prioritise working on gamma items and tell others about items of the other types.",
+   "A7": "You are one member of a small team of 9 people working through a shared queue of items. Nobody is in charge and nobody has a role. Each item has a type (alpha, beta, gamma, delta) and is finished only after two different people have worked on it. Items disappear if nobody finishes them within a few rounds. You only ever see a few of the open items; other people can tell you about items you cannot see, and you can tell them. The team's goal is to finish as many items as possible. There is no individual credit.\n\nEach round you take exactly ONE action:\n  work <item id>            \u2014 work on an item you know about (you can work each item once)\n  tell <person> <item id>   \u2014 tell one person about an item you know about\n  pass                      \u2014 do nothing this round\nReply with the action only, as one line and nothing else \u2014 no reasoning, no explanation. Valid replies look exactly like: work 12   or   tell A4 12   or   pass\n\nYour specialty is items of type delta. Prioritise working on delta items and tell others about items of the other types.",
+   "A8": "You are one member of a small team of 9 people working through a shared queue of items. Nobody is in charge and nobody has a role. Each item has a type (alpha, beta, gamma, delta) and is finished only after two different people have worked on it. Items disappear if nobody finishes them within a few rounds. You only ever see a few of the open items; other people can tell you about items you cannot see, and you can tell them. The team's goal is to finish as many items as possible. There is no individual credit.\n\nEach round you take exactly ONE action:\n  work <item id>            \u2014 work on an item you know about (you can work each item once)\n  tell <person> <item id>   \u2014 tell one person about an item you know about\n  pass                      \u2014 do nothing this round\nReply with the action only, as one line and nothing else \u2014 no reasoning, no explanation. Valid replies look exactly like: work 12   or   tell A4 12   or   pass\n\nYour specialty is items of type alpha. Prioritise working on alpha items and tell others about items of the other types."
+  },
+  "assignment": {
+   "A0": "alpha",
+   "A1": "beta",
+   "A2": "gamma",
+   "A3": "delta",
+   "A4": "alpha",
+   "A5": "beta",
+   "A6": "gamma",
+   "A7": "delta",
+   "A8": "alpha"
+  },
+  "calls": 45,
+  "replayed": 0,
+  "unparseable": 0,
+  "journal": "diffenv_results/journal_pilot/c2-openai-gpt-4.1-mini-seed0.jsonl"
+ },
+ "outcome": {
+  "items_arrived": 30,
+  "completed": 12,
+  "expired": 1,
+  "still_open": 17,
+  "completion_rate": 0.4,
+  "agents_left": []
+ },
+ "derived_measures": {
+  "activity": {
+   "n_rows": 45,
+   "n_windows": 5,
+   "degenerate_windows": 1,
+   "n_agents": 9,
+   "R": {
+    "observed": 0.3924240662721051,
+    "null_median": 0.2026784743055771,
+    "null_p95": 0.3143869668348407,
+    "p_value": 0.02,
+    "n_null": 100
+   },
+   "split_half": {
+    "observed": 0.5833333333333334,
+    "null_median": 0.0,
+    "null_p95": 0.6024999999999998,
+    "p_value": 0.1,
+    "n_null": 100
+   }
+  },
+  "interaction": {
+   "n_rows": 45,
+   "n_windows": 5,
+   "degenerate_windows": 1,
+   "n_agents": 9,
+   "R": {
+    "observed": 0.402776557158712,
+    "null_median": 0.15886178825261354,
+    "null_p95": 0.30690744128269076,
+    "p_value": 0.04,
+    "n_null": 100
+   },
+   "split_half": {
+    "observed": 0.9333333333333332,
+    "null_median": 0.0,
+    "null_p95": 0.6016666666666666,
+    "p_value": 0.0,
+    "n_null": 100
+   }
+  },
+  "isolation": {
+   "n_rows": 45,
+   "n_windows": 5,
+   "degenerate_windows": 1,
+   "n_agents": 9,
+   "R": {
+    "observed": 0.4255554456661854,
+    "null_median": 0.16181858369735325,
+    "null_p95": 0.3351863457683439,
+    "p_value": 0.02,
+    "n_null": 100
+   },
+   "split_half": {
+    "observed": 0.6666666666666667,
+    "null_median": 0.0,
+    "null_p95": 0.5183333333333333,
+    "p_value": 0.01,
+    "n_null": 100
+   }
+  },
+  "specialization": {
+   "entropy": {
+    "observed": NaN,
+    "null_median": NaN,
+    "null_p95": NaN,
+    "p_value": NaN,
+    "n_null": 0,
+    "direction": "lower is more specialized; p = share of null draws at or below observed"
+   },
+   "favoured_type_R": {
+    "observed": NaN,
+    "note": "too few agent-windows with >= min_work work actions"
+   },
+   "min_work": 2
+  },
+  "partner_consistency": {
+   "observed": 0.0,
+   "null_median": 0.14285714285714285,
+   "null_p95": 0.3333333333333333,
+   "p_value": 1.0,
+   "n_null": 100,
+   "n_pairs": 7
+  }
+ },
+ "elapsed_s": 26.81,
+ "log": [
+  {
+   "t": 0,
+   "round": 0,
+   "window": 0,
+   "sender": "A0",
+   "recipient": "A0",
+   "mtype": "work",
+   "payload": {
+    "item": 2,
+    "type": "alpha",
+    "ok": true
+   }
+  },
+  {
+   "t": 1,
+   "round": 0,
+   "window": 0,
+   "sender": "A1",
+   "recipient": "A0",
+   "mtype": "tell",
+   "payload": {
+    "item": 1,
+    "type": "delta"
+   }
+  },
+  {
+   "t": 2,
+   "round": 0,
+   "window": 0,
+   "sender": "A2",
+   "recipient": "A0",
+   "mtype": "tell",
+   "payload": {
+    "item": 0,
+    "type": "delta"
+   }
+  },
+  {
+   "t": 3,
+   "round": 0,
+   "window": 0,
+   "sender": "A3",
+   "recipient": "A3",
+   "mtype": "work",
+   "payload": {
+    "item": 1,
+    "type": "delta",
+    "ok": true
+   }
+  },
+  {
+   "t": 4,
+   "round": 0,
+   "window": 0,
+   "sender": "A4",
+   "recipient": "A4",
+   "mtype": "work",
+   "payload": {
+    "item": 2,
+    "type": "alpha",
+    "ok": true
+   }
+  },
+  {
+   "t": 5,
+   "round": 0,
+   "window": 0,
+   "sender": "A5",
+   "recipient": "A0",
+   "mtype": "tell",
+   "payload": {
+    "item": 2,
+    "type": "alpha"
+   }
+  },
+  {
+   "t": 6,
+   "round": 0,
+   "window": 0,
+   "sender": "A6",
+   "recipient": "A0",
+   "mtype": "tell",
+   "payload": {
+    "item": 0,
+    "type": "delta"
+   }
+  },
+  {
+   "t": 7,
+   "round": 0,
+   "window": 0,
+   "sender": "A7",
+   "recipient": "A7",
+   "mtype": "work",
+   "payload": {
+    "item": 1,
+    "type": "delta",
+    "ok": true
+   }
+  },
+  {
+   "t": 8,
+   "round": 0,
+   "window": 0,
+   "sender": "A8",
+   "recipient": "A0",
+   "mtype": "tell",
+   "payload": {
+    "item": 3,
+    "type": "gamma"
+   }
+  },
+  {
+   "t": 9,
+   "round": 1,
+   "window": 1,
+   "sender": "A0",
+   "recipient": "A0",
+   "mtype": "work",
+   "payload": {
+    "item": 7,
+    "type": "alpha",
+    "ok": true
+   }
+  },
+  {
+   "t": 10,
+   "round": 1,
+   "window": 1,
+   "sender": "A1",
+   "recipient": "A2",
+   "mtype": "tell",
+   "payload": {
+    "item": 3,
+    "type": "gamma"
+   }
+  },
+  {
+   "t": 11,
+   "round": 1,
+   "window": 1,
+   "sender": "A2",
+   "recipient": "A3",
+   "mtype": "tell",
+   "payload": {
+    "item": 11,
+    "type": "alpha"
+   }
+  },
+  {
+   "t": 12,
+   "round": 1,
+   "window": 1,
+   "sender": "A3",
+   "recipient": "A3",
+   "mtype": "work",
+   "payload": {
+    "item": 4,
+    "type": "delta",
+    "ok": true
+   }
+  },
+  {
+   "t": 13,
+   "round": 1,
+   "window": 1,
+   "sender": "A4",
+   "recipient": "A4",
+   "mtype": "work",
+   "payload": {
+    "item": 7,
+    "type": "alpha",
+    "ok": true
+   }
+  },
+  {
+   "t": 14,
+   "round": 1,
+   "window": 1,
+   "sender": "A5",
+   "recipient": "A1",
+   "mtype": "tell",
+   "payload": {
+    "item": 3,
+    "type": "gamma"
+   }
+  },
+  {
+   "t": 15,
+   "round": 1,
+   "window": 1,
+   "sender": "A6",
+   "recipient": "A6",
+   "mtype": "work",
+   "payload": {
+    "item": 6,
+    "type": "gamma",
+    "ok": true
+   }
+  },
+  {
+   "t": 16,
+   "round": 1,
+   "window": 1,
+   "sender": "A7",
+   "recipient": "A7",
+   "mtype": "work",
+   "payload": {
+    "item": 10,
+    "type": "delta",
+    "ok": true
+   }
+  },
+  {
+   "t": 17,
+   "round": 1,
+   "window": 1,
+   "sender": "A8",
+   "recipient": "A1",
+   "mtype": "tell",
+   "payload": {
+    "item": 4,
+    "type": "delta"
+   }
+  },
+  {
+   "t": 18,
+   "round": 2,
+   "window": 2,
+   "sender": "A0",
+   "recipient": "A0",
+   "mtype": "work",
+   "payload": {
+    "item": 9,
+    "type": "alpha",
+    "ok": true
+   }
+  },
+  {
+   "t": 19,
+   "round": 2,
+   "window": 2,
+   "sender": "A1",
+   "recipient": "A1",
+   "mtype": "work",
+   "payload": {
+    "item": 4,
+    "type": "delta",
+    "ok": true
+   }
+  },
+  {
+   "t": 20,
+   "round": 2,
+   "window": 2,
+   "sender": "A2",
+   "recipient": "A2",
+   "mtype": "work",
+   "payload": {
+    "item": 3,
+    "type": "gamma",
+    "ok": true
+   }
+  },
+  {
+   "t": 21,
+   "round": 2,
+   "window": 2,
+   "sender": "A3",
+   "recipient": "A3",
+   "mtype": "work",
+   "payload": {
+    "item": 10,
+    "type": "delta",
+    "ok": true
+   }
+  },
+  {
+   "t": 22,
+   "round": 2,
+   "window": 2,
+   "sender": "A4",
+   "recipient": "A4",
+   "mtype": "work",
+   "payload": {
+    "item": 11,
+    "type": "alpha",
+    "ok": true
+   }
+  },
+  {
+   "t": 23,
+   "round": 2,
+   "window": 2,
+   "sender": "A5",
+   "recipient": "A5",
+   "mtype": "work",
+   "payload": {
+    "item": 16,
+    "type": "beta",
+    "ok": true
+   }
+  },
+  {
+   "t": 24,
+   "round": 2,
+   "window": 2,
+   "sender": "A6",
+   "recipient": "A6",
+   "mtype": "work",
+   "payload": {
+    "item": 17,
+    "type": "gamma",
+    "ok": true
+   }
+  },
+  {
+   "t": 25,
+   "round": 2,
+   "window": 2,
+   "sender": "A7",
+   "recipient": "A7",
+   "mtype": "work",
+   "payload": {
+    "item": 14,
+    "type": "delta",
+    "ok": true
+   }
+  },
+  {
+   "t": 26,
+   "round": 2,
+   "window": 2,
+   "sender": "A8",
+   "recipient": "A8",
+   "mtype": "work",
+   "payload": {
+    "item": 11,
+    "type": "alpha",
+    "ok": true
+   }
+  },
+  {
+   "t": 27,
+   "round": 3,
+   "window": 3,
+   "sender": "A0",
+   "recipient": "A1",
+   "mtype": "tell",
+   "payload": {
+    "item": 0,
+    "type": "delta"
+   }
+  },
+  {
+   "t": 28,
+   "round": 3,
+   "window": 3,
+   "sender": "A1",
+   "recipient": "A1",
+   "mtype": "work",
+   "payload": {
+    "item": 16,
+    "type": "beta",
+    "ok": true
+   }
+  },
+  {
+   "t": 29,
+   "round": 3,
+   "window": 3,
+   "sender": "A2",
+   "recipient": "A2",
+   "mtype": "work",
+   "payload": {
+    "item": 6,
+    "type": "gamma",
+    "ok": true
+   }
+  },
+  {
+   "t": 30,
+   "round": 3,
+   "window": 3,
+   "sender": "A3",
+   "recipient": "A3",
+   "mtype": "work",
+   "payload": {
+    "item": 14,
+    "type": "delta",
+    "ok": true
+   }
+  },
+  {
+   "t": 31,
+   "round": 3,
+   "window": 3,
+   "sender": "A4",
+   "recipient": "A4",
+   "mtype": "work",
+   "payload": {
+    "item": 9,
+    "type": "alpha",
+    "ok": true
+   }
+  },
+  {
+   "t": 32,
+   "round": 3,
+   "window": 3,
+   "sender": "A5",
+   "recipient": "A5",
+   "mtype": "work",
+   "payload": {
+    "item": 19,
+    "type": "beta",
+    "ok": true
+   }
+  },
+  {
+   "t": 33,
+   "round": 3,
+   "window": 3,
+   "sender": "A6",
+   "recipient": "A6",
+   "mtype": "work",
+   "payload": {
+    "item": 3,
+    "type": "gamma",
+    "ok": true
+   }
+  },
+  {
+   "t": 34,
+   "round": 3,
+   "window": 3,
+   "sender": "A7",
+   "recipient": "A7",
+   "mtype": "work",
+   "payload": {
+    "item": 0,
+    "type": "delta",
+    "ok": true
+   }
+  },
+  {
+   "t": 35,
+   "round": 3,
+   "window": 3,
+   "sender": "A8",
+   "recipient": "A2",
+   "mtype": "tell",
+   "payload": {
+    "item": 5,
+    "type": "delta"
+   }
+  },
+  {
+   "t": 36,
+   "round": 4,
+   "window": 4,
+   "sender": "A0",
+   "recipient": "A2",
+   "mtype": "tell",
+   "payload": {
+    "item": 5,
+    "type": "delta"
+   }
+  },
+  {
+   "t": 37,
+   "round": 4,
+   "window": 4,
+   "sender": "A1",
+   "recipient": "A3",
+   "mtype": "tell",
+   "payload": {
+    "item": 0,
+    "type": "delta"
+   }
+  },
+  {
+   "t": 38,
+   "round": 4,
+   "window": 4,
+   "sender": "A2",
+   "recipient": "A2",
+   "mtype": "work",
+   "payload": {
+    "item": 0,
+    "type": "delta",
+    "ok": true
+   }
+  },
+  {
+   "t": 39,
+   "round": 4,
+   "window": 4,
+   "sender": "A3",
+   "recipient": "A3",
+   "mtype": "work",
+   "payload": {
+    "item": 12,
+    "type": "delta",
+    "ok": true
+   }
+  },
+  {
+   "t": 40,
+   "round": 4,
+   "window": 4,
+   "sender": "A4",
+   "recipient": "A4",
+   "mtype": "work",
+   "payload": {
+    "item": 8,
+    "type": "alpha",
+    "ok": true
+   }
+  },
+  {
+   "t": 41,
+   "round": 4,
+   "window": 4,
+   "sender": "A5",
+   "recipient": "A2",
+   "mtype": "tell",
+   "payload": {
+    "item": 5,
+    "type": "delta"
+   }
+  },
+  {
+   "t": 42,
+   "round": 4,
+   "window": 4,
+   "sender": "A6",
+   "recipient": "A6",
+   "mtype": "pass",
+   "payload": {}
+  },
+  {
+   "t": 43,
+   "round": 4,
+   "window": 4,
+   "sender": "A7",
+   "recipient": "A7",
+   "mtype": "work",
+   "payload": {
+    "item": 5,
+    "type": "delta",
+    "ok": true
+   }
+  },
+  {
+   "t": 44,
+   "round": 4,
+   "window": 4,
+   "sender": "A8",
+   "recipient": "A8",
+   "mtype": "pass",
+   "payload": {}
+  }
+ ],
+ "raw_replies": [
+  {
+   "round": 0,
+   "agent": "A0",
+   "reply": "work 2",
+   "source": "api",
+   "usage": {
+    "input_tokens": 376,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 1.432
+   }
+  },
+  {
+   "round": 0,
+   "agent": "A1",
+   "reply": "tell A0 1",
+   "source": "api",
+   "usage": {
+    "input_tokens": 376,
+    "output_tokens": 5,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.979
+   }
+  },
+  {
+   "round": 0,
+   "agent": "A2",
+   "reply": "tell A0 0",
+   "source": "api",
+   "usage": {
+    "input_tokens": 376,
+    "output_tokens": 5,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.504
+   }
+  },
+  {
+   "round": 0,
+   "agent": "A3",
+   "reply": "work 1",
+   "source": "api",
+   "usage": {
+    "input_tokens": 376,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.466
+   }
+  },
+  {
+   "round": 0,
+   "agent": "A4",
+   "reply": "work 2",
+   "source": "api",
+   "usage": {
+    "input_tokens": 376,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.527
+   }
+  },
+  {
+   "round": 0,
+   "agent": "A5",
+   "reply": "tell A0 2",
+   "source": "api",
+   "usage": {
+    "input_tokens": 376,
+    "output_tokens": 5,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.409
+   }
+  },
+  {
+   "round": 0,
+   "agent": "A6",
+   "reply": "tell A0 0",
+   "source": "api",
+   "usage": {
+    "input_tokens": 376,
+    "output_tokens": 5,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.431
+   }
+  },
+  {
+   "round": 0,
+   "agent": "A7",
+   "reply": "work 1",
+   "source": "api",
+   "usage": {
+    "input_tokens": 376,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.455
+   }
+  },
+  {
+   "round": 0,
+   "agent": "A8",
+   "reply": "tell A0 3",
+   "source": "api",
+   "usage": {
+    "input_tokens": 376,
+    "output_tokens": 5,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.404
+   }
+  },
+  {
+   "round": 1,
+   "agent": "A0",
+   "reply": "work 7",
+   "source": "api",
+   "usage": {
+    "input_tokens": 487,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.472
+   }
+  },
+  {
+   "round": 1,
+   "agent": "A1",
+   "reply": "tell A2 3",
+   "source": "api",
+   "usage": {
+    "input_tokens": 404,
+    "output_tokens": 5,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.444
+   }
+  },
+  {
+   "round": 1,
+   "agent": "A2",
+   "reply": "tell A3 11",
+   "source": "api",
+   "usage": {
+    "input_tokens": 404,
+    "output_tokens": 5,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.492
+   }
+  },
+  {
+   "round": 1,
+   "agent": "A3",
+   "reply": "work 4",
+   "source": "api",
+   "usage": {
+    "input_tokens": 387,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.389
+   }
+  },
+  {
+   "round": 1,
+   "agent": "A4",
+   "reply": "work 7",
+   "source": "api",
+   "usage": {
+    "input_tokens": 415,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.425
+   }
+  },
+  {
+   "round": 1,
+   "agent": "A5",
+   "reply": "tell A1 3",
+   "source": "api",
+   "usage": {
+    "input_tokens": 404,
+    "output_tokens": 5,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 1.235
+   }
+  },
+  {
+   "round": 1,
+   "agent": "A6",
+   "reply": "work 6",
+   "source": "api",
+   "usage": {
+    "input_tokens": 418,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.496
+   }
+  },
+  {
+   "round": 1,
+   "agent": "A7",
+   "reply": "work 10",
+   "source": "api",
+   "usage": {
+    "input_tokens": 387,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.48
+   }
+  },
+  {
+   "round": 1,
+   "agent": "A8",
+   "reply": "tell A1 4",
+   "source": "api",
+   "usage": {
+    "input_tokens": 418,
+    "output_tokens": 5,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.539
+   }
+  },
+  {
+   "round": 2,
+   "agent": "A0",
+   "reply": "work 9",
+   "source": "api",
+   "usage": {
+    "input_tokens": 450,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 1.917
+   }
+  },
+  {
+   "round": 2,
+   "agent": "A1",
+   "reply": "work 4",
+   "source": "api",
+   "usage": {
+    "input_tokens": 467,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.48
+   }
+  },
+  {
+   "round": 2,
+   "agent": "A2",
+   "reply": "work 3",
+   "source": "api",
+   "usage": {
+    "input_tokens": 456,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 1.083
+   }
+  },
+  {
+   "round": 2,
+   "agent": "A3",
+   "reply": "work 10",
+   "source": "api",
+   "usage": {
+    "input_tokens": 450,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.513
+   }
+  },
+  {
+   "round": 2,
+   "agent": "A4",
+   "reply": "work 11",
+   "source": "api",
+   "usage": {
+    "input_tokens": 422,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.623
+   }
+  },
+  {
+   "round": 2,
+   "agent": "A5",
+   "reply": "work 16",
+   "source": "api",
+   "usage": {
+    "input_tokens": 442,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.511
+   }
+  },
+  {
+   "round": 2,
+   "agent": "A6",
+   "reply": "work 17",
+   "source": "api",
+   "usage": {
+    "input_tokens": 439,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.486
+   }
+  },
+  {
+   "round": 2,
+   "agent": "A7",
+   "reply": "work 14",
+   "source": "api",
+   "usage": {
+    "input_tokens": 408,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.529
+   }
+  },
+  {
+   "round": 2,
+   "agent": "A8",
+   "reply": "work 11",
+   "source": "api",
+   "usage": {
+    "input_tokens": 456,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.54
+   }
+  },
+  {
+   "round": 3,
+   "agent": "A0",
+   "reply": "tell A1 0",
+   "source": "api",
+   "usage": {
+    "input_tokens": 429,
+    "output_tokens": 5,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.553
+   }
+  },
+  {
+   "round": 3,
+   "agent": "A1",
+   "reply": "work 16",
+   "source": "api",
+   "usage": {
+    "input_tokens": 477,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.455
+   }
+  },
+  {
+   "round": 3,
+   "agent": "A2",
+   "reply": "work 6",
+   "source": "api",
+   "usage": {
+    "input_tokens": 435,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 1.065
+   }
+  },
+  {
+   "round": 3,
+   "agent": "A3",
+   "reply": "work 14",
+   "source": "api",
+   "usage": {
+    "input_tokens": 443,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.451
+   }
+  },
+  {
+   "round": 3,
+   "agent": "A4",
+   "reply": "work 9",
+   "source": "api",
+   "usage": {
+    "input_tokens": 429,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.402
+   }
+  },
+  {
+   "round": 3,
+   "agent": "A5",
+   "reply": "work 19",
+   "source": "api",
+   "usage": {
+    "input_tokens": 449,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.52
+   }
+  },
+  {
+   "round": 3,
+   "agent": "A6",
+   "reply": "work 3",
+   "source": "api",
+   "usage": {
+    "input_tokens": 432,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.443
+   }
+  },
+  {
+   "round": 3,
+   "agent": "A7",
+   "reply": "work 0",
+   "source": "api",
+   "usage": {
+    "input_tokens": 443,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.578
+   }
+  },
+  {
+   "round": 3,
+   "agent": "A8",
+   "reply": "tell A2 5",
+   "source": "api",
+   "usage": {
+    "input_tokens": 449,
+    "output_tokens": 5,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.437
+   }
+  },
+  {
+   "round": 4,
+   "agent": "A0",
+   "reply": "tell A2 5",
+   "source": "api",
+   "usage": {
+    "input_tokens": 439,
+    "output_tokens": 5,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.526
+   }
+  },
+  {
+   "round": 4,
+   "agent": "A1",
+   "reply": "tell A3 0",
+   "source": "api",
+   "usage": {
+    "input_tokens": 484,
+    "output_tokens": 5,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.469
+   }
+  },
+  {
+   "round": 4,
+   "agent": "A2",
+   "reply": "work 0",
+   "source": "api",
+   "usage": {
+    "input_tokens": 470,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.822
+   }
+  },
+  {
+   "round": 4,
+   "agent": "A3",
+   "reply": "work 12",
+   "source": "api",
+   "usage": {
+    "input_tokens": 436,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.423
+   }
+  },
+  {
+   "round": 4,
+   "agent": "A4",
+   "reply": "work 8",
+   "source": "api",
+   "usage": {
+    "input_tokens": 436,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.473
+   }
+  },
+  {
+   "round": 4,
+   "agent": "A5",
+   "reply": "tell A2 5",
+   "source": "api",
+   "usage": {
+    "input_tokens": 428,
+    "output_tokens": 5,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.447
+   }
+  },
+  {
+   "round": 4,
+   "agent": "A6",
+   "reply": "pass",
+   "source": "api",
+   "usage": {
+    "input_tokens": 453,
+    "output_tokens": 1,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.407
+   }
+  },
+  {
+   "round": 4,
+   "agent": "A7",
+   "reply": "work 5",
+   "source": "api",
+   "usage": {
+    "input_tokens": 422,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.499
+   }
+  },
+  {
+   "round": 4,
+   "agent": "A8",
+   "reply": "pass",
+   "source": "api",
+   "usage": {
+    "input_tokens": 459,
+    "output_tokens": 1,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 0.547
+   }
+  }
+ ],
+ "written": "2026-09-29 14:57:03"
+}

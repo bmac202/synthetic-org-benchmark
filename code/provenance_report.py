@@ -1,8 +1,8 @@
-"""One-command audit report for any compatible activity log.
+"""One-command structure-provenance report for any compatible activity log.
 
-    python3 audit_report.py --csv examples/example_log.csv          # a log in the documented format
-    python3 audit_report.py --specimens diffenv_results/balanced_2026-10-17/specimens
-    python3 audit_report.py --specimens <dir> --out report.md       # also write the report to a file
+    python3 provenance_report.py --csv examples/example_log.csv          # a log in the documented format
+    python3 provenance_report.py --specimens diffenv_results/balanced_2026-10-17/specimens
+    python3 provenance_report.py --specimens <dir> --out report.md       # also write the report to a file
 
 No API key, no network. Writes a Markdown report to stdout (and to --out).
 
@@ -99,7 +99,7 @@ def runs_from_specimens(paths):
     return out
 
 
-def audit_run(run):
+def score_run_dims(run):
     log, ag, nW, W, opp = run["log"], run["agents"], run["n_windows"], run["window"], run["opportunity"]
     work = defaultdict(int); rec = defaultdict(int); types = defaultdict(Counter); partners = defaultdict(set)
     for m in log:
@@ -150,10 +150,10 @@ DIMS = ("individual", "functional", "relational", "structural")
 
 
 def report(runs, source):
-    res = {k: audit_run(v) for k, v in runs.items()}
-    L = [f"# Emergence audit report", "", f"Source: `{source}`  ", f"Runs: {len(res)}; label-permutation baseline: "
+    res = {k: score_run_dims(v) for k, v in runs.items()}
+    L = [f"# Structure-provenance report", "", f"Source: `{source}`  ", f"Runs: {len(res)}; label-permutation baseline: "
          f"95th percentile of {N_DRAWS} draws per run and dimension.", "",
-         "## Step 1. Detect: persistence against each run's own baseline", "",
+         "## Is there structure? Persistence against each run's own baseline", "",
          "Each cell is observed persistence / baseline; **bold** = above baseline.", "",
          "| run | " + " | ".join(DIMS) + " | top receiver |", "|---|" + "---|" * (len(DIMS) + 1)]
     fmt = lambda o, b: ("n/a" if np.isnan(o) else (f"**{o:.2f}** / {b:.2f}" if o > b else f"{o:.2f} / {b:.2f}"))
@@ -175,8 +175,8 @@ def report(runs, source):
                  f"runs points to prescribed or label-induced structure when member identities are comparable across runs.")
     else:
         L.append("- Needs at least two independent runs.")
-    L += ["", "## Steps 2 and 3. Stress-test and attribute", "",
-          "A single condition's logs show persistence, not where it came from. Run this report on logs from "
+    L += ["", "## Is it robust, and where did it come from?", "",
+          "One condition's logs establish persistent differentiation, not its source. Run this report on logs from "
           "matched conditions (shuffled or balanced labels, wiped histories, cut communication, reassigned roles) "
           "and compare the counts and medians above; the technical appendix gives the contrasts and decision rules.", ""]
     return "\n".join(L)

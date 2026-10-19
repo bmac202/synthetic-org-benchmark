@@ -1,9 +1,9 @@
-# Emergence audit report
+# Structure-provenance report
 
 Source: `examples/example_log.csv`  
 Runs: 3; label-permutation baseline: 95th percentile of 200 draws per run and dimension.
 
-## Step 1. Detect: persistence against each run's own baseline
+## Is there structure? Persistence against each run's own baseline
 
 Each cell is observed persistence / baseline; **bold** = above baseline.
 
@@ -26,7 +26,7 @@ Each cell is observed persistence / baseline; **bold** = above baseline.
 
 - Same member is top receiver in 2 of 3 runs (member A1); mean cross-run rank correlation of interactions received +0.75. Recurrence of the same member across independent runs points to prescribed or label-induced structure when member identities are comparable across runs.
 
-## Steps 2 and 3. Stress-test and attribute
+## Is it robust, and where did it come from?
 
-A single condition's logs show persistence, not where it came from. Run this report on logs from matched conditions (shuffled or balanced labels, wiped histories, cut communication, reassigned roles) and compare the counts and medians above; the technical appendix gives the contrasts and decision rules.
+One condition's logs establish persistent differentiation, not its source. Run this report on logs from matched conditions (shuffled or balanced labels, wiped histories, cut communication, reassigned roles) and compare the counts and medians above; the technical appendix gives the contrasts and decision rules.
 

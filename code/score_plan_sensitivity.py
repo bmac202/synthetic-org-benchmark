@@ -1,4 +1,4 @@
-"""Sensitivity analyses for ANALYSIS_PLAN_2026-10-16.md (added 17 Oct 2026 after Evaluation 7).
+"""Sensitivity analyses for ANALYSIS_PLAN_2026-10-16.md (added 17 Oct 2026).
 
 1. Post-plan runs only: drops every run made before the plan was written
    (gpt fixed/Latin seeds 0-2, Haiku Latin seeds 0-2, specialty seeds 0-1).

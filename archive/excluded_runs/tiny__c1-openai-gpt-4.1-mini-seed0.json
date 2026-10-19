@@ -1,0 +1,245 @@
+{
+ "specimen_id": "c1-openai-gpt-4.1-mini-seed0",
+ "condition": "c1",
+ "condition_desc": "LLM, identical prompt, no roles (the finding)",
+ "factors": [],
+ "seed": 0,
+ "config": {
+  "n_agents": 3,
+  "rounds": 1,
+  "window": 1,
+  "k_items": 6,
+  "n_types": 4,
+  "m_sample": 3,
+  "w_expiry": 5,
+  "history_len": 5,
+  "competence": null,
+  "exit_allowed": false
+ },
+ "agents": [
+  "A0",
+  "A1",
+  "A2"
+ ],
+ "provider": "openai",
+ "model": "gpt-4.1-mini",
+ "usage_this_run": {
+  "provider": "openai",
+  "model": "gpt-4.1-mini",
+  "calls": 3,
+  "replayed": 0,
+  "input_tokens": 996,
+  "output_tokens": 9,
+  "cost_usd": 0.000413,
+  "mean_latency_s": 1.515
+ },
+ "budget_cumulative": {
+  "calls": 3,
+  "cost_usd": 0.000413,
+  "max_calls": 25,
+  "max_cost_usd": 1.0,
+  "full_run": false,
+  "by_model": {
+   "gpt-4.1-mini": {
+    "calls": 3,
+    "input_tokens": 996,
+    "output_tokens": 9,
+    "cost_usd": 0.000413,
+    "latency_s": 4.55
+   }
+  }
+ },
+ "policy": "C1-llm-exchangeable",
+ "llm": {
+  "variant": "exchangeable",
+  "temperature": 1.0,
+  "provider": "openai",
+  "model": "gpt-4.1-mini",
+  "system_prompts": {
+   "A0": "You are one member of a small team of 3 people working through a shared queue of items. Nobody is in charge and nobody has a role. Each item has a type (alpha, beta, gamma, delta) and is finished only after two different people have worked on it. Items disappear if nobody finishes them within a few rounds. You only ever see a few of the open items; other people can tell you about items you cannot see, and you can tell them. The team's goal is to finish as many items as possible. There is no individual credit.\n\nEach round you take exactly ONE action:\n  work <item id>            \u2014 work on an item you know about (you can work each item once)\n  tell <person> <item id>   \u2014 tell one person about an item you know about\n  pass                      \u2014 do nothing this round\nReply with the action only, as one line and nothing else \u2014 no reasoning, no explanation. Valid replies look exactly like: work 12   or   tell A4 12   or   pass",
+   "A1": "You are one member of a small team of 3 people working through a shared queue of items. Nobody is in charge and nobody has a role. Each item has a type (alpha, beta, gamma, delta) and is finished only after two different people have worked on it. Items disappear if nobody finishes them within a few rounds. You only ever see a few of the open items; other people can tell you about items you cannot see, and you can tell them. The team's goal is to finish as many items as possible. There is no individual credit.\n\nEach round you take exactly ONE action:\n  work <item id>            \u2014 work on an item you know about (you can work each item once)\n  tell <person> <item id>   \u2014 tell one person about an item you know about\n  pass                      \u2014 do nothing this round\nReply with the action only, as one line and nothing else \u2014 no reasoning, no explanation. Valid replies look exactly like: work 12   or   tell A4 12   or   pass",
+   "A2": "You are one member of a small team of 3 people working through a shared queue of items. Nobody is in charge and nobody has a role. Each item has a type (alpha, beta, gamma, delta) and is finished only after two different people have worked on it. Items disappear if nobody finishes them within a few rounds. You only ever see a few of the open items; other people can tell you about items you cannot see, and you can tell them. The team's goal is to finish as many items as possible. There is no individual credit.\n\nEach round you take exactly ONE action:\n  work <item id>            \u2014 work on an item you know about (you can work each item once)\n  tell <person> <item id>   \u2014 tell one person about an item you know about\n  pass                      \u2014 do nothing this round\nReply with the action only, as one line and nothing else \u2014 no reasoning, no explanation. Valid replies look exactly like: work 12   or   tell A4 12   or   pass"
+  },
+  "assignment": {},
+  "calls": 3,
+  "replayed": 0,
+  "unparseable": 0,
+  "journal": "diffenv_results/journal/c1-openai-gpt-4.1-mini-seed0.jsonl"
+ },
+ "outcome": {
+  "items_arrived": 6,
+  "completed": 0,
+  "expired": 0,
+  "still_open": 6,
+  "completion_rate": 0.0,
+  "agents_left": []
+ },
+ "derived_measures": {
+  "activity": {
+   "n_rows": 3,
+   "n_windows": 1,
+   "degenerate_windows": 1,
+   "n_agents": 3,
+   "R": {
+    "observed": NaN,
+    "null_median": NaN,
+    "null_p95": NaN,
+    "p_value": NaN,
+    "n_null": 0
+   },
+   "split_half": {
+    "observed": NaN,
+    "null_median": NaN,
+    "null_p95": NaN,
+    "p_value": NaN,
+    "n_null": 0
+   }
+  },
+  "interaction": {
+   "n_rows": 3,
+   "n_windows": 1,
+   "degenerate_windows": 1,
+   "n_agents": 3,
+   "R": {
+    "observed": NaN,
+    "null_median": NaN,
+    "null_p95": NaN,
+    "p_value": NaN,
+    "n_null": 0
+   },
+   "split_half": {
+    "observed": NaN,
+    "null_median": NaN,
+    "null_p95": NaN,
+    "p_value": NaN,
+    "n_null": 0
+   }
+  },
+  "isolation": {
+   "n_rows": 3,
+   "n_windows": 1,
+   "degenerate_windows": 1,
+   "n_agents": 3,
+   "R": {
+    "observed": NaN,
+    "null_median": NaN,
+    "null_p95": NaN,
+    "p_value": NaN,
+    "n_null": 0
+   },
+   "split_half": {
+    "observed": NaN,
+    "null_median": NaN,
+    "null_p95": NaN,
+    "p_value": NaN,
+    "n_null": 0
+   }
+  },
+  "specialization": {
+   "entropy": {
+    "observed": NaN,
+    "null_median": NaN,
+    "null_p95": NaN,
+    "p_value": NaN,
+    "n_null": 0,
+    "direction": "lower is more specialized; p = share of null draws at or below observed"
+   },
+   "favoured_type_R": {
+    "observed": NaN,
+    "note": "too few agent-windows with >= min_work work actions"
+   },
+   "min_work": 2
+  },
+  "partner_consistency": {
+   "observed": NaN,
+   "note": "no agent had partners in consecutive windows"
+  }
+ },
+ "elapsed_s": 4.55,
+ "log": [
+  {
+   "t": 0,
+   "round": 0,
+   "window": 0,
+   "sender": "A0",
+   "recipient": "A0",
+   "mtype": "work",
+   "payload": {
+    "item": 2,
+    "type": "alpha",
+    "ok": true
+   }
+  },
+  {
+   "t": 1,
+   "round": 0,
+   "window": 0,
+   "sender": "A1",
+   "recipient": "A1",
+   "mtype": "work",
+   "payload": {
+    "item": 1,
+    "type": "delta",
+    "ok": true
+   }
+  },
+  {
+   "t": 2,
+   "round": 0,
+   "window": 0,
+   "sender": "A2",
+   "recipient": "A2",
+   "mtype": "work",
+   "payload": {
+    "item": 0,
+    "type": "delta",
+    "ok": true
+   }
+  }
+ ],
+ "raw_replies": [
+  {
+   "round": 0,
+   "agent": "A0",
+   "reply": "work 2",
+   "source": "api",
+   "usage": {
+    "input_tokens": 332,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 2.122
+   }
+  },
+  {
+   "round": 0,
+   "agent": "A1",
+   "reply": "work 1",
+   "source": "api",
+   "usage": {
+    "input_tokens": 332,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 1.296
+   }
+  },
+  {
+   "round": 0,
+   "agent": "A2",
+   "reply": "work 0",
+   "source": "api",
+   "usage": {
+    "input_tokens": 332,
+    "output_tokens": 3,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "stop_reason": "stop",
+    "temperature_applied": true,
+    "latency_s": 1.128
+   }
+  }
+ ],
+ "written": "2026-09-29 14:54:43"
+}

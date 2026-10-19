@@ -1,15 +1,18 @@
-# An emergence audit for synthetic organizations
+# Structure-provenance analysis for synthetic organizations
 
 Research artifact for a Stage 1 proposal to the *Organization Science* special issue
 "AI-Enabled Frontiers in Organizational Science". Authors are withheld for review.
 
-**The question.** When a hub, a leader or a specialist appears among AI agents working
-together, did the agents generate that structure, or did the researcher's prompt inject it?
-This repository implements an emergence audit for suitably logged multi-agent simulations,
-in three steps. *Detect*: do differences between members persist over time beyond a
-shuffled baseline? *Stress-test*: does the structure survive shuffled labels, orderings and
-exposure? *Attribute*: was it prescribed by the prompts, induced by the design, or generated
-through interaction? The same code runs on real groups as reference cases.
+**The question.** Observing organizational structure and establishing how it arose are
+different scientific tasks. When a hub, a leader or a specialist appears among AI agents
+working together, did the agents' histories and interactions generate it, or did roles,
+routing, exposure or labels specified by the researcher put it there? This repository
+implements structure-provenance analysis for suitably logged multi-agent simulations. It
+answers three questions with three kinds of evidence. *Is there structure?* Persistent
+differentiation above a shuffled baseline. *Is it robust?* Survival under specified design
+perturbations such as shuffled labels and orderings. *Where did it come from?* Evidence from
+interventions that distinguish candidate generating processes; observational logs alone cannot
+answer this question. The same code runs on real groups as reference cases.
 
 ![Figure 1](code/figures/Figure1_audit_v4.png)
 
@@ -22,24 +25,49 @@ The plan-specified comparisons of LLM organizations. Rows record different behav
 each value against its own baseline. Drawn by `code/figures/make_figure1_v4.py` from the stored
 results.*
 
-## Try it in one minute (no API key)
+## Start here: three ways in
+
+**1. Read, without installing anything (2 minutes).** Figure 1 above summarizes the evidence.
+[`code/examples/tour_output.txt`](code/examples/tour_output.txt) is the stored output of the
+guided tour below, and [`code/examples/example_report.md`](code/examples/example_report.md) is a
+sample one-command report on three stored LLM runs.
+
+**2. Run the guided tour (about 2 minutes; Python 3.9+ and numpy only; no API key, no download).**
 
 ```bash
-pip install -r requirements.txt
+pip install numpy
 cd code
-python3 audit_report.py --csv examples/example_log.csv
+python3 examples/tour.py            # or: python3 examples/tour.py --quick   (about 1 minute)
 ```
 
-`examples/example_log.csv` holds three stored runs in the documented log format (run, time,
-member, action, partner, task_type, optional opportunity); `audit_report.py --help` describes
-it. The report scores four dimensions of differentiation (individual, functional, relational,
-structural) against each run's own label-permutation baseline, summarizes them across runs
-and lists the cross-run signatures; `examples/example_report.md` is its output. Point it at
-your own log, or at any folder of stored runs:
+The tour simulates rule-based agents whose source of differentiation is known and walks through
+the framework's three questions, each with the evidence it needs:
+
+| Question | What the tour shows |
+|---|---|
+| *Is there structure?* | Task specialization is at chance with no source (0 of 5 runs above baseline) and detected when specialties are prescribed or learned from experience (5 of 5 each). Persistence alone cannot tell those two sources apart. |
+| *Is it robust?* | Agents that favor the label "A1" form a near-perfect communication hub under fixed names (5 of 5); under a balanced label shuffle the hub is gone (0 of 5). The hub came from the design, not from organizing. |
+| *Where did it come from?* | Wiping every agent's history at mid-run returns learned specialization toward chance but leaves prescribed roles intact, an intervention that separates the two sources. |
+
+It then writes three runs of each arm of the label test as CSV logs and suggests the one-command
+report on each:
 
 ```bash
-python3 audit_report.py --specimens diffenv_results/balanced_2026-10-17/specimens
+python3 provenance_report.py --csv examples/tour_fixed_names.csv
+python3 provenance_report.py --csv examples/tour_balanced_labels.csv
 ```
+
+**3. Bring your own log.** Any simulation or group whose activity can be written as one CSV row
+per action works: `run, time, member, action, partner, task_type` (plus optional `opportunity`
+rows); `python3 provenance_report.py --help` documents the format, and
+[`code/examples/example_log.csv`](code/examples/example_log.csv) is a complete example. The report
+scores four dimensions of differentiation (individual, functional, relational, structural) against
+each run's own label-permutation baseline and summarizes them across runs. To ask where structure
+came from, run it on logs from matched conditions (shuffled labels, wiped histories, cut
+communication, reassigned roles) and compare.
+
+To reproduce every number in the proposal and technical appendix, see *Quick start* below (all
+without an API key) and *Reproducing the synthetic results* (new LLM runs, with keys).
 
 ## What is here
 
@@ -48,12 +76,13 @@ python3 audit_report.py --specimens diffenv_results/balanced_2026-10-17/specimen
 | The yardstick | `code/diffenv/measures.py` | `differentiation()` takes any long table (group, window, member, value) and returns repeatability R, split-half reliability and a label-permutation null (200 draws). It also returns task entropy against a type-shuffle null, favored-type R and partner consistency. |
 | The synthetic organization | `code/diffenv/env.py`, `policies.py`, `run.py` | Nine agents share a queue; each item is revealed to one agent and finished only when a second agent also works on it, so the group must communicate. 100 rounds, 10-round windows. |
 | Controls | `policies.py` | C0 rule agents (must sit at the null), C0+ rule agents with built-in differences (must be detected), C2 agents told a specialty (LLM positive control). |
-| Known-answer test | `code/diffenv/ground_truth.py` | Rule-based agents sharing one response-threshold rule, with differentiation that is absent, prescribed, generated by the agents' own histories (with and without communication, with and without a mid-run history wipe) or induced by a label preference. Checks that the audit detects each source and that its signatures tell them apart (no API key, about eight minutes). |
+| Known-answer test | `code/diffenv/ground_truth.py` | Rule-based agents sharing one response-threshold rule, with differentiation that is absent, prescribed, generated by the agents' own histories (with and without communication, with and without a mid-run history wipe) or induced by a label preference. Checks that the framework detects each source and that its signatures tell them apart (no API key, about eight minutes). |
 | Artifact checks | `run.py` flags | Randomized item and recipient order (default), `--alias-balanced` per-viewer labels in which every agent carries every colleague label exactly once (recommended), the earlier `--alias` Latin square, and correction for opportunity (who received work). Each was added after it caught a false positive in our own runs. |
 | Real-group reference values | `code/diffenv/run_substrates.py`, `substrates.py`, `run_external.py`, `external.py` | The same function, unchanged, on clonal ants, ants with a queen, honey bees, two offices, online game players and lab economies. |
 | Every run we report | `code/diffenv_results/` | One JSON specimen per run: configuration, prompts, full event log, every raw model reply with tokens and latency, and cost. |
-| One-command audit report | `code/audit_report.py`, `code/examples/` | Reads a CSV log in the documented format (or stored runs) and writes the Detect report with baselines, cross-run summaries and signatures. |
-| Confirmatory analysis | `code/ANALYSIS_PLAN_2026-10-16.md`, `code/score_plan.py`, `code/score_plan_sensitivity.py` | The written plan, the script that scores it exactly, and the sensitivity analyses (post-plan runs only; paired by seed). Output in `diffenv_results/plan_scores_2026-10-17/`. |
+| One-command provenance report | `code/provenance_report.py`, `code/examples/` | Reads a CSV log in the documented format (or stored runs) and reports persistence against baselines, cross-run summaries and signatures. |
+| Guided tour | `code/examples/tour.py`, `tour_output.txt` | Two-minute walk through the three questions on rule-based agents with known answers; writes CSV logs for the report. |
+| Confirmatory analysis | `code/ANALYSIS_PLAN_2026-10-16.md`, `code/score_plan.py`, `code/score_plan_sensitivity.py`, `code/functional_null_sensitivity.py` | The written plan, the script that scores it exactly, and the sensitivity analyses (post-plan runs only; paired by seed; an alternative calibration of the functional baseline). Output in `diffenv_results/plan_scores_2026-10-17/`. |
 | Figures | `code/figures/` | Figure 1 (`Figure1_audit_v4.*`) and the script that draws it from the stored results. |
 
 ## Quick start (no API key)
@@ -71,11 +100,13 @@ python3 -m diffenv.report diffenv_results/final/specimens                   # re
 python3 -m diffenv.ground_truth --seeds 20 --out results/ground_truth       # known-answer test
 python3 score_plan.py                   # re-score the plan-specified comparisons from stored runs
 python3 score_plan_sensitivity.py       # post-plan runs only; paired by seed
+python3 functional_null_sensitivity.py  # functional baseline: aggregate-null calibration (about 5 min)
 ```
 
-A clean-environment check (fresh Python 3.13 environment, 17 October 2026) reproduced the
-plan-specified comparisons, the sensitivity analyses, the sample report and all 1,600 run-level
-values of the known-answer test exactly; details in the technical appendix (A9).
+Clean-environment checks (fresh Python 3.13 environments, 17 and 19 October 2026) reproduced the
+plan-specified comparisons, the sensitivity analyses, the functional-baseline calibration, the
+sample report and all 1,600 run-level values of the known-answer test exactly; details in the
+technical appendix (A9).
 
 ## Reproducing the synthetic results
 
@@ -112,7 +143,8 @@ Stored runs, by folder:
 | `diffenv_results/ground_truth_2026-10-17b/` | Known-answer test, ten conditions x 20 runs: no source; prescribed (fixed, and reassigned at random each run, with and without a mid-run history wipe); history-dependent (with and without communication, with a mid-run history wipe); and a label preference (fixed, Latin-square and balanced shuffles). Includes run-level bootstrap intervals for the key contrasts |
 | `diffenv_results/replications_2026-10-17/` | Replications run under the analysis plan: gpt-4.1-mini fixed names and Latin-square labels (seeds 3–9), specialty (seeds 2–9); Haiku 4.5 Latin-square labels (seeds 3–9), specialty (seeds 2–9) |
 | `diffenv_results/balanced_2026-10-17/` | gpt-4.1-mini with balanced labels (`--alias-balanced`), seeds 0–9 |
-| `diffenv_results/plan_scores_2026-10-17/` | `SCORES.md` and `scores.json` (the plan's comparisons C1–C3), `SENSITIVITY.md` |
+| `../archive/excluded_runs/` | The nine LLM runs made in Stage 1 but not reported (six short pilots, three runs of a superseded condition), with `INVENTORY.md` giving each one's purpose and why it was excluded |
+| `diffenv_results/plan_scores_2026-10-17/` | `SCORES.md` and `scores.json` (the plan's comparisons C1–C3), `SENSITIVITY.md`, `FUNCTIONAL_NULL_SENSITIVITY.md` and `.json` |
 | `ANALYSIS_PLAN_2026-10-16.md` | Outcomes and decision rules for the confirmatory comparisons, written before the new replication results were inspected |
 | `diffenv_results/substrates_2026-09-30b/` | Real-group scores (ants, offices) and the first looks at queen colonies and bees |
 
@@ -164,7 +196,7 @@ scoring code (`external.takata_tables`) is included. Rerun `run_external` to rep
 - Label-permutation baselines assume members are exchangeable within a window; work is scored
   relative to each member's opportunities. Under balanced labels the hub disappears but each
   agent still prefers whoever it sees as "A1", so partner-level results should be read with a
-  label-aware baseline (planned for the audit package).
+  label-aware baseline (planned for the analysis package).
 
 ## License
 

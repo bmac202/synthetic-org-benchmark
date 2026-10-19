@@ -21,3 +21,6 @@ code/results/
 
 # editor backups
 *.bak
+
+# files written by examples/tour.py
+code/examples/tour_*.csv
