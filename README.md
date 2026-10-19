@@ -2,6 +2,7 @@
 
 Research artifact for a Stage 1 proposal to the *Organization Science* special issue
 "AI-Enabled Frontiers in Organizational Science". Authors are withheld for review.
+The proposal and its technical appendix are in [`paper/`](paper/).
 
 **The question.** Observing organizational structure and establishing how it arose are
 different scientific tasks. When a hub, a leader or a specialist appears among AI agents
